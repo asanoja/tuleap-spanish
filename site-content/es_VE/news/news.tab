@@ -1,0 +1,106 @@
+#/**
+#  *
+#  * Include scripts message catalog (English)
+#  *
+#  * Codendi 
+#  * Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#  * http://www.codendi.com
+#  *
+#  *
+#  */
+#
+#-----------------------------------------------
+# Script: SF/www/news/admin/index.php
+#
+news_admin_index	group_update_err	Ocurrio un ERROR en la actualización del 'NewsByte'
+news_admin_index	project_newsbyte_updated	Se actualizo el proyecto 'NewsByte'.
+news_admin_index	title	NewsBytes
+news_admin_index	not_found_err	Error - no encontrado
+news_admin_index	approve_for	Aprobar un 'NewsByte' Para Proyecto: $1
+news_admin_index	submitted_by	Entregado por
+news_admin_index	submitted_on	Entregado encima
+news_admin_index	subject	@Subject
+news_admin_index	details	Detalles
+news_admin_index	if_edit_delete	Si este elemento de la página de inicio de $1  es editado,  sera sacado de la página de inicio.
+news_admin_index	no_queued_item_found_for	Ningún elemento encolado encontrados para el proyecto: $1
+news_admin_index	new_items	Estas noticias fueron enviadas al Proyecto: $1
+news_admin_index	update_err	Ocurrio un ERROR en la actualización
+news_admin_index	newsbyte_updated	'NewsByte' se actualizó.
+news_admin_index	newsbyte_deleted	'NewsByte' se eliminó.
+news_admin_index	approve	Aprobar un 'NewsByte'
+news_admin_index	submitted_for_group	Entregado para grupo
+news_admin_index	approve_for_front	Aprueba Para Página de inicio
+news_admin_index	do_nothing	Nada (quedará para aprobación)
+news_admin_index	displayed	Mostrado
+news_admin_index	delete	Eliminado
+news_admin_index	reject	Rehusado (ya no aparecerá mas)
+news_admin_index	no_queued_item_found	Ningún elemento encolado encontrado
+news_admin_index	need_approve	Se necesita aprobación de este elemento
+news_admin_index	approve_all	[Aprobar todas las noticias]
+news_admin_index	approved	[Aprobado]
+news_admin_index	approve_legend	Esta noticias tiene un icono, quiere removerlo de la pagina de inicio de $1.
+news_admin_index	approve_alt	Esta noticia ha sido aprobada para ser promovida en la pagina de inicio de $1
+news_admin_index	no_deleted_items_this_week	Ningún eliminó los elementos encontrados para esta semana
+news_admin_index	items_deleted_last_week	Estos elementos estuvieron eliminados esta semana pasada
+news_admin_index	no_approved_items_this_week	Ningún aprobó los elementos encontrados para esta semana
+news_admin_index	items_approved_last_week	Estos elementos estuvieron aprobados esta semana pasada
+news_admin_index	permission_denied	El permiso fue negado.
+news_admin_index	need_to_be_admin	El permiso fue negado.  Tienes que ser un administrador del servicio de noticias de este proyecto.
+news_admin_index	news_admin	Administración de noticias
+news_admin_index	news_row_label	Noticias
+news_admin_index	choose_display	Escoger qué elementos están mostrados en el widget
+news_admin_index	promoted_row_label	Mostrado
+news_admin_index	update_news_list	La exhibición selecciona elementos en *widget
+news_admin_index	info_text	Sólo los primeros diez elementos de noticias serán mostrados
+news_admin_index	no_news_items	Por favor añadir noticias para escoger cuál unos serán mostrados en el widget
+#
+#-----------------------------------------------
+# Script: SF/www/news/index.php
+#
+news_index	news	Noticias
+news_index	news_for	Noticias para $1
+news_index	choose_news	Escoger noticias, puede explorar, hacer busquedas asi como en mensajes de correo.
+news_index	no_news_found	Ningúna noticia Encontrado
+news_index	for	Para $1
+news_index	no_items_found	Ningún elemento estuvo encontrado
+#
+#-----------------------------------------------
+# Script: SF/www/news/news_utils.php
+#
+news_utils	admin	Admin
+news_utils	no_news_item_found	Ninguna noticia encontrada
+news_utils	comment	Comentario
+news_utils	comments	Comentarios
+news_utils	read_more_comments	Leído Más/Comentario
+news_utils	news_archive	Archivo de noticias
+news_utils	submit_news	Enviar noticia
+news_utils	news_request	Petición para promoción de noticia en $1
+news_utils	news_request_mail_intro	Una noticia quiere ser promovida en la página principal de $1
+news_utils	news_request_mail_project	Nombre de proyecto: $1 ($2)
+news_utils	news_request_mail_submitted_by	Noticia entregada por: $1
+news_utils	news_request_mail_summary	Resumen: $1
+news_utils	news_request_mail_details	Detalles noticia: $1
+news_utils	news_request_mail_approve_link	Por favor haga clic en el siguiente URL para promover (o rechazar) la noticia:
+news_utils	news_request_sent	Petición de promoción ha sido enviada a los administradores de sitio.
+news_utils	news_request_not_sent	Petición de promoción no podría haber sido enviada a administradores de sitio.
+news_utils	news_sent	La noticia ha sido enviado a miembros de seleccionó grupos.
+news_utils	news_not_sent	la noticia no podra ser enviada a los miembros seleccionados.
+#
+#-----------------------------------------------
+# Script: SF/www/news/submit.php
+#
+news_submit	insert_err	El ERROR que hace inserta
+news_submit	news_added	Se añadio una noticia.
+news_submit	only_writer_submits	El permiso fue negado. No puedes enviar noticias para un proyecto a no ser que tienes los permisos para hacerlo.
+news_submit	submit_news_for	Enviar Noticia para $1
+news_submit	post_explain	Puede enviar correos de noticias si es el administrador del proyecto. <P>Todos los  correos <B>de su proyecto</B> apareceran instantáneamente en su página de resumen del proyecto. Los correos que son de interés especial para la comunidad tendran que ser aprobados por un miembro del equipo de noticias antes de que aparecezcan  en el página de inicio de $1. <p> Puedes incluir URLs, pero no HTML en sus sumisiones. Los URLs que inician con http:// son hipervínculos.</p>
+news_submit	for_project	Para Proyecto: $1
+news_submit	news_privacy	Privacidad
+news_submit	public_news	<b>Público</b> (todo el mundo puede ver)
+news_submit	private_news	<b>Privado</b> (miembros de proyecto solamente)
+news_submit	news_perm_update_success	Los permisos se actualizaron exitosamente.
+news_submit	news_perm_create_success	Los permisos se crearon exitosamente.
+news_submit	news_promote	Solicitud de promoción de la pagina de inicio de $1 ?
+news_submit	promote_warn	<b>AVISO:</b> La solicitud de promoción de noticias no fue exitosapara la pagina de inicio de $1
+news_submit	send_news_by_email	Envía noticias por email a
+news_submit	news_not_sent_max_users	Superas el número máximo ($1) de personas para enviar el mensaje. El email no será enviado.

@@ -1,0 +1,10 @@
+usergroup_forge_permission	project_approval_name	Proyecto *Approbation
+usergroup_forge_permission	project_approval_description	Estas subvenciones de permiso proyectan *approbation capacidades para recientemente creó proyectos
+usergroup_forge_permission	tracker_admin_name	Administrador de Rastreador global
+usergroup_forge_permission	tracker_admin_description	Esta administración de rastreador de subvenciones de permiso derechos encima todos los  rastreadores encima todos los  proyectos
+usergroup_forge_permission	mediawiki_admin_name	Global *Mediawiki Administrador
+usergroup_forge_permission	mediawiki_admin_description	Este permiso concede *mediawiki derechos de administración para cada *mediawiki de cada proyecto
+usergroup_forge_permission	user_membership_name	Recupera Información de Afiliación del Usuario
+usergroup_forge_permission	user_membership_description	Este permiso concede el correcto de saber cuáles agrupan cualquier usuario pertenece a.
+usergroup_forge_permission	user_management_name	Administración de usuario
+usergroup_forge_permission	user_management_description	Este permiso concede el correcto de dirigir usuarios: cambio el estado, el *username, etc,.. .

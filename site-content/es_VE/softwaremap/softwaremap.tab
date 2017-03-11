@@ -1,0 +1,28 @@
+#/**
+#  *
+#  * Include scripts message catalog (English)
+#  *
+#  * Codendi 
+#  * Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#  * http://www.codendi.com
+#  *
+#  *
+#  */
+#
+#-----------------------------------------------
+# Script: SF/www/softwaremap/trove_list.php
+#
+softwaremap_trove_list	map	Mapa de Software	
+softwaremap_trove_list	invalid_cat	Categoria invalida	
+softwaremap_trove_list	cat_not_exist	La categoria no existe.	
+softwaremap_trove_list	limit_view	Vista limitada a proyectos en las siguientes categorias:	
+softwaremap_trove_list	remove_view	Quitar el filtro	
+softwaremap_trove_list	projs	proyectos	
+softwaremap_trove_list	browse_by	Ver por:	
+softwaremap_trove_list	projs_in_res	<B>$1</B> proyectos encontrados. 	
+softwaremap_trove_list	display_per_page	Displaying $1 por página.<BR>	
+softwaremap_trove_list	activity_percentile	Percentil de actividad: 	
+softwaremap_trove_list	activity_ranking	Ranking de actividad:	
+softwaremap_trove_list	register_date	Fecha de registro:	
+softwaremap_trove_list	not_categorized	No especificado	
+softwaremap_trove_list	no_project_in_cat	No hay proyectos en esta categoria.	

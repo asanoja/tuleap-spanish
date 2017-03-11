@@ -1,0 +1,31 @@
+keyboard_navigation	navbar	*Barra *de *navegación
+keyboard_navigation	homepage	*Página Principal
+keyboard_navigation	personnal_page	*Mi *página Personal
+keyboard_navigation	projects	*Abrir "*Proyectos" *desplegables
+keyboard_navigation	more	*Abrir "*Más" *desplegables
+keyboard_navigation	help	*Abrir "*Ayudas" *desplegables
+keyboard_navigation	account	*Abrir *el *gestor *de *cuentas *desplegables (*debe *estar *conectado)
+keyboard_navigation	sidebar_move	*Expandir/*Colapsar *la *barra *de *navegación
+keyboard_navigation	and_more	*Y *mas...
+keyboard_navigation	blur	*Escapar *en Entrada/*textarea, *cerrar *desplegables *o modal
+keyboard_navigation	shortcut_helper	*Abrir/*Cerrar *atajos *de *ventana
+keyboard_navigation	tips	Ningún *olvide *usar tabulador/de cambio+del tabulador *para *navegar *entre *desplegables
+keyboard_navigation	close	*Cerrar
+keyboard_navigation	sidebar_title	*Navegación Lateral (*proyecto)
+keyboard_navigation	shortcut_list	*Lista *de *atajos
+keyboard_navigation	sidebar_dashboard	*Tablero *del *proyecto
+keyboard_navigation	sidebar_agiledashboard	*Tablero *Agil
+keyboard_navigation	sidebar_git	*Git
+keyboard_navigation	sidebar_wiki	*Wiki
+keyboard_navigation	sidebar_homepage	*Sitio Web *del *Proyecto
+keyboard_navigation	sidebar_svn	*SVN
+keyboard_navigation	sidebar_tracker	Monitor
+keyboard_navigation	sidebar_admin	*Admin
+keyboard_navigation	sidebar_docman	*Documentos
+keyboard_navigation	sidebar_cvs	*CVS
+keyboard_navigation	sidebar_file	*Archivos
+keyboard_navigation	sidebar_mediawiki	*Mediawiki
+keyboard_navigation	sidebar_im	*Mensajeria *Instantanea
+keyboard_navigation	sidebar_forum	*Foros
+keyboard_navigation	sidebar_mail	*Listas
+keyboard_navigation	sidebar_news	*Noticias

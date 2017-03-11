@@ -1,0 +1,22 @@
+<?php
+//
+// Codendi
+// Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+// http://www.codendi.com
+//
+// 
+//
+
+$pm = ProjectManager::instance();
+
+echo '
+
+<P>Las listas estan nominadas de la siguiente manera: <em>'.ForgeConfig::get('sys_lists_prefix').'nombreproyecto-nombrelista'.ForgeConfig::get('sys_lists_suffix').'@'. $sys_lists_domain .'</em>
+<P>Para unificar los nombres de las listas de correo en '.$GLOBALS['sys_name'].' recomendamos crear (al menos) las siguientes listas de correo en su proyecto:<BR>
+<ul>
+<li><b>'.$pm->getProject($group_id)->getUnixName().'-interes</b>: de proposito general especialmente para los desarrolladores.
+<li><b>'.$pm->getProject($group_id)->getUnixName().'-desarrollo</b>: para preguntas y debates entorno al desarrollo.
+<li><b>'.$pm->getProject($group_id)->getUnixName().'-anuncios</b>: anuncios de nuevas publicaciones o nuevos eventos relacionados con un proyecto.
+</ul>
+
+<P>';

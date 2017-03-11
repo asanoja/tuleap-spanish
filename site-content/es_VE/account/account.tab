@@ -1,0 +1,318 @@
+#/**
+#  *
+#  * Account scripts message catalog (English)
+#  *
+#  * Codendi
+#  * Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#  * http://www.codendi.com
+#  *
+#  *
+#  */
+#
+#
+#-----------------------------------------------
+# Script: SF/www/account/index.php
+#
+account_options	title	Mantenimiento de cuenta	
+account_options	welcome	Bienvenido	
+account_options	welcome_intro	Puede ver o cambiar aqui todas las caracteristicas de su cuenta. Usted puede tambien ver su perfil.	
+account_options	member_since	Miembre desde:	
+account_options	user_id	Id de Usuario:	
+account_options	login_name	$1 Nombre	
+account_options	ldap_name	LDAP Login	
+account_options	change_password	Cambiar Contraseña	
+account_options	real_name	Nombre Real	
+account_options	change_real_name	Cambiar Nombre Real	
+account_options	language	Idioma:	
+account_options	timezone	Zona horaria:	
+account_options	change_timezone	Cambiar Zona Horaria	
+account_options	email_address	Correo Electrónico:	
+account_options	change_email_address	Cambiar Correo Electrónico	
+account_options	preferences	Preferencias	
+account_options	theme	Tema:	
+account_options	theme_variant	Escoja su color:	
+account_options	shell_account_title	Información de cuenta Shell	
+account_options	shell_box	Shell Box	
+account_options	shell_shared_keys	Claves compartidas SSH:	
+account_options	shell_add_keys	Agregar Claves	
+account_options	shell_delete_ssh_keys	Eliminar claves seleccionadas	
+account_options	remember_me	"Recuerdame" <span style="color:#666">($1 recuerda su usuario/contraseña. Si cambiar esta preferencia asegurese de salir y volver a autenticarse de nuevo)</span>	
+account_options	csv_separator	Separador CSV:	
+account_options	comma	Coma	
+account_options	semicolon	Punto y coma	
+account_options	tab	Tabulador	
+account_options	username_display	Nombre de usuario a mostrar:	
+account_options	tuleap_login_and_name	Nombre de usuario (Nombre real)	
+account_options	tuleap_name_and_login	Nombre real (nombre de usuario)	
+account_options	tuleap_login	Nombre de usuario	
+account_options	realname	Nombre real	
+account_options	auth_attempt_title	Detalles de la autenticación	
+account_options	auth_attempt_last_success	Ultima autenticación exitosa:	
+account_options	auth_attempt_prev_success	Autenticación exitosa anterior:	
+account_options	auth_attempt_last_failure	Ultima autenticación fallida:	
+account_options	auth_attempt_nb_failure	Cantidad de autenticaciones fallidas:	
+account_options	auth_attempt_sessions	Sesiones abiertas:	
+
+
+#
+#-----------------------------------------------
+#
+account_preferences	email_settings	Configuración del correo Electrónico	
+account_preferences	session	Sesión	
+account_preferences	appearance	Apariencia	
+account_preferences	import_export	Importar/exportar	
+account_preferences	csv_dateformat	Formato de fecha CSV:	
+account_preferences	month_day_year	mes/día/año	
+account_preferences	day_month_year	día/mes/año	
+account_preferences	lab_features_title	$1 Lab	
+account_preferences	lab_features_description	Características experimentales de $1 para usuarios avanzados. Usarlo solamente si sabe lo que hace.	
+account_preferences	lab_features_cblabel	Habilitar $1 Lab	
+account_preferences	tracker_mail_format	Formato de Tracker de correo:	
+account_preferences	error_form_mail_site	Verificar valor de actualizaciones del sitio	
+account_preferences	error_form_mail_va	Verificar valor listas comunitarias adicionales	
+account_preferences	error_user_theme	Verificar valor tema	
+account_preferences	error_form_sticky_login	Verificar valor recuerdame	
+account_preferences	error_language_id	Verificar valor idioma	
+account_preferences	error_user_csv_separator	Verificar valor separador CSV	
+account_preferences	error_user_csv_dateformat	Verificar valor formato de fecha CSV	
+account_preferences	error_username_display	Verificar valor usuario a mostrar	
+account_preferences	error_user_tracker_mailformat	Verificar valor formato de correo	
+account_preferences	save_preferences	Guardar preferencias	
+#
+#-----------------------------------------------
+# Script: SF/www/account/change_email.php
+#
+account_change_email	title	Cambiar dirección de correo Electrónico.	
+account_change_email	message	<P>El cambiar su dirección electrónica requerirá confirmación en su nueva dirección de correo, asi asegurarnos que tenemos la dirección correcta. <P>Llene el formulario siguiente y al enviarlo recibirá un URL para su confirmación. Al visitar este enlace se completara el cambio de dirección.	
+account_change_email	label_new	Nueva dirección de correo Electrónico	
+account_change_email	send_new	Enviar confirmación a la nueva dirección electrónica	
+#
+#-----------------------------------------------
+# Script: SF/www/account/change_email-confirm.php
+#
+account_change_email-confirm	message	Ha solicitado un cambio de dirección electrónica en $1.\nPor favor visite el siguiente enlace para completar el cambio de su dirección electrónica:\n\n$2\n\n-- El Equipo $1 	
+account_change_email-confirm	title	Confirmación de cambio de dirección electrónica	
+account_change_email-confirm	mailsent	Un correo Electrónico le ha sido enviado a la nueva dirección. Siga las instrucciones en el correo para completar el cambio de dirección	
+#
+#-----------------------------------------------
+# Script: SF/www/account/change_email-complete.php
+#
+account_change_email-complete	invalid_hash	Hash de confirmación inválido.	
+account_change_email-complete	duplicate_hash	Se tienen mas de una copia de esta clave hash.	
+account_change_email-complete	title	Cambio de dirección electrónica completado	
+account_change_email-complete	message	Bienvenido, $1.<P>Su correo electrónico ha sido cambiado de manera satisfactoria. Su nueva dirección de correo electrónico registrada es <B>$2</B>. Un correo ha sido enviado a $3 usuario $1 (nombre de usuario $4) sera reenviado a esta nueva dirección.	
+#
+#-----------------------------------------------
+# Script: SF/www/account/change_pw.php
+#
+account_change_pw	title_success	Cambio de contraseña existoso	
+account_change_pw	message	Felicitaciones. Ha cambiado su contraseña $1.	
+account_change_pw	title	Cambiar contraseña	
+account_change_pw	old_password	Contraseña anterior	
+account_change_pw	new_password	Contraseña	
+account_change_pw	new_password2	Repetir contraseña	
+account_change_pw	user_not_found	Error interno: No puedo ubicar el usuario en la base de datos.	
+account_change_pw	incorrect_old_password	La contraseña anterior es incorrecta.	
+account_change_pw	account_inactive	La cuenta debe estar activa para cambiar la contraseña.	
+account_change_pw	password_needed	Debe proveer una contraseña.	
+account_change_pw	password_not_match	Las contraseñas no coinciden.	
+account_change_pw	identical_password	Las dos contraseñas son idénticas.	
+account_change_pw	internal_error_update	Error interno: No se pudo actualizar la contraseña.	
+#
+#-----------------------------------------------
+# Script: SF/www/account/change_realname.php
+#
+account_change_realname	error	Debe proveer un nombre real.	
+account_change_realname	title	Cambiar nombre real	
+account_change_realname	new_name	Nuevo nombre real	
+
+
+account_change_avatar	success	¡Avatar cambiado!	
+account_change_avatar	title	Cambiar Avatar	
+account_change_avatar	link	cambiar avatar	
+#
+#-----------------------------------------------
+# Script: SF/www/account/change_timezone.php
+#
+account_change_timezone	title	Cambiar zona horaria	
+account_change_timezone	title2	Cambio de zona horaria	
+account_change_timezone	message	Ahora, sin importar donde viva, puede ver todas las fechas y horas a traves $1 como si fuera en su localidad.	
+account_change_timezone	no_update	Nada fue actualizado	
+account_change_timezone	choose_tz	Por favor seleccione su zona horaria	
+#
+#-----------------------------------------------
+# Script: SF/www/scripts/check_pw.js
+#
+account_check_pw	password_robustness	Robustes de la contraseña:	
+account_check_pw	good	Buena	
+account_check_pw	bad	Mala	
+#
+#-----------------------------------------------
+# Script: SF/www/account/deleted.php
+#
+account_deleted	title	Cuenta eliminada	
+account_deleted	message	Su cuenta ha sido eliminada. Si tiene preguntas concernientes a su eliminación, contacte al administrador del sistema <A HREF="mailto:$1">$2</A>.	
+#
+#-----------------------------------------------
+# Script: SF/www/account/editsshkeys.php
+#
+account_editsshkeys	add_keys_title	Agregar claves SSH autorizadas	
+account_editsshkeys	keys	Claves autorizadas:<BR><I>Importante: Asegúrese que no haya 'retornos de linea' excepto entre claves. Luego de enviar, verifique que el número de la clave en su archivo es lo esperado.</I>	
+account_editsshkeys	invalid_key	Saltar clave inválida $1	
+account_editsshkeys	key_already_added	Clave $1 ya existe para el usuario	
+account_editsshkeys	update_filesystem	Las claves SSH fueron actualizadas en la base de datos, sera propagado en el sistema de archivos en algunos minutos, por favor sea paciente.	
+account_editsshkeys	btn_save_keys	Guardar claves	
+#
+#-----------------------------------------------
+# Script: SF/www/account/login.php
+#
+account_login	secure	Secure	
+account_login	error_can_t_update_passwd	Error interno: No se pudo actualizar las contraseñas.	
+account_login	pending_title	Cuenta pendiente	
+account_login	pending_msg	Su cuenta esta actualmente en proceso de confirmación. Visitando el enlace activará su cuenta.<P>Si no esta deacuerdo, por favor haga click abajo y una confirmación le sera enviada a la dirección que fue provista en el registro.	
+account_login	validation_msg	Su cuenta ha sido validada por el administrador del sistema, esta actualmente pendiente la confirmación de su correo. Visite el enlace que le fue enviado en el correo electrónico para activar su cuenta.<P>Si no esta deacuerdo, por favor haga click abajo y una confirmación le sera enviada a la dirección que fue provista en el registro.	
+account_login	need_approval	Sera notificdo/a por correo cuando su cuenta haya sido validada	
+account_login	resend_btn	Resend Confirmation Correo electrónico	
+account_login	cookies	A partir de este momento los Cookies deben estar activados.	
+account_login	name	Nombre de usuario	
+account_login	password	Contraseña	
+account_login	stay_ssl	Mantengase en HTTPS luego de la autenticación	
+account_login	login_btn	Nombre de usuario	
+account_login	lost_pw	¿Olvido su contraseña?	
+account_login	create_acct	<b><A HREF="register.php">[Crear una nueva Cuenta]</A></b><BR> Si es su primera vez en el sitio <b>$1</b>, ¡usted pueden convertirse en miembro a partir de ahora! La creación de una <a href="register.php">nueva cuenta</a> toma unos segundos dependiendo de la calidad del servicio ofrecido en el sitio $1 .	
+account_login	login_with_tuleap	Autenticarse con las credenciales $1	
+account_login	login_with_openid	... o directamente con	
+account_login	page_title	Autenticación en $1	
+account_login	openid_submit	Nombre de usuario	
+account_login	pair_openid_title	Emparejamiento de cuentas	
+account_login	pair_openid	Empareje su cuenta co alguno de los siguientes proveedores:	
+account_login	help	Si tiene problemas, por favor envie un correo a <a href="mailto:$1?Subject=No puedo autenticarme en $2">los administradores de $2</a>	
+
+
+#
+#-----------------------------------------------
+# Script: SF/www/account/lostlogin.php
+#
+account_lostlogin	title	Contraseña olvidada	
+account_lostlogin	message	Bienvenido, $1. Puede cambiar su contraseña olvidada.	
+account_lostlogin	duplicate_hash	Este valor Hash se encuentra más de una vez.	
+account_lostlogin	invalid_hash	Confirmación hash inválida.	
+account_lostlogin	newpasswd	Nueva contraseña	
+account_lostlogin	newpasswd2	Nueva contraseña (repetir)	
+#
+#-----------------------------------------------
+# Script: SF/www/account/lostpw-confirm.php
+#
+account_lostpw-confirm	title	Confirmación de correo olvidado	
+account_lostpw-confirm	mail_subject	$1 Verificación de contraseña	
+account_lostpw-confirm	mail_body	Alguien (presumiblemente ested) en el sitio $1 ha solicitado\ncambiar la contraseña a traves del correo electrónico. Si no fue usted, ignore este mensaje y nada paso.\n\nSi se esta en petición de verificación, visite el siguiente enlace\n para cambiar su contraseña:\n\n$2\n\n -- El grupo $1\n	
+account_lostpw-confirm	msg_confirm	<B>Confirmación de entrega</B><P>Un correo has sido enviado a la dirección de correo electrónicoto que utiliza para el registro. Siga las instrucciones en el correo para cambiar la contraseña.	
+#
+#-----------------------------------------------
+# Script: SF/www/account/lostpw.php
+#
+account_lostpw	title	Ultimo	
+account_lostpw	message	<B>¿Perdió su contraseña?</B><P>Debe ser cuidadoso con su contraseña. Esta situación comprometela seguridad de su cuenta, sus proyectos, y del sitio.<P>Haga click en el botón de abajo y se le enviara un URL a la dirección de correo electrónico. Este URL esta encriptado con un hash encriptado en 128-bytes. Visitando el URL te dejará cambiar la contraseña en linea y realizar la autentiación nuevamente.
+account_lostpw	send_hash	Envía Contraseña Perdida *Hash
+#
+#-----------------------------------------------
+# Script: SF/www/account/myprojectlist.php
+#
+account_myprojectlist	title	Mi Listado de Proyecto
+account_myprojectlist	grp_list	Lista de grupo para <*B>$1</*B>
+#
+#-----------------------------------------------
+# Script: SF/www/account/pending-resend.php
+#
+account_pending-resend	title	Cuenta Verificación Pendiente
+account_pending-resend	message	<*B>Cuenta pendiente</*B>\*n\*n<*P>Vuestra confirmación de email ha sido se molesta. Visita el enlace \*nin este email para completar el proceso de inscripción.
+account_pending-resend	notpending	Esta cuenta no es verificación pendiente.
+account_pending-resend	needapproval	Estas necesidades de cuenta para ser aprobados por un administrador.
+#
+#-----------------------------------------------
+# Script: SF/www/account/pending.php
+#
+account_pending	title	Cuenta pendiente
+account_pending	message	<*B>Cuenta pendiente</*B><*P>Vuestra cuenta es actualmente pendiente vuestra confirmación de email. Visitando el enlace envió a ti en este email activará vuestra cuenta. <*P>Si  necesitas este email se molesta, complacer clic abajo y un email de confirmación será enviado a la dirección de correo electrónico  proporcionaste en inscripción.
+account_pending	btn_resend	*Resend Email de confirmación
+#
+#-----------------------------------------------
+# Script: SF/www/account/register.php
+#
+account_register	err_exist	Aquello *username ya existe.
+account_register	err_realname	El nombre real contiene caracteres ilegales.
+account_register	err_nouser	Tienes que suministrar un nombre de usuario.
+account_register	err_nopasswd	Tienes que suministrar una contraseña.
+account_register	err_passwd	Las contraseñas no emparejan.
+account_register	err_notz	Tienes que suministrar un *timezone.
+account_register	err_nopurpose	Tienes que explicar el propósito de vuestra inscripción.
+account_register	err_email	Dirección de correo electrónico nula
+account_register	err_name	El nombre de usuario es nulo
+account_register	err_invpasswd	La contraseña es nula
+account_register	err_no_ldap	El falta el login LDAP
+account_register	title_confirm	Su cuenta ha sido creada , </br>ahora necesita ser activado.
+account_register	title_confirm_admin	La cuenta de usuario esta creada.
+account_register	title	Registro
+account_register	title_admin	Crear un usuario nuevo
+account_register	login	Nombre de usuario	
+account_register	ldap_login	Nombre de usuario LDA	
+account_register	ldap_unix_login	Nombre $1 <strong>(Sólo minuscula, sin espacios)</strong>	
+account_register	ldap_email_help	<em><strong>Nota:</strong> Esta dirección de correo fue recuperada desde el directorio. Por favor no lo cambie.</em>	
+account_register	codendi_login_help	Este nombre de usuario fue generado desde su correo electrónico. Lo puede cambiar si asi lo quisiera.	
+account_register	login_directions	<strong>(¡Sólo minuscula!)</strong>	
+account_register	passwd	Contraseña	
+account_register	passwd_directions	(minimo 6 caracteres)	
+account_register	passwd2	Contraseña (repetir)	
+account_register	passwd2_directions	&nbsp;
+account_register	realname	Nombre completo	
+account_register	realname_directions	&nbsp;
+account_register	email	Correo electrónico	
+account_register	email_directions	<em><strong>Nota:</strong> Este correo electrónico será verificado antes de la verificación de la cuenta. Por favor utilice el correo electrónico aprobado solamente.</em>	
+account_register	email_tooltip	Nosotros le enviaremos un correo electrónico a esta dirección para confirmar su cuenta.	
+account_register	expiry_date	Fecha de caducidad	
+account_register	expiry_date_directions	<em><strong>Nota:</strong> La cuenta será suspendida cuando la fecha haya alcanzado la caducidad. Deje en blanco si quiere desactivar la caducidad.</em>	
+account_register	data_not_parsed	       Lo siento - La fecha de expiración no puede ser procesada. Debe ser siguiendo el formato de fecha YYYY-MM-DD.	
+account_register	tz	Zona horaria	
+account_register	mandatory	Todos los campos son obligatorios.	
+account_register	siteupdate	Recibir correos electrónicos acerca de las actualizaciones del sitio <span class="label-help">muy ocasional, incluye noticias de seguridad. Altamente recomendado.</span>	
+account_register	communitymail	Recibir mensajes de correo adicionales de listas comunitarias. <span style="color:#666">(ocasional.)</span>	
+account_register	purpose	Propósito	
+account_register	purpose_directions	De razón de por que esta aspirando a registrarse en este sitio<br>	
+account_register	purpose_directions_admin	Usted puede agregar un comentario a este usuario<br>	
+account_register	btn_register	Registrar	
+account_register	btn_activate	Activar	
+account_register	btn_next	Próximo paso	
+account_register	send_email	Enviar un mensaje de bienvenida al usuario	
+account_register	msg_redirect	Ir a la página principal	
+account_register	msg_redirect_admin	Ir a la página de administración	
+account_register	msg_thanks	Gracias por usar Tuleap	
+account_register	msg_confirm	Para hacer esto, haga click en el botón de confirmación en este correo electrónico. <i class="icon-envelope-alt"></i>	
+account_register	msg_confirm_admin	Por favor anote el nombre de usuario <span class="confirmation-user">$3</span> y la contraseña <span class="confirmation-user">$4</span>.	
+account_register	title_approval	Su cuenta ha sido creada,</br> debe ser aprobado por el administrador.	
+account_register	msg_approval	Una vez aprobado haga click en el botón de confirmación en este correo electrónico.<i class="icon-envelope-alt"></i>	
+account_register	mail_approval_subject	Nuevo usuario registrado: $1	
+account_register	mail_approval_title	¡Creación de cuenta!	
+account_register	mail_approval_section_one	Un nuevo usuario se ha registrado en $1.\n\nNombre de usuario:	
+account_register	mail_approval_section_after_login	.
+account_register	mail_approval_section_two	Por favor visite el siguiente enlace para aprobar el registro:	
+account_register	mail_approval_redirect_button	Confirma la creación de la cuenta	
+account_register	mail_thanks	¡Gracias!	
+account_register	mail_signature	- El equipo en $1.	
+account_register	restricted_user	Usuario restringido	
+account_register	welcome_email_title	Bienvenido a $1!	
+#
+#-----------------------------------------------
+# Script: SF/www/account/suspended.php
+#
+account_suspended	title	Cuenta suspendida	
+account_suspended	message	Su cuenta ha sido suspendida. Si tiene alguna pregunta acerca de su suspensión, por favor comuníquese con <a href="mailto:$1">el administrador del sistema</A>. Consultas recibidas desde otra via de comunicación seran redireccionados a esta cuenta.	
+#
+#-----------------------------------------------
+# Script: SF/www/account/login.php
+#
+account_verify	title	Verificación de cuenta	
+account_verify	message	Para completar su registro, autentiquese ahora. Su cuenta será entonces activada para autenticación normal.	
+account_verify	err_user	Nombre de usuario inválido.	
+account_verify	err_hash	Hash de confirmación inválido.	
+account_verify	err_status	Estado inválido. El administrador del sitio no valido su cuenta.	
+account_verify	account_confirm	Su cuenta ha sido confirmada exitosamente.	

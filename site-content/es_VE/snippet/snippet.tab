@@ -1,0 +1,149 @@
+#/**
+#  *
+#  * Include scripts message catalog (English)
+#  *
+#  * Codendi 
+#  * Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#  * http://www.codendi.com
+#  *
+#  *
+#  */
+#
+#-----------------------------------------------
+# Script: SF/www/snippet/add_snippet_to_package.php
+#
+snippet_add_snippet_to_package	submit_snippet	Entregar Una #Fragmento Nueva
+snippet_add_snippet_to_package	error_v_id_missed	Error - versión_de paquete_de la #fragmento_*id perdiendo
+snippet_add_snippet_to_package	error_only_creator	Error - Único el creador de una versión de paquete puede añadir #fragmento a él.
+snippet_add_snippet_to_package	error_s_not_exist	Error - Que la #fragmento no existe.
+snippet_add_snippet_to_package	back	Atrás para Añadir Página
+snippet_add_snippet_to_package	already_added	Error - Que la #fragmento era ya añadida a este paquete.
+snippet_add_snippet_to_package	error_insert	El ERROR que HACE VERSIÓN de #FRAGMENTO INSERTA!
+snippet_add_snippet_to_package	add_success	Versión de #fragmento Añadió Exitosamente.
+snippet_add_snippet_to_package	error_fill_all_info	Error - Volver y rellenar toda la información
+snippet_add_snippet_to_package	add_s	Añade #Fragmento A Paquete
+snippet_add_snippet_to_package	package	<*B>Paquete:</*B><*BR> $1 - $2
+snippet_add_snippet_to_package	use_add_form	Puedes utilizar esta forma repetidamente para mantener añadiendo #fragmento a vuestro paquete.
+snippet_add_snippet_to_package	add_v_id	Añadir Esta Versión de #Fragmento ID:
+snippet_add_snippet_to_package	no_s_in_p	Ninguna #Fragmento Es En Este Paquete Todavía
+snippet_add_snippet_to_package	s_in_p	#Fragmento En Este Paquete:
+snippet_add_snippet_to_package	all_info_complete	Marca seguro todo *info es completo y cuidadoso
+#
+#-----------------------------------------------
+# Script: SF/www/snippet/addversion.php
+#
+snippet_addversion	s_uploaded	#Fragmento de código Cargó
+snippet_addversion	min_max_length	ERROR - #fragmento de código tiene que ser no *null y < $1 bytes en longitud
+snippet_addversion	submit_s	Entregar Una Versión de #Fragmento Nueva
+snippet_addversion	post_s	<*H1>Correo una Versión de #Fragmento de Código Nueva</*H1><*P>Si  has modificado una versión de una #fragmento el sentir libre de actualizarlo. Preferentemente copia-pasta el código de fuente de la #fragmento de modo que es directamente visible en la Biblioteca de #Fragmento del Código. Lo carga sólo si  es grande o  está hecho de varios archivos o el formato no es humanos legibles.
+snippet_addversion	version	Versión:
+snippet_addversion	upload_s	Cargar la #Fragmento (binario o código de fuente)
+snippet_addversion	max_size	(El máximo carga medida de archivo es $1 *Mb)
+snippet_addversion	changes	Cambios:
+snippet_addversion	paste_code	O código de fuente de #fragmento de pasta aquí:
+snippet_addversion	s_p_not_exist	Error - paquete_de #fragmento no existe
+snippet_addversion	error_insert	El ERROR que HACE VERSIÓN de PAQUETE de la #FRAGMENTO INSERTA!
+snippet_addversion	submit_p	Entregar Un Paquete de #Fragmento Nuevo
+snippet_addversion	p_add_success	Versión de Paquete de la #fragmento Añadió Exitosamente.
+snippet_addversion	add	Añade #Fragmento a Paquete
+snippet_addversion	now_add	Ahora añadir #fragmento a vuestro paquete
+snippet_addversion	important	IMPORTANTE!
+snippet_addversion	important_comm	Si una ventana nueva abrió, lo utiliza para añadir #fragmento a vuestro paquete. Si una ventana nueva no abrió, uso el enlace siguiente para añadir a vuestro paquete ANTES DE QUE  dejas esta página.
+snippet_addversion	browse_lib	<*B>Explora la biblioteca</*B> para encontrar las #fragmento  quieres añadir, entonces añadirles utilizando el enlace de ventana nuevo mostrado encima.
+snippet_addversion	post_p	<*H1>Correo una Versión de Paquete Nueva</*H1><*P>Si  has modificado una versión de un paquete y tú sienten  es bastante significativo para compartir con otros, complacer hacer tan.
+snippet_addversion	form_mangled	Error - era el *URL o forma *mangled??
+#
+#-----------------------------------------------
+# Script: SF/www/snippet/browse.php
+#
+snippet_browse	s_library	Biblioteca de #fragmento
+snippet_browse	s_browsing	La #fragmento que Explora
+snippet_browse	s_by_lang	#Fragmento por lengua: $1
+snippet_browse	s_category	Categoría de #fragmento: $1
+snippet_browse	bad_url	Error - malo *url?
+snippet_browse	no_s_found	Ninguna #fragmento encontró
+snippet_browse	id	ID
+snippet_browse	title	Título
+snippet_browse	creator	Creador
+snippet_browse	p_of_s	Paquetes De #Fragmento
+snippet_browse	s	#Fragmento
+#
+#-----------------------------------------------
+# Script: SF/www/snippet/delete.php
+#
+snippet_delete	delete_s	Elimina #Fragmento
+snippet_delete	only_creator_deletes	Error - Único el creador de una versión de paquete puede eliminar #fragmento de él.
+snippet_delete	s_not_exist_in_p	Error - Que la #fragmento no existe en este paquete.
+snippet_delete	removed	El elemento Sacado De Paquete
+snippet_delete	s_removed	La #fragmento Sacó
+snippet_delete	only_creator_delete_p	Error - Único el creador de una versión de paquete lo puede eliminar.
+snippet_delete	p_removed	El paquete Sacó
+snippet_delete	url_mangled	Error - *mangled *URL?
+#
+#-----------------------------------------------
+# Script: SF/www/snippet/details.php
+#
+snippet_details	select_license	ERROR: Complacer seleccionar una licencia
+snippet_details	select_category	ERROR: Complacer seleccionar una categoría
+snippet_details	select_type	ERROR: Complacer seleccionar un tipo
+snippet_details	select_lang	ERROR: Complacer seleccionar una lengua
+snippet_details	upd_fail	El ERROR que HACE ACTUALIZACIÓN de #FRAGMENTO!
+snippet_details	upd_success	La #fragmento Actualizó Exitosamente.
+snippet_details	no_v_found	Error - ninguna versión encontró
+snippet_details	versions_of_s	Versiones De Esta #Fragmento:
+snippet_details	s_version	Versión de #fragmento
+snippet_details	rel_notes	Notas de liberación
+snippet_details	posted_on	*Posted Encima
+snippet_details	author	Autor
+snippet_details	delete	Elimina
+snippet_details	download_s	Clic en el &*quot;<*B>Versión de #Fragmento</*B>&*quot; etiqueta para descargar/ve una #fragmento de código
+snippet_details	submit_s	- Te Puede <Un *HREF="$1"><*b><*u>entrega una versión nueva</*u></*b></Un> de esta #fragmento si  lo has modificado.
+snippet_details	latest_s_v	Versión de #Fragmento más tardía: $1
+snippet_details	view_s	[#Fragmento de Código de la vista]
+snippet_details	down_s	[#Fragmento de Código de la descarga]
+snippet_details	p_upd_fail	El ERROR que HACE ACTUALIZACIÓN de PAQUETE de la #FRAGMENTO!
+snippet_details	p_upd_success	Paquete de #fragmento Actualizó Exitosamente
+snippet_details	versions_of_p	Versiones De Este Paquete:
+snippet_details	p_version	Versión de paquete
+snippet_details	edit	Edita
+snippet_details	submit_p	Puedes <Un *HREF="$1"><*b><*u>entrega una versión nueva</*u></*b></Un> de este paquete si  lo has modificado.
+snippet_details	latest_p_v	Versión de Paquete más tardío: $1
+snippet_details	download	#Fragmento de Código de la descarga
+snippet_details	view	#Fragmento de Código de la vista
+#
+#-----------------------------------------------
+# Script: SF/www/snippet/download.php
+#
+snippet_download	nothing_in_here	Nada en aquí
+#
+#-----------------------------------------------
+# Script: SF/www/snippet/package.php
+#
+snippet_package	error_p_insert	El ERROR que HACE PAQUETE de #FRAGMENTO INSERTA!
+snippet_package	p_add_success	Paquete de #fragmento Añadió Exitosamente.
+snippet_package	create_p	Crear un Paquete de #Fragmento Nuevo
+snippet_package	group_s_into_p	Puedes agrupar junto existiendo #fragmento a un paquete que utiliza esta interfaz. Antes de crear vuestro paquete, marca seguro todas vuestras #fragmento son en el sitio y tú han hecho una nota de la #fragmento ID es.<*P><*OL><LI>Crea el paquete que utiliza esta forma.<LI><*B>Entonces</*B> utilizar el "Añadir #Fragmento a enlace" de Paquete para añadir archivos a vuestro paquete.</*OL><*P><Abarca punto destacado="de clase"><*B>Nota:</*B></Te> abarcas puede entregar una versión nueva de un paquete de existir por explorar la biblioteca y utilizando el enlace en el paquete de existir. Sólo tendrías que utilizar esta página si  estás entregando un paquete enteramente nuevo.
+snippet_package	first_posted_v	Primer *Posted Versión
+snippet_package	description	Descripción:
+snippet_package	language	Lengua:
+snippet_package	category	Categoría:
+#
+#-----------------------------------------------
+# Script: SF/www/snippet/snippet_utils.php
+#
+snippet_utils	create_s	Crear una #Fragmento Nueva
+snippet_utils	create_p	Crear Un Paquete Nuevo
+snippet_utils	browse	Explora
+snippet_utils	type	Tipo:
+snippet_utils	license	Licencia:
+snippet_utils	version_id	Versión de #fragmento ID
+#
+#-----------------------------------------------
+# Script: SF/www/snippet/submit.php
+#
+snippet_submit	s_insert_fail	El ERROR que HACE la #FRAGMENTO INSERTA!
+snippet_submit	s_add_success	La #fragmento Añadió Exitosamente.
+snippet_submit	submit_s	Entregar una #Fragmento de Código Nueva
+snippet_submit	post_s	Puedes correo una #fragmento de código nueva y participación él con otras personas alrededor del mundo. <*B>Da una descripción detallada</*B> y <*B>comentar vuestro código</*B> tan otros pueden leer y entenderlo. Preferentemente copia-pasta el código de fuente de la #fragmento de modo que es directamente visible en la Biblioteca de #Fragmento del Código. Lo carga sólo si  es grande o  está hecho de varios archivos o el formato no es humanos legibles.
+snippet_submit	note	Nota:
+snippet_submit	submit_s_v	Puedes entregar una versión nueva de una #fragmento de existir por explorar la biblioteca. Sólo tendrías que utilizar esta página si  estás entregando un guión enteramente nuevo o función.

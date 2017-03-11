@@ -1,0 +1,884 @@
+#/**
+#  *
+#  * Tracker scripts message catalog (English)
+#  *
+#  * Codendi 
+#  * Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#  * http://www.codendi.com
+#  *
+#  *
+#  */
+#
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/add.php
+#
+tracker_add	invalid	Este rastreador ya no es válido.
+tracker_add	add_a	Añadir un
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/browse.php
+#
+tracker_browse	search_report	Informe de búsqueda
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/download.php
+#
+tracker_download	file_is_null	Nada en aquí - el archivo contiene información inválida
+tracker_download	file_not_found	No se encontro el archivo adjunto  (id #$1)
+#
+#-----------------------------------------------
+tracker_fieldeditor	edit	Editar
+tracker_fieldeditor	preview	Previsualización
+tracker_fieldeditor	warning	Sus modificaciones no fueron guardadas. ¡No olvide enviar el formulario!
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/gotoid.php
+#
+tracker_gotoid	art_belongs_to	Nota: Este artefacto pertenece al proyecto '$1'
+tracker_gotoid	art_is_a	<*br>Nota: Este artefacto es un '$1' (no un '$2')
+tracker_gotoid	commit_belongs_to	Nota: Est commit pertenece al proyecto '$1'
+tracker_gotoid	invalid_tracker	Rastreador inválido
+tracker_gotoid	invalid_art_nb	Número de artefacto inválido: $1.
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/group_selection.php
+#
+tracker_group_selection	project_sel	Selección de proyecto
+tracker_group_selection	my_proj	Mis proyectos
+tracker_group_selection	all_proj	Todos los  proyectos
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/edit_comment.php
+#
+tracker_edit_comment	upd_followup	Comentario de seguimiento de la actualización
+tracker_edit_comment	upd_followup_details	El comentario se entrego a $1 por $2
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/import_admin.php
+#
+tracker_import_admin	not_get_atf	No pude conseguir ArtifactTypeFactory
+tracker_import_admin	art_import	Importación de Artefacto del rastreador
+tracker_import_admin	welcome	<P> <h3>Importación de Artefacto del Rastreador </h3><P> puedes importar artefactos a un rastreador en particular desde un archivo de texto (formato CSV). Haga click en los enlaces abajo o bien para importar artefactos nuevos o para actualizar los existentes.</P>
+tracker_import_admin	art_data_import	Importación de Dato de los artefactos
+tracker_import_admin	import_format	Formato de importación
+tracker_import_admin	import	Importación
+tracker_import_admin	show_format	Formato de previsualización
+tracker_import_admin	tracker	Rastreador
+tracker_import_admin	disabled	Los rastreadores han sido desactivados para este proyecto.
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/import.php
+#
+tracker_import	art_import	Importación de Artefacto del rastreador:
+tracker_import	parse_report	Informe del procesamiento del artefacto
+tracker_import	ready	A punto para importar $1 artefacto(s): $2 artefacto nuevo(s), $3 existiendo artefacto(s)
+tracker_import	check_data	Complacer, control vuestro dato antes de importador, especialmente las fechas.
+tracker_import	success_import	$1 Artefacto(s) Exitosamente Importó
+tracker_import	format_hdr	Formato de Importación de Artefacto de rastreador
+tracker_import	format_msg	Para importar artefactos de un CSV archivo  necesitas proporcionar los campos de artefacto siguientes. Los valores de muestra indican lo que los tipos de dato del campo son. <br>A <b>crea</b> artefactos nuevos  necesitas proporcionar al menos los campos obligatorios marcados con <span class='highlight'><big>*</big></b></abarcar> excepto el Artefacto ID que no tenga que ser especificado. Todos los otros campos pueden ser omitidos en su archivo CSV y será inicializado con los valores predeterminado. <br>A <b>actualización</b> artefactos sólo necesitas especificar el Artefacto ID así como los campos que te quiere actualización. Todos los  campos no especificados en el CSV el archivo quedará sin cambios.<br>Complacer nota que el CSV el archivo tendría que utilizar el UTF-8 charset.
+tracker_import	sample_cvs_file	Muestra CSV archivo:
+tracker_import	import_new_hdr	Artefactos de importación $1
+tracker_import	import_new_msg	Puedes importar artefactos a este rastreador por especificar un CSV archivo. <br>Ver el <a href="$1"> Formato de Importación CSV</a> para más detalles.
+tracker_import	upload_file	Carga Archivo:
+tracker_import	max_upload_size	(El máximo carga medida de archivo es $1 *Mb)
+tracker_import	submit_info	Artefactos de carga
+tracker_import	send_notifications	Envía Notificaciones:
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/index.php
+#
+tracker_index	art_id_necessary	Artefacto ID es necesario
+tracker_index	not_create_at	*ArtifactType No podría ser creado
+tracker_index	browser_not_supported	Triste, vuestro navegador (Netscape 4.*x) No es apoyado. Para crear $1, complacer utilizar un navegador diferente
+tracker_index	a_tracker	Un rastreador
+tracker_index	an_artif	Un artefacto
+tracker_index	not_create_art	El artefacto No Podría Ser Creado
+tracker_index	artifact_has_changed_title	AVISO: Vuestra actualización no ha sido aplicada.
+tracker_index	artifact_has_changed	Este elemento ha sido actualizado por alguien más desde entonces  lo mostraste tan vuestra actualización podría *inadvertently eliminar sus cambios.<*br> Para proceder,  tienes que utilizar el navegador respalda botón y entonces conseguir los cambios del otro usuario, cualquiera por: <*ul><*li><un *href="$1" espacio="_de objetivo que">carga el artefacto actualizado en una ventana nueva</un> y actualizar vuestros valores allí, </*li><*li>o por *re-cargando la forma que utiliza el navegador  *refresh botón (nota que *refresh aclarará vuestros cambios y tú tendrán que *re-introducirles;  recomendamos que  copias cualesquier cambios largos antes de *refresh).</*li></*ul>
+tracker_index	cc_list_invalid	Error - La CC lista es nula
+tracker_index	invalid_filename	Nulo *filename
+tracker_index	not_create_file	No podría Crear Objeto de Archivo
+tracker_index	not_create_file_obj	No podría Crear Objeto de Archivo: $1
+tracker_index	not_attach_file	No podría Sujetar Archivo a Artefacto: $1
+tracker_index	create_success	El artefacto Exitosamente Creado ($1)
+tracker_index	invalid_filename_attach	Nulo *filename para anexo
+tracker_index	trackers_for	Rastreadores para $1
+tracker_index	admin_all_trackers	*Admin Todos los  Rastreadores
+tracker_index	create_new_tracker	Crear un Rastreador Nuevo
+tracker_index	no_accessible_trackers_hdr	Ningún Rastreador Accesible Encontró
+tracker_index	no_accessible_trackers_msg	<Fuerte>Ningún rastreador ha sido instalado, o no eres dejado para verles.</Fuerte>
+tracker_index	choose_tracker	Escoger un rastreador y tú pueden explorar/editar/añadir artefactos a él.
+tracker_index	total	Total
+tracker_index	file_delete	El archivo Elimina: $1
+tracker_index	file_delete_success	El archivo eliminó exitosamente
+tracker_index	file_upload_err	El archivo Carga: $1
+tracker_index	file_upload_success	El archivo cargó exitosamente
+tracker_index	mass_update_success	Exitosamente Actualizó
+tracker_index	update_success	Exitosamente Actualizado ($1)
+tracker_index	not_saved_comment	El comentario no podría ser salvado
+tracker_index	open	Abierto
+tracker_index	updated_aid	Actualizado $1
+tracker_index	mass_change	Cambio de masa
+tracker_index	invalid_field_dependency	Dependencia de Campo nulo
+tracker_index	missing_dependency	Complacer seleccionar al menos uno valora para el campo obligatorio $1!
+tracker_index	notification_stopped	Nota: notificaciones de email están suspendidas para este rastreador.
+tracker_index	report_definition_updated	Definición de informe actualizó.
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/masschange_detail.php
+#
+tracker_masschange_detail	selected_items	Cambio de masa Seleccionó Artefactos
+tracker_masschange_detail	no_items_selected	Ningún artefacto ha sido seleccionado
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/masschange.php
+#
+tracker_masschange	mass_change_report	Informe de Cambio de la masa
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/tracker_import_utils.php
+#
+tracker_import_utils	field_not_known	"$1" no es un campo sabido en rastreador $2
+tracker_import_utils	field_mandatory	"$1" es un campo obligatorio en rastreador $2. Complacer especificar él en vuestro *CSV archivo.
+tracker_import_utils	not_a_predefined_value	<*b>Línea $1 [</*b>$2<*b>]</*b>:<*br>valor "$3" no es uno del *predefined valores de campo "$4" ($5).
+tracker_import_utils	field_mandatory_and_current	<*b>Línea $1 [</*b>$2<*b>]</*b>:<*br>"$3" es un campo obligatorio en rastreador $4. Complacer especificar él en vuestro *csv archivo (el valor actual es "$5").
+tracker_import_utils	incorrect_date	<*b>Línea $1 [</*b>$2<*b>]</*b>:<*br>Fecha "$3" no es en formato correcto (*YYYY-MM-DD).
+tracker_import_utils	field_mandatory_and_line	<*b>Línea $1 [</*b>$2<*b>]</*b>:<*br>"$3" es un campo obligatorio en rastreador $4. Complacer especificar él en vuestro *csv archivo.
+tracker_import_utils	already_submitted	<*b>Línea $1 [</*b>$2<*b>]</*b>:<*br>Usuario $3 ha ya entregó un artefacto con el mismo resumen ("$4"). Complacer no prueba para importarlo otra vez.
+tracker_import_utils	art_not_exists	<*b>Línea $1 [</*b>$2<*b>]</*b>:<*br>el artefacto especificado (*id=$3) no existe en rastreador $4
+tracker_import_utils	date	Fecha
+tracker_import_utils	type	Tipo
+tracker_import_utils	comment	Comentario
+tracker_import_utils	comment_parse_error	$1 no insertará cualesquier comentarios de seguimiento para este artefacto.
+tracker_import_utils	new	NUEVO
+tracker_import_utils	column_mismatch	<*b>Línea $1 [</*b>$2<*b>]</*b>:<*br>el número de valores ($3) no empareja el número de campos ($4).<*br>
+tracker_import_utils	no_followups	Ningún *Followups Ha Sido *Posted
+tracker_import_utils	not_a_user	"$1" especificado como *originator de comentario de seguimiento #$2 es tampoco un nombre de usuario ni una dirección de correo electrónico válida.
+tracker_import_utils	specify_originator	Tienes que especificar un *originator para comentario de seguimiento #$1 ($2).
+tracker_import_utils	specify_valid_user	"Ninguno" no es un válido *originator de un comentario de seguimiento. Complacer especificar un nombre de usuario o una dirección de correo electrónico válida para comentar #$1.
+tracker_import_utils	problem_insert_dependent	Error mientras insertando artefactos dependientes (artefacto *id =$1).<*br>
+tracker_import_utils	problem_add_cc	Error mientras añadiendo CC Lista (artefacto *id=$1).<*br>
+tracker_import_utils	problem_insert_followup	Error mientras insertando sigue_arriba de comentarios (artefacto *id=$1).<*br>
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/tracker_selection.php
+#
+tracker_selection	no_tracker_available	Ningún rastreador disponible para este proyecto!
+tracker_selection	tracker_sel	Selección de rastreador
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/admin/admin_trackers.php
+#
+tracker_admin_trackers	all_admin	Toda Administración de Rastreadores
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/admin/field_usage.php
+#
+tracker_admin_field_usage	tracker_admin	Administración de rastreador
+tracker_admin_field_usage	usage_admin	- Administración de Uso del campo
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/admin/field_values_details.php
+#
+tracker_admin_field_values_details	values_admin	- Administración de Valores del campo
+tracker_admin_field_values_details	manage_for	- Dirigir Valores de Campo para '$1'
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/admin/index.php
+#
+tracker_admin_index	create_tracker	- Crear rastreador
+tracker_admin_index	tracker_created	El rastreador creado - Clic en el rastreador nuevo ID para completar la configuración de rastreador
+tracker_admin_index	not_create_canned	*ArtifactCanned No podría ser creado
+tracker_admin_index	not_retrieved_report	*ArtifactReport No podría ser recuperado: $1
+tracker_admin_index	not_updated_report	*ArtifactReport No podría ser actualizado
+tracker_admin_index	not_created_report	*ArtifactReport No podría ser creado
+tracker_admin_index	new_report_created	El informe nuevo creó
+tracker_admin_index	report_deleted	El informe eliminó
+tracker_admin_index	not_create_canneditem	*ArtifactCanned El elemento no podría ser creado
+tracker_admin_index	not_found_canneditem	*ArtifactCanned Elemento #$1 no podría ser encontrado
+tracker_admin_index	not_update_canneditem	*ArtifactCanned Elemento #$1 no podría ser actualizado
+tracker_admin_index	deleted_cannedresponse	*Canned La respuesta eliminó
+tracker_admin_index	updated_cannedresponse	*Canned La respuesta actualizó
+tracker_admin_index	not_delete_canneditem	*ArtifactCanned Elemento #$1 no podría ser eliminado
+tracker_admin_index	modify_cannedresponse	Modifica *Canned Respuesta
+tracker_admin_index	create_modify_cannedresponse	Crea/Modifica *Canned Respuestas
+tracker_admin_index	art_admin	Administración de rastreador - Encuadres de Notificación de Email Personales
+tracker_admin_index	update_success	- Actualización exitosa
+tracker_admin_index	update_failed	- La actualización Falló : $1
+tracker_admin_index	options	- Opciones
+tracker_admin_index	update_success_title	ACTUALIZACIÓN EXITOSA
+tracker_admin_index	values_updated	Valores de campo actualizaron
+tracker_admin_index	value_updated	Valor de campo actualizó
+tracker_admin_index	value_created	Valor de campo creó
+tracker_admin_index	value_deleted	Valor de campo eliminó
+tracker_admin_index	field_created	El campo creado con *default permisos
+tracker_admin_index	field_updated	El campo actualizó
+tracker_admin_index	field_deleted	El campo eliminó
+tracker_admin_index	modify_usage	- Modificar Uso de Campo
+tracker_admin_index	modify_usage_for	- Modificar Uso de Campo para '$1'
+tracker_admin_index	deletion_failed	Rastreador '$1' - *Deletion Fallado -
+tracker_admin_index	delete_success	Rastreador '$1' - Exitosamente Eliminó
+tracker_admin_index	tracker_deleted	<*H2>Rastreador '$1' - Eliminado</*H2> <*p>En caso  has *inadvertently eliminó este rastreador y quererlo para ser restaurado, complacer contactar el <un *href="*mailto:$2">Administrador de Sitio</Un> dentro del próximo 10 días.</*p>
+tracker_admin_index	fieldset_created	El campo Puso creado
+tracker_admin_index	fieldset_updated	El campo Puso actualizado
+tracker_admin_index	fieldset_deleted	El campo Puso eliminado
+tracker_admin_index	modify_fieldset	- Modificar el campo Puso
+tracker_admin_index	modify_fieldset_for	- Modificar el campo Puso para '$1'
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/admin/restore.php
+#
+tracker_admin_restore	restore_failed	Restaura la operación falló
+tracker_admin_restore	tracker_restored	Rastreador restaurado
+tracker_admin_restore	delay_failed	Operación de retraso falló
+tracker_admin_restore	delayed_deletion	Retrasado *deletion
+tracker_admin_restore	pending_deletions	Rastreadores *Deletion
+tracker_admin_restore	tracker_deleted	El rastreador eliminó
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/include/ArtifactCannedHtml.class.php
+#
+tracker_include_canned	create_response	Crear una respuesta nueva
+tracker_include_canned	save_time	Creando *canned las respuestas pueden salvar mucho tiempo si frecuentemente das las mismas respuestas a vuestros usuarios.
+tracker_include_canned	title	Título
+tracker_include_canned	message_body	Cuerpo de mensaje:
+tracker_include_canned	existing_responses	Existiendo Respuestas:
+tracker_include_canned	body_extract	Cuerpo (extracto)
+tracker_include_canned	delete	Elimina ?
+tracker_include_canned	delete_canned	Eliminar este *Canned Respuesta : $1 ?
+tracker_include_canned	no_canned_response	Ningún *canned las respuestas instaladas todavía para este rastreador
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/include/ArtifactFieldHtml.class.php
+#
+tracker_include_field	error_no_atid	ERROR - ningún artefacto_de grupo_*id
+tracker_include_field	start	Inicio:
+tracker_include_field	end	Fin:
+tracker_include_field	any_time	Cualquier tiempo
+tracker_include_field	pick_date	Clic Aquí para Coger una fecha
+tracker_include_field	unknown_display_type	$1: EXHIBICIÓN de CAMPO de ARTEFACTO DESCONOCIDA TIPO
+tracker_include_field	unknown_value	*** Valor desconocido ***
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/include/ArtifactFileHtml.class.php
+#
+tracker_include_artifactfile	invalid_name	*ArtifactFile: Nulo *filename
+tracker_include_artifactfile	not_attached	Archiva no sujetado: medida de Archivo tiene que ser menos de $1 *Mb
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/include/ArtifactHtml.class.php
+#
+tracker_include_artifact	project	Proyecto:
+tracker_include_artifact	submit	Entrega Cambios
+tracker_include_artifact	follow_ups	Seguimientos
+tracker_include_artifact	cc_list	CC Lista
+tracker_include_artifact	use_canned	Uso un *Canned Respuesta:
+tracker_include_artifact	define_canned	O definir un nuevo *Canned Respuesta
+tracker_include_artifact	not_logged_in	<*B><Abarca punto destacado="de clase"><*H2>NO Eres *Logged En</*H2><*P>Complacer <Un *HREF="$1">registro en,</Un> tan notificaciones de actualización pueden ser *emailed a ti.</Abarca></*B><*P>Si no tiene una cuenta de usuario, entonces introducir vuestra dirección de correo electrónico en cambio:
+tracker_include_artifact	fill_cc_list_msg	<*b><*u>Nota:</*b></*u> para los usuarios utilizan su *login nombre más que sus direcciones de correo electrónico.<*br>Llena vuestra lista que utiliza coma o *semi-columna como *separator.
+tracker_include_artifact	fill_cc_list_lbl	<*p><*B>Añade CC:&*nbsp;</*b>
+tracker_include_artifact	fill_cc_list_cmt	Comentario
+tracker_include_artifact	attachment	Anexos
+tracker_include_artifact	upload_checkbox	<*B>Control para Cargar&*hellip;</*b>
+tracker_include_artifact	upload_file_lbl	<*b>&*nbsp;&*hellip;Y&*nbsp;sujeta Archivo:</*B>
+tracker_include_artifact	upload_file_msg	<*br><Abarca clase="color" de estilo="pequeño:#666">(El máximo carga medida de archivo es $1 *Mb - <*u>Complacer comprimir vuestros archivos</*u>)</abarca>
+tracker_include_artifact	upload_file_desc	<*P><*B>Descripción de archivo:</*B>&*nbsp;
+tracker_include_artifact	dependencies	Dependencias
+tracker_include_artifact	references	Referencias
+tracker_include_artifact	aids	Artefacto *IDs:
+tracker_include_artifact	fill	(Llena vuestra lista que utiliza la coma como *separator)
+tracker_include_artifact	dependent_on	Es Dependiente encima:
+tracker_include_artifact	change_history	Historia de cambio:
+tracker_include_artifact	field	Campo
+tracker_include_artifact	old_val	Valor viejo
+tracker_include_artifact	new_val	Valor nuevo
+tracker_include_artifact	no_changes	Ningún cambio ha sido hecho todavía
+tracker_include_artifact	no_file_attached	Ningún archivo actualmente sujetó
+tracker_include_artifact	file_attachment	Anexos de archivo
+tracker_include_artifact	name	Nombre
+tracker_include_artifact	desc	Descripción
+tracker_include_artifact	size_kb	Medida (*KB)
+tracker_include_artifact	size	Medida
+tracker_include_artifact	posted_on	*Posted Encima
+tracker_include_artifact	delete_attachment	Eliminar este anexo?
+tracker_include_artifact	cc_empty	CC Lista es vacía
+tracker_include_artifact	artifact	Artefacto
+tracker_include_artifact	summary	Resumen
+tracker_include_artifact	group	Grupo
+tracker_include_artifact	comment_type	Tipo de comentario:
+tracker_include_artifact	add_comment	Añadir Un Comentario:
+tracker_include_artifact	depend_on	Dependiente encima:
+tracker_include_artifact	cc_address	CC Dirección
+tracker_include_artifact	comment	Comentario
+tracker_include_artifact	delete_comment	Eliminar este Comentario de Seguimiento?
+tracker_include_artifact	added_by	Añadido por
+tracker_include_artifact	delete_cc	Elimina esto CC dirección?
+tracker_include_artifact	add_cc	Añade CC:
+tracker_include_artifact	check_already_submitted	Compruebas si este artefacto no ha sido ya entregado?</Abarca></*b> (uso la caja de búsqueda)
+tracker_include_artifact	latest_modif	MODIFICACIONES más TARDÍAS
+tracker_include_artifact	full_snapshot	LLENO $1 *SNAPSHOT
+tracker_include_artifact	follow_link	Para detallado *info, seguir este enlace:
+tracker_include_artifact	changes_by	Cambios por:
+tracker_include_artifact	anon_user	Usuario anónimo
+tracker_include_artifact	add_flup_comment	Comentarios de Seguimiento adicional
+tracker_include_artifact	rem_followup	Comentario de Seguimiento sacado
+tracker_include_artifact	add_followup	Comentario de Seguimiento añadido
+tracker_include_artifact	upd_followup_nochange	Comentario de seguimiento no cambió
+tracker_include_artifact	add_attachment	Anexo de Artefacto adicional
+tracker_include_artifact	file_name	Nombre de archivo:
+tracker_include_artifact	what	Qué
+tracker_include_artifact	removed	Sacado
+tracker_include_artifact	added	Añadido
+tracker_include_artifact	dep_list_empty	Lista de dependencias es vacía
+tracker_include_artifact	ref_list_empty	Lista de referencias es vacía
+tracker_include_artifact	dep_list	Lista de dependencias
+tracker_include_artifact	del_dep	Eliminar esta dependencia?
+tracker_include_artifact	no_depend	No otros artefactos son dependientes en este artefacto
+tracker_include_artifact	copy_art	Copia Este Artefacto
+tracker_include_artifact	is_copy	Esto $1 es una copia de $2
+tracker_include_artifact	copy_of	Copia de $1
+tracker_include_artifact	copy	Copia
+tracker_include_artifact	flup_hidden	[No Grabado]
+tracker_include_artifact	del	*del
+tracker_include_artifact	last_edited	Último editado por:
+tracker_include_artifact	toggle	*Toggle
+tracker_include_artifact	expand_all	Expande todo
+tracker_include_artifact	collapse_all	Derrumbamiento todo
+tracker_include_artifact	details	Detalles
+tracker_include_artifact	permissions	Permisos
+tracker_include_artifact	permissions_label	Restringe acceso a este artefacto para los grupos de usuario siguientes:
+tracker_include_artifact	permissions_not_restricted	Los permisos no son restringidos para este artefacto
+tracker_include_artifact	permissions_use_default	Uso *default permisos de rastreador
+tracker_include_artifact	mail_direct_link	Enlace directo al artefacto
+tracker_include_artifact	mail_comment_title	Comentarios
+tracker_include_artifact	mail_snapshot_title	*Snapshot
+tracker_include_artifact	mail_latest_modifications	Modificaciones más tardías
+tracker_include_artifact	mail_changes	Cambios:
+tracker_include_artifact	mail_answer_now	Respuesta ahora
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/include/ArtifactReportHtml.class.php
+#
+tracker_include_report	prio_colors	Colores de prioridad:
+tracker_include_report	items	Elementos
+tracker_include_report	check_items	Elementos de control
+tracker_include_report	clear_items	Elementos claros
+tracker_include_report	mass_change_all	La masa Cambia Todo ($1 artefactos)
+tracker_include_report	check_all_items	Control todos los  elementos
+tracker_include_report	clear_all_items	Claro todos los  elementos
+tracker_include_report	selected	Seleccionado $1
+tracker_include_report	using_report	Informe de uso
+tracker_include_report	btn_go	Va
+tracker_include_report	or_use	O uso
+tracker_include_report	simple_search	Búsqueda sencilla
+tracker_include_report	adv_search	Búsqueda avanzada
+tracker_include_report	at_once	*s Inmediatamente.
+tracker_include_report	sorted_by	Ordenado por
+tracker_include_report	matching	Emparejando
+tracker_include_report	sort_results	Clic una columna que se dirige a resultados de clase (arriba o abajo),
+tracker_include_report	sort_sev	Clase por $1
+tracker_include_report	reset_sort	Clase de reinicialización
+tracker_include_report	multicolumn_sort	Puedes también <un *href="$1"><*b> $2 *multicolumn clase</*b></un>.
+tracker_include_report	sev_colors	Colores de severidad:
+tracker_include_report	no_match	Ningún Artefacto de Emparejar Encontró
+tracker_include_report	report_mgmt	Administración de rastreador - Administración de Informe del Rastreador
+tracker_include_report	report_admin	- Administración de informes
+tracker_include_report	scope	Alcance
+tracker_include_report	default	*Default
+tracker_include_report	set_default	[Puesto Como *Default]
+tracker_include_report	is_default	[*Default]
+tracker_include_report	report_name	Nombre de informe
+tracker_include_report	id	ID
+tracker_include_report	mod	(Clic para modificar)
+tracker_include_report	delete_report	Eliminar este Informe : $1  ?
+tracker_include_report	no_rep_def	Ningún informe de artefacto definió todavía.
+tracker_include_report	create_report	Puedes <*b><Un *HREF="$1">Crea un Informe Nuevo</un></*b>
+tracker_include_report	create_rep	Crear Un Informe de Rastreador Nuevo
+tracker_include_report	field_label	Etiqueta de campo
+tracker_include_report	search_crit	Uso como Criterios de Búsqueda
+tracker_include_report	rank_search	Rango encima Búsqueda
+tracker_include_report	rep_col	Uso como Columna de Informe
+tracker_include_report	rank_repo	Rango encima Informe
+tracker_include_report	col_width	Ancho de columna (opcional)
+tracker_include_report	modify_report	Modifica Informe de rastreador
+tracker_include_report	btn_export	La exportación que Empareja Artefactos
+tracker_include_report	export_only_report_fields	Exportación campos de informe único
+tracker_include_report	query	Consulta
+#
+#-----------------------------------------------
+# Script: SF/www/tracker/include/ArtifactTypeHtml.class.php
+#
+tracker_include_type	submit_new	Entregar Un Nuevo $1
+tracker_include_type	my	Mi $1
+tracker_include_type	open	Abierto $1
+tracker_include_type	reporting	Informando
+tracker_include_type	admin	*Admin
+tracker_include_type	settings	Encuadres generales
+tracker_include_type	field_usage	Uso de campo
+tracker_include_type	field_values	Valores de campo
+tracker_include_type	canned_resp	*Canned Respuestas
+tracker_include_type	reports	Informes de rastreador
+tracker_include_type	mail_notif	Encuadres de Notificación del email
+tracker_include_type	pending_removal	Extracciones de Rastreadores pendientes
+tracker_include_type	no_pending	Ningún Rastreador pendiente para *Deletion
+tracker_include_type	pending_deletion	Los rastreadores Pendientes para *Deletion
+tracker_include_type	deletion_date	*Deletion Fecha
+tracker_include_type	delay	Retraso?
+tracker_include_type	restore	Restaura?
+tracker_include_type	delay_deletion	Retraso *deletion para este rastreador?
+tracker_include_type	restore_tracker	Restaurar este rastreador?
+tracker_include_type	warning	** AVISO!! ** Eliminar este rastreador y todas sus dependencias (ningún posibles restaura operación)?
+tracker_include_type	create_from_scratch	Crear un rastreador nuevo de arañazo o de un rastreador de existir
+tracker_include_type	manage	Dirige Rastreadores
+tracker_include_type	admin_or_del	Administra o eliminar un rastreador.
+tracker_include_type	instantiate	*Instantiate Para proyectos nuevos
+tracker_include_type	administration	- Administración
+tracker_include_type	mng_field_usage	Dirige Uso de Campo
+tracker_include_type	define_use	Definir qué campos de rastreador  quieres uso en este rastreador.
+tracker_include_type	mng_field_values	Dirige Valores de Campo
+tracker_include_type	define_values	Definir el conjunto de valores asoció con los campos de vuestro rastreador.
+tracker_include_type	mng_response	Dirige *Canned Respuestas
+tracker_include_type	add_del_resp	Añade, actualización o eliminar el *canned respuestas.
+tracker_include_type	mng_reports	Dirige Informes de Rastreador
+tracker_include_type	define_reports	Define informes de búsqueda del rastreador: qué criterios de búsqueda para utilizar y qué campos de rastreador para mostrar en los informes de búsqueda del rastreador.
+tracker_include_type	define_title	Definir el título, la descripción, etc de este rastreador.<*P>
+tracker_include_type	define_notif	Los usuarios pueden definir cuándo  quieren ser notificados de una actualización de rastreador vía email. Administradores de proyecto también pueden definir reglas de notificación de email globales.<*P>
+tracker_include_type	user	Usuario
+tracker_include_type	perm	Permisos
+tracker_include_type	del_user	Eliminar este usuario?
+tracker_include_type	no_user	Ningún usuario para este rastreador.
+tracker_include_type	allow_copy	Deja duplicación de artefacto:
+tracker_include_type	submit_instr	<*b>Entrega instrucciones</*b>:<*br><*i>(etiquetas de HTML dejadas)</*i>
+tracker_include_type	browse_instr	<*b>Explora instrucciones</*b>:<*br><*i>(etiquetas de HTML dejadas)</*i>
+tracker_include_type	fill_name	Complacer, llenar el nombre de rastreador.
+tracker_include_type	fill_desc	Complacer, llenar la descripción de rastreador.
+tracker_include_type	fill_short	Complacer, llenar el rastreador nombre corto.
+tracker_include_type	choose_proj	Complacer, escoger un proyecto y un rastreador primero.
+tracker_include_type	choose_tmpl	Complacer, escoger una plantilla primero.
+tracker_include_type	select_proj	Complacer, seleccionar un proyecto primero!
+tracker_include_type	create_tracker	<*h2>Crea un rastreador nuevo:</*h2><*p>Complacer, llenar el nombre, descripción y nombre corto de este rastreador nuevo:</*p>
+tracker_include_type	short_name	Nombre corto
+tracker_include_type	avoid_spaces	Complacer evitar espacios y puntuación en nombres cortos
+tracker_include_type	choose_creation	Escoger un método de creación:
+tracker_include_type	from_tmpl	De un *predefined plantilla:
+tracker_include_type	from_exist	<*b>De un rastreador de existir:</*b><*br><*i>(Escoge un proyecto primero y entonces un rastreador de este proyecto)</*i>
+tracker_include_type	proj_id	Proyecto ID:
+tracker_include_type	tracker_id	Rastreador ID:
+tracker_include_type	list_all_fields	Lista de todos los Campos  Disponibles
+tracker_include_type	type	Tipo
+tracker_include_type	rank_screen	Rango encima pantalla
+tracker_include_type	used	Utilizado
+tracker_include_type	unused	*Unused
+tracker_include_type	warning_loose_data	** AVISO!! ** Si  eliminas este campo, tú  suelto TODO el dato asociado. Puedes también puesto a *UNUSED este campo. Continúa?
+tracker_include_type	no_field_in_use	---- Ningún campo en uso. Escoge uno abajo ----
+tracker_include_type	used_field	---- UTILIZÓ CAMPOS ----
+tracker_include_type	no_unused_field	---- NO *UNUSED CAMPO ----
+tracker_include_type	no_used_field	---- CAMPO UTILIZADO NO ----
+tracker_include_type	unused_field	---- *UNUSED CAMPOS ----
+tracker_include_type	sb	Selecciona Caja
+tracker_include_type	mb	*Multi Selecciona Caja
+tracker_include_type	tf	Campo de texto
+tracker_include_type	ta	Área de texto
+tracker_include_type	df	Campo de fecha
+tracker_include_type	ff	Campo de flotador
+tracker_include_type	if	Campo de entero
+tracker_include_type	create_field	Crear un campo nuevo
+tracker_include_type	upd_label	Campo de actualización '$1'
+tracker_include_type	imp_note	<*b>** NOTA IMPORTANTE **</*b> '$1' es un campo estándar del rastreador. Su propósito es global a todos los  rastreadores y nosotros fuertemente te aconsejan no para cambiar su etiqueta y descripción a no ser que  tienen un similares significando cuál preserva la función del campo.
+tracker_include_type	field_ident	Identificación de campo y Descripción
+tracker_include_type	field_type	Tipo de campo
+tracker_include_type	display_info	Información de exhibición
+tracker_include_type	display_size	Medida de exhibición
+tracker_include_type	allow_empty	Deja Valor Vacío
+tracker_include_type	keep_change_history	Mantiene Historia de Cambio
+tracker_include_type	misc	*Miscellaneous:
+tracker_include_type	use_field	Uso este campo
+tracker_include_type	fields_requ	Los campos requirieron
+tracker_include_type	bind_to_list	Atar el campo a una lista de valores
+tracker_include_type	bind_to	Ata A
+tracker_include_type	group_members	Miembros de proyecto
+tracker_include_type	group_admins	Administradores de proyecto
+tracker_include_type	tracker_admins	Administradores de rastreador
+tracker_include_type	submitters	Artefacto *submitters
+tracker_include_type	techicians	Técnicos de artefacto
+tracker_include_type	bind	Ata
+tracker_include_type	create_value	Crear un valor de campo nuevo
+tracker_include_type	update_value	Actualización el valor de campo
+tracker_include_type	note_standard	<*b>**NOTA IMPORTANTE**</*b>  estás editando un valor de campo permanente. Valores de campo permanente a menudo tienen un <*b>muy</*b> significado concreto al sistema y nosotros fuertemente te aconsejan no para cambiar su etiqueta y/*ndescription a no ser que  tienen un significado similar.
+tracker_include_type	permanent	Permanente
+tracker_include_type	active	Activo
+tracker_include_type	hidden	Escondido
+tracker_include_type	no_values	Ningún valor definió todavía
+tracker_include_type	exist_values	Existiendo valores
+tracker_include_type	value_label	Etiqueta de valor
+tracker_include_type	rank	Rango
+tracker_include_type	del_value	Eliminar este valor de campo?
+tracker_include_type	no_active_val	---- NO VALORES ACTIVOS ----
+tracker_include_type	active_val	---- VALORES ACTIVOS ----
+tracker_include_type	no_hidden_val	---- NO ESCONDIDO VALORA ----
+tracker_include_type	hidden_val	---- ESCONDIDO VALORA ----
+tracker_include_type	toggle_notification	*Toggle Notificación de email
+tracker_include_type	notification_suspended	Notificaciones de email Suspendieron
+tracker_include_type	toggle_notif_note	<*B>Como administrador de rastreador</*B>, temporalmente puedes suspender todas las notificaciones de email en este rastreador, a toda costa de los encuadres de notificación abajo.
+tracker_include_type	toggle_notif_warn	El administrador de rastreador temporalmente ha suspendido notificaciones de email en este rastreador. Los encuadres de notificación abajo son ahora ignoró.
+tracker_include_type	stop_notification	Suspende Notificación de Email
+tracker_include_type	global_mail_notif	Notificación de Email global
+tracker_include_type	admin_note	<*B>Como administrador de rastreador</*B>  puedes proporcionar direcciones de correo electrónico (la coma separada) a qué sumisiones de Artefacto nuevas (y posiblemente actualizaciones) será sistemáticamente envió.
+tracker_include_type	send_all	Envía encima todas las  actualizaciones
+tracker_include_type	check_perms	Permisos de control
+tracker_include_type	admin_conf	<*P>Los administradores de rastreador han configurado las direcciones de correo electrónico siguientes para recibir notificación de sumisión de artefacto nuevo (y posiblemente actualizaciones).<*P><*u>*Recipients</*u>:
+tracker_include_type	send_all_or_not	(Envía encima todas las  actualizaciones: $1)
+tracker_include_type	admin_not_conf	<*P>El administrador de rastreador ha no todavía especificó direcciones de correo electrónico que sistemáticamente recibirá notificación de email de artefactos nuevos.
+tracker_include_type	perso_mail_notif	Notificación de Email personal
+tracker_include_type	users_to_watch	Usuarios para Mirar
+tracker_include_type	backup_person	Puedes recibir una copia de carbono de notificaciones de email envió a usuarios seguros de este proyecto. Lista el *login nombre de cualquier usuario  deseas mirar, separado por comas.</*b>
+tracker_include_type	watchers	Para vuestra información vuestras notificaciones de artefacto propias son actualmente miradas por: <*u>$1</*u>
+tracker_include_type	no_watcher	Para vuestra información <*u>nadie</*u> actualmente está mirando vuestras notificaciones de artefacto propias.
+tracker_include_type	event_settings	Función/de acontecimiento Encuadres Concretos
+tracker_include_type	tune_settings	Puedes poner a punto vuestros encuadres de notificación y decidir qué cambios de artefacto  quieres ser consciente de depender de vuestra función.
+tracker_include_type	role_is	Si mi función en un artefacto es:
+tracker_include_type	def_default	Define *Default Valor
+tracker_include_type	val	Valor
+tracker_include_type	unknown_stat	Estado desconocido
+tracker_include_type	report_system	Informando Sistema
+tracker_include_type	tracker_report_syst	El rastreador que Informa Sistema
+tracker_include_type	aging_rep	Envejeciendo Informe
+tracker_include_type	tracker_aging_rep	Informe de Envejecimiento del rastreador
+tracker_include_type	avg_time	Mediano *Turnaround Tiempo Para Cerrado $1
+tracker_include_type	nb_open	Número de Abierto $1
+tracker_include_type	rep_field	Informando encima campo
+tracker_include_type	open_by	Abierto $1 Por $2
+tracker_include_type	all_by	Todo $1 Por $2
+tracker_include_type	changing_items	Cambiando $1 artefacto seleccionado(*s):
+tracker_include_type	submit_mass_change	Entrega
+tracker_include_type	occurrence	Ocurrencia
+tracker_include_type	notify_me	Quiero ser notificado cuando:
+tracker_include_type	permissions	Permisos
+tracker_include_type	manage_permissions	Dirige Permisos
+tracker_include_type	manage_permissions_title	- Dirigir Permisos
+tracker_include_type	define_manage_permissions	Define permisos para el rastreador y sus campos
+tracker_include_type	manage_tracker_permissions	Dirige Permisos de Rastreador
+tracker_include_type	manage_tracker_permissions_title	- Dirigir Permisos de Rastreador
+tracker_include_type	define_manage_tracker_permissions	Define permisos en el rastreador
+tracker_include_type	manage_fields_tracker_permissions	Dirige Permisos de Campos
+tracker_include_type	manage_fields_tracker_permissions_title	- Dirigir Permisos de Campos
+tracker_include_type	define_manage_fields_tracker_permissions	Define permisos en los campos de rastreador
+tracker_include_type	edit_field_perm	Edita permisos de campo
+tracker_include_type	field_dependencies	Campo&*nbsp;Dependencias
+tracker_include_type	mng_field_dependencies	Dirige Dependencias de Campo
+tracker_include_type	mng_field_dependencies_title	- Dirigir Dependencias de Campo
+tracker_include_type	define_field_dependencies	Define qué los valores en un campo dependen de otros valores de campo.
+tracker_include_type	manage_fieldsets	Dirige Conjuntos de Campo
+tracker_include_type	define_manage_fieldsets	Define conjuntos de campo para el rastreador.
+tracker_include_type	fieldsets	Conjuntos de campo
+tracker_include_type	fieldset	El campo Puso
+tracker_include_type	create_fieldset	Crear un conjunto de campo nuevo
+tracker_include_type	list_all_fieldsets	Lista de todos conjuntos de campo
+tracker_include_type	fieldset_ident	Identificación de conjunto del campo y descripción
+tracker_include_type	fieldset_name	Etiqueta de conjunto del campo
+tracker_include_type	fieldset_desc	Descripción
+tracker_include_type	fieldset_display	Información de exhibición
+tracker_include_type	fields_inside	Campos
+tracker_include_type	update_fieldset	Campo de actualización pone '$1'
+tracker_include_type	warning_delete_fieldset	** AVISO!! ** Eliminar este conjunto de campo (ningún posible restaura operación)?
+tracker_include_type	rank_in_fieldset	El rango en Campo Puso
+tracker_include_type	current_date	Fecha actual.
+tracker_include_type	date_value	Valor de fecha:
+tracker_include_type	mass_change_permissions	Permisos de cambio
+
+
+tracker_include_type	add	Añade
+tracker_include_type	error_gn_default_not_added	Incapaz de añadir *default notificación global
+tracker_include_type	error_gn_not_added	Incapaz de añadir notificación global
+tracker_include_type	error_gn_not_deleted	Incapaz de eliminar notificación global
+tracker_include_type	error_missing_param	Parámetros desaparecidos
+tracker_include_type	info_gn_default_added	*Default La notificación global añadió
+tracker_include_type	info_gn_default_not_added	*Default La notificación global no añadida
+tracker_include_type	info_gn_deleted	La notificación global ha sido eliminada
+#
+#-----------------------------------------------
+# Script: SF/common/tracker/ArtifactCanned.class.php
+#
+tracker_common_canned	not_valid	Ningún Válido *ArtifactType objeto
+tracker_common_canned	name_requ	El nombre y la descripción están requeridos
+tracker_common_canned	perm_denied	El permiso Negó
+tracker_common_canned	invalid_id	Nulo *ArtifactCanned ID
+tracker_common_canned	missing_param	Desaparecido *Params
+#
+#-----------------------------------------------
+# Script: SF/common/tracker/Artifact.class.php
+#
+tracker_common_artifact	view_private	No eres dejado para acceder este rastreador
+tracker_common_artifact	view_private_artifact	No eres dejado para acceder este artefacto
+tracker_common_artifact	invalid_id	Nulo *ArtifactID
+tracker_common_artifact	row	Fila $1:
+tracker_common_artifact	double_subm	ERROR - SUMISIÓN DOBLE.  Has ya entregó un artefacto (*id=$1) con el mismo resumen.
+tracker_common_artifact	insert_err	INSERTA el artefacto nuevo falló. Informe al Administrador<*br>declaración de SQL:<*br>$1<*br>
+tracker_common_artifact	field_err	El artefacto creó, pero fallado para insertar el valor de campo - $1 : $2
+tracker_common_artifact	def_err	El artefacto creó, pero fallado para insertar el *default valor de campo - $1 : $2
+tracker_common_artifact	enter_email	Necesitas introducir un email!
+tracker_common_artifact	add_comment	El comentario añadió a artefacto
+tracker_common_artifact	comment_removed	Comentario de seguimiento sacó
+tracker_common_artifact	err_del_comment	El error que elimina Comentario de Seguimiento ID $1: $2
+tracker_common_artifact	err_upd_comment	El error que edita Comentario de Seguimiento ID $1: $2
+tracker_common_artifact	field_upd_fail	Fallado para actualizar el valor de campo $1
+tracker_common_artifact	canned_used	*Canned La respuesta Utilizó
+tracker_common_artifact	unable_canned	Incapaz de utilizar *Canned Respuesta
+tracker_common_artifact	upd_fail	La ACTUALIZACIÓN FALLÓ
+tracker_common_artifact	cc_add_fail	CC adición falló
+tracker_common_artifact	prob_cc_list	El problema que elimina viejo CC Lista (ayuda=$1).
+tracker_common_artifact	err_cc_id	Error CC ID $1 no pertenece a artefacto ID
+tracker_common_artifact	err_del_cc	El error que elimina CC ID $1: $2
+tracker_common_artifact	cc_remove	CC Sacó
+tracker_common_artifact	invalid_art	Artefacto nulo #$1
+tracker_common_artifact	depend_add_fail	Adición de dependencias para artefacto #$1 falló
+tracker_common_artifact	depend_removed	La dependencia Sacó
+tracker_common_artifact	bad_field_permission_submission	No eres dejado para entregar el campo $1.
+tracker_common_artifact	bad_field_permission_update	No eres dejado para actualizar el campo $1.
+tracker_common_artifact	bad_field_value	El valor $2 no es un valor válido para el campo $1.
+tracker_common_artifact	followup_upd_succ	Actualización de Comentario del seguimiento Exitosa.
+tracker_common_artifact	followup_upd_fail	Actualización de Comentario del seguimiento Falló.
+tracker_common_artifact	mandatory_not_set	Fallado para entregar el artefacto: Algunos campos obligatorios qué está escondido ha sido puesto a 'Ninguno' valor, complacer contactar el rastreador *admin.
+#
+#-----------------------------------------------
+# Script: SF/common/tracker/ArtifactFactory.class.php
+#
+tracker_common_factory	db_err	Error de base de datos
+#
+#-----------------------------------------------
+# Script: SF/common/tracker/ArtifactField.class.php
+#
+tracker_common_field	unkown	Tipo de exhibición desconocida
+tracker_common_field	not_found	(Error - No Encontrado)
+tracker_common_field	name_requ	Nombre de campo, tipo de dato o tipo de exhibición están requeridos.
+tracker_common_field	upd_err	Error durante actualizar campo_de artefacto ($1-$2): $3
+tracker_common_field	use_err	Error durante actualizar uso_de campo_del artefacto ($1-$2): $3
+tracker_common_field	del_err	Error durante eliminar campo_de artefacto ($1-$2): $3
+tracker_common_field	use_del_err	Error durante eliminar uso_de campo_del artefacto ($1-$2): $3
+tracker_common_field	vl_ins_err	Error durante insertar lista_de valor_de campo_de artefacto ($1-$2-$3): $4
+tracker_common_field	vl_upd_err	Error durante actualizar lista_de valor_de campo_de artefacto ($1-$2-$3): $4
+tracker_common_field	vl_del_err	Error durante eliminar lista_de valor_de campo_de artefacto ($1-$2-$3): $4
+tracker_common_field	val_requ	Nombre de valor está requerido.
+tracker_common_field	val_exist	Este valor *id ya existe.
+tracker_common_field	val_id_requ	Valor *id y nombre de valor está requerido.
+#
+#-----------------------------------------------
+# Script: SF/common/tracker/ArtifactFieldFactory.class.php
+#
+tracker_common_field_factory	missing	Campos desaparecidos: $1. Valores vacíos para el campo encima listado(*s) no es dejado.
+tracker_common_field_factory	use_ins_err	Error durante insertar uso_de campo_del artefacto ($1-$2): $3
+tracker_common_field_factory	vl_ins_err	Error durante insertar lista_de valor_de campo_de artefacto ($1-$2): $3
+tracker_common_field_factory	label_requ	Etiqueta de campo, tipo de dato o tipo de exhibición están requeridos.
+tracker_common_field_factory	ins_err	Error durante insertar campo_de artefacto ($1-$2): $3
+tracker_common_field_factory	ugroup_not_exist	El campo $1 no podría ser atado al *unkown grupo de usuario $2
+#
+#-----------------------------------------------
+# Script: SF/common/tracker/ArtifactFile.class.php
+#
+tracker_common_file	invalid	Ningún Artefacto Válido
+tracker_common_file	name_requ	Nombre de archivo, tipo, medida, y el dato está Requerido
+tracker_common_file	del_err	Incapaz de Eliminar
+tracker_common_file	invalid_id	Nulo *ArtifactFile ID
+#
+#-----------------------------------------------
+# Script: SF/common/tracker/ArtifactFromID.class.php
+#
+tracker_common_fromid	not_create	No podría Crear *ArtifactType
+tracker_common_fromid	not_create_a	No podría Crear Artefacto
+#
+#-----------------------------------------------
+# Script: SF/common/tracker/ArtifactGroup.class.php
+#
+tracker_common_group	name_requ	El nombre está Requerido
+tracker_common_group	invalid	Nulo *ArtifactGroup ID
+#
+#-----------------------------------------------
+# Script: SF/common/tracker/ArtifactReport.class.php
+#
+tracker_common_report	name_requ	Nombre, la descripción y el alcance están requeridos
+tracker_common_report	not_found	*fetchData Informa no encontrado
+#
+#-----------------------------------------------
+# Script: SF/common/tracker/ArtifactReportFactory.class.php
+#
+tracker_common_reportfactory	ins_err	Error durante insertar informe_de artefacto ($1-$2): $3
+tracker_common_reportfactory	f_ind_err	Error durante insertar campo_de informe_del artefacto ($1-$2): $3
+#
+#-----------------------------------------------
+# Script: SF/common/tracker/Artifacts.class.php
+#
+tracker_common_artifacts	not_get	No podría conseguir artefactos: $1
+#
+#-----------------------------------------------
+# Script: SF/common/tracker/ArtifactType.class.php
+#
+tracker_common_type	invalid	Ningún Objeto de Grupo Válido
+tracker_common_type	no_match	Grupo_*id en *db el resultado no empareja Objeto de Grupo
+tracker_common_type	perm_fail	Fallado para crear permiso de usuario: $1
+tracker_common_type	name_requ	Nombre, Descripción, y el nombre Corto está requerido.
+tracker_common_type	invalid_shortname	Nombre corto nulo: $1. Complacer uso sólo *alphanumerical caracteres o un *unreserved referencia. Prensa el "botón" Posterior y actualizar esta información.
+tracker_common_type	invalid_templ	Grupo nulo_*id_plantilla
+tracker_common_type	load_fail	Fallado para cargar el rastreador nuevo
+tracker_common_type	invalid_at	Nulo *ArtifactTypeID
+tracker_common_type	invalid_date	Fecha de retraso no tiene que ser antiguamente
+tracker_common_type	perm_err	Error durante actualizar permiso de usuario - usuario_*id=$1 - $2
+tracker_common_type	invalid_name	Error nombre de usuario Nulo '$1'
+tracker_common_type	copy_fail	Error durante insertar acontecimiento de notificación
+tracker_common_type	notif_fail	Error durante insertar función de notificación
+tracker_common_type	del_err	El error que elimina dependencias $1: $2
+tracker_common_type	none_found	Ninguno Encontró
+tracker_common_type	invalid_mail	"$1" no es una dirección de correo electrónico válida
+tracker_common_type	no_view_permission	No tienes los permisos para ver este rastreador.
+tracker_common_type	shortname_already_exists	El nombre corto "$1" es ya utilizó. Complacer uso otro. Prensa el "botón" Posterior y actualizar esta información.
+tracker_common_type	name_already_exists	El nombre de rastreador es ya utilizó. Complacer uso otro. Prensa el "botón" Posterior y actualizar esta información.
+
+
+#
+#-----------------------------------------------
+# Script: SF/common/tracker/ArtifactTypes.class.php
+#
+tracker_common_types	err_bugs	El error que Crea *ArtifactType para Rastreador de Bicho
+tracker_common_types	bugs	Bichos
+tracker_common_types	bug_desc	El bicho que Sigue Sistema
+tracker_common_types	bug_ex	Interfaz (ejemplo)
+tracker_common_types	v1_ex	*v1.0 (ejemplo)
+tracker_common_types	fail_bug	Fallado para crear rastreador de bicho: $1
+tracker_common_types	err_sr	El error que Crea *ArtifactType para Rastreador de soporte
+tracker_common_types	sr	Peticiones de soporte
+tracker_common_types	sr_desc	Soporte de tecnología que Sigue Sistema
+tracker_common_types	sr_ex	Instala Problema (ejemplo)
+tracker_common_types	fail_sr	Fallado para crear rastreador de soporte: $1
+tracker_common_types	err_patch	El error que Crea *ArtifactType para Rastreador de remiendo
+tracker_common_types	patch	Remiendos
+tracker_common_types	patch_desc	El remiendo que Sigue Sistema
+tracker_common_types	patch_ex1	*Widget (Ejemplo)
+tracker_common_types	patch_ex2	Inestable (ejemplo)
+tracker_common_types	fail_patch	Fallado para crear rastreador de remiendo: $1
+tracker_common_types	err_fr	El error que Crea *ArtifactType para Rastreador de característica
+tracker_common_types	fr	Peticiones de característica
+tracker_common_types	fr_desc	Petición de característica que Sigue Sistema
+tracker_common_types	fr_ex1	Mejoras de interfaz (ejemplo)
+tracker_common_types	fr_ex2	Liberación próxima (ejemplo)
+tracker_common_types	fail_fr	Fallado para crear rastreador de petición de la característica: $1
+tracker_common_types	role_SUBMITTER_short_desc	*Submitter
+tracker_common_types	role_ASSIGNEE_short_desc	*Assignee
+tracker_common_types	role_CC_short_desc	CC
+tracker_common_types	role_COMMENTER_short_desc	*Commenter
+tracker_common_types	role_SUBMITTER_desc	La persona quién entregó el artefacto
+tracker_common_types	role_ASSIGNEE_desc	La persona a quien el artefacto estuvo asignado
+tracker_common_types	role_CC_desc	La persona quién es en la CC lista
+tracker_common_types	role_COMMENTER_desc	Una persona quién una vez *posted un comentario de seguimiento
+tracker_common_types	event_ROLE_CHANGE_short_desc	La función ha cambiado
+tracker_common_types	event_NEW_COMMENT_short_desc	Comentario nuevo
+tracker_common_types	event_NEW_FILE_short_desc	Anexo nuevo
+tracker_common_types	event_CC_CHANGE_short_desc	CC Cambio
+tracker_common_types	event_CLOSED_short_desc	El artefacto cerró
+tracker_common_types	event_PSS_CHANGE_short_desc	*PSS Cambio
+tracker_common_types	event_ANY_OTHER_CHANGE_short_desc	Cualquiera otros Cambios
+tracker_common_types	event_I_MADE_IT_short_desc	Yo  él
+tracker_common_types	event_NEW_ARTIFACT_short_desc	Artefacto nuevo
+tracker_common_types	event_ROLE_CHANGE_desc	Estoy añadido a o sacado de esta función
+tracker_common_types	event_NEW_COMMENT_desc	Un nuevo *followup el comentario está añadido
+tracker_common_types	event_NEW_FILE_desc	Un anexo de archivo nuevo está añadido
+tracker_common_types	event_CC_CHANGE_desc	Un nuevo CC dirección es añadió/sacado
+tracker_common_types	event_CLOSED_desc	El artefacto está cerrado
+tracker_common_types	event_PSS_CHANGE_desc	Prioridad,Estado,cambios de Severidad
+tracker_common_types	event_ANY_OTHER_CHANGE_desc	Cualquiera cambia no mencionado encima
+tracker_common_types	event_I_MADE_IT_desc	Soy el autor  del cambio
+tracker_common_types	event_NEW_ARTIFACT_desc	Un artefacto nuevo ha sido entregado
+tracker_common_types	event_COMMENT_CHANGE_desc	Un *followup el comentario ha sido cambiado
+#
+# Tracker permissions
+#
+#
+tracker_admin_permissions	fields_no_ugroups	<*div><*em>Ningún grupo de usuario tiene acceso a este rastreador</*em></*div>
+tracker_admin_permissions	fields_tracker_intro	<*div></*div>
+tracker_admin_permissions	fields_tracker_toggle_field	<*div> Puedes <un *href='$1'>cambio al 'campo' vista</un> por *clicking en una etiqueta de campo en la mesa abajo.</*div>
+tracker_admin_permissions	fields_tracker_toggle_group	<*div> Puedes <un *href='$1'>cambio al 'grupo de usuario' vista</un> por *clicking en un nombre de grupo en la mesa abajo.</*div>
+tracker_admin_permissions	ignore_g_anon_read	Ignorando grupo '$1' porque '$2' está dejado para leer
+tracker_admin_permissions	ignore_g_anon_submit	Ignorando grupo '$1' porque '$2' está dejado para entregar
+tracker_admin_permissions	ignore_g_anon_update	Ignorando grupo '$1' porque '$2' está dejado para actualizar
+tracker_admin_permissions	ignore_g_regis_read	Ignorando grupo '$1' porque '$2' está dejado para leer
+tracker_admin_permissions	ignore_g_regis_submit	Ignorando grupo '$1' porque '$2' está dejado para entregar
+tracker_admin_permissions	ignore_g_regis_update	Ignorando grupo '$1' porque '$2' está dejado para actualizar
+tracker_admin_permissions	ignore_g_tech_update	Ignorando grupo '$1' porque '$2' está dejado para actualizar
+tracker_admin_permissions	ignore_ug_during_copy	Complacer nota que algunos permisos de rastreador original no han sido copiados
+tracker_admin_permissions	permissions	Permisos de acceso
+tracker_admin_permissions	TRACKER_ACCESS_FULL	Tiene acceso a todos los  artefactos
+tracker_admin_permissions	TRACKER_ACCESS_ASSIGNEE	Tiene el acceso a artefactos asignó para agrupar
+tracker_admin_permissions	TRACKER_ACCESS_SUBMITTER	Tiene el acceso a artefactos entregó por grupo
+tracker_admin_permissions	TRACKER_ACCESS_ASSIGNEE_AND_TRACKER_ACCESS_SUBMITTER	Tiene el acceso a artefactos asignó a o entregado por grupo
+tracker_admin_permissions	TRACKER_FIELD_SUBMIT	Puede Entregar
+tracker_admin_permissions	TRACKER_FIELD_READ	Leído Sólo
+tracker_admin_permissions	TRACKER_FIELD_UPDATE	Actualización
+tracker_admin_permissions	TRACKER_NONE	-
+tracker_admin_permissions	tracker_ignore_g_anon_full	Ignorando grupo '$1' porque '$2' tener acceso a todos los  artefactos
+tracker_admin_permissions	tracker_ignore_g_regis_full	Ignorando grupo '$1' porque '$2' tener acceso a todos los  artefactos
+tracker_admin_permissions	tracker_ignore_g_regis_assignee	Ignorando grupo '$1' porque '$2' tener el acceso a artefactos asignó para agrupar
+tracker_admin_permissions	tracker_ignore_g_regis_submitter	Ignorando grupo '$1' porque '$2' tener el acceso a artefactos entregó por grupo
+tracker_admin_permissions	tracker_ignore_g_regis_submitter_assignee	Ignorando grupo '$1' porque '$2' tener el acceso a artefactos asignó a o entregado por grupo
+tracker_admin_permissions	tracker_intro	<*div></*div>
+tracker_admin_permissions	ugroup	Grupo de usuario
+tracker_admin_permissions	ug_may_have_no_access	<*div>* Denota el usuario agrupa que no puede tener acceso al rastreador (ningún <un *href="$1">permiso de rastreador</un> conjunto).</*div>
+#
+# Tracker field dependencies
+#
+#
+tracker_field_dependencies	noscript	Un *javascript el navegador habilitado es obligatorio de dirigir dependencias de campo.
+tracker_field_dependencies	choose_field	-- Escoger campo
+#tracker_field_dependencies	if_then	If field %1 is selected to %2 then field %3 will propose %4
+tracker_field_dependencies	source	Fuente:
+tracker_field_dependencies	target	Objetivo:
+tracker_field_dependencies	saved	Salvado exitosamente
+tracker_field_dependencies	inline_help	Seleccionar un campo de fuente y un campo de objetivo para editar dependencias entre ellos.
+#
+#--------------------------------------
+# Tracker fieldsets
+# Script: SF/www/tracker/admin/fieldset.php
+#
+tracker_admin_fieldset	tracker_admin	Administración de rastreador
+tracker_admin_fieldset	fieldset_admin	Administración de Conjuntos del campo
+#
+#-----------------------------------------------
+# Script: SF/common/tracker/ArtifactFieldSet.class.php
+#
+tracker_common_fieldset	invalid_at	Nulo *ArtifactFieldSetID
+tracker_common_fieldset	name_requ	Etiqueta de conjunto del campo está requerida.
+tracker_common_fieldset	fieldset_default_lbl_key	Detalles
+tracker_common_fieldset	fieldset_default_desc_key	Detalles del artefacto
+tracker_common_fieldset	fieldset_default_bugs_lbl_key	Detalles
+tracker_common_fieldset	fieldset_default_bugs_desc_key	Detalles del bicho
+tracker_common_fieldset	fieldset_status_bugs_lbl_key	Estado
+tracker_common_fieldset	fieldset_status_bugs_desc_key	Estado del bicho
+tracker_common_fieldset	fieldset_default_patches_lbl_key	Detalles
+tracker_common_fieldset	fieldset_default_patches_desc_key	Detalles del remiendo
+tracker_common_fieldset	fieldset_patchtext_patches_lbl_key	Pasta el remiendo aquí (el texto único)
+tracker_common_fieldset	fieldset_patchtext_patches_desc_key	Pasta el remiendo aquí (el texto único) O sujetar él como archivo en el 'Anexos' sección
+tracker_common_fieldset	fieldset_status_patches_lbl_key	Estado
+tracker_common_fieldset	fieldset_status_patches_desc_key	Estado del remiendo
+tracker_common_fieldset	fieldset_default_SR_lbl_key	Detalles
+tracker_common_fieldset	fieldset_default_SR_desc_key	Detalles de la petición de soporte
+tracker_common_fieldset	fieldset_status_SR_lbl_key	Estado
+tracker_common_fieldset	fieldset_status_SR_desc_key	Estado de la petición de soporte
+tracker_common_fieldset	fieldset_default_tasks_lbl_key	Detalles
+tracker_common_fieldset	fieldset_default_tasks_desc_key	Detalles de la tarea
+tracker_common_fieldset	fieldset_status_tasks_lbl_key	Estado
+tracker_common_fieldset	fieldset_status_tasks_desc_key	Estado de la tarea
+tracker_common_fieldset	fieldset_default_slmbugs_lbl_key	Detalles
+tracker_common_fieldset	fieldset_default_slmbugs_desc_key	Detalles de Salomé bicho
+tracker_common_fieldset	fieldset_salome_slmbugs_lbl_key	Salomé
+tracker_common_fieldset	fieldset_salome_slmbugs_desc_key	Conjunto de campo de la Salomé
+tracker_common_fieldset	fieldset_status_slmbugs_lbl_key	Estado
+tracker_common_fieldset	fieldset_status_slmbugs_desc_key	Estado de la Salomé bicho
+tracker_common_fieldset	fieldset_scrum_status_lbl_key	Estado
+tracker_common_fieldset	fieldset_scrum_status_desc_key	Estado, relacionado a *SCRUM
+tracker_common_fieldset	fieldset_scrum_description_lbl_key	Descripción
+tracker_common_fieldset	fieldset_scrum_description_desc_key	Descripción de la historia
+#
+#-----------------------------------------------
+# Script: SF/common/tracker/ArtifactFieldSetFactory.class.php
+#
+tracker_common_fieldset_factory	delete_only_empty_fieldset	No dejado para eliminar campo no vacío conjunto.
+tracker_common_fieldset_factory	label_requ	Etiqueta de conjunto del campo está requerida.
+tracker_common_fieldset_factory	ins_err	Error durante insertar conjunto_de campo_del artefacto ($1-$2): $3

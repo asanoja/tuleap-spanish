@@ -1,0 +1,12 @@
+#
+# Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+# This file is licensed under the GNU General Public License version 2. See the file COPYING.
+#
+server	error_alreadyid	Un servidor con *id $1 ya existe
+server	error_emptyid	*Id No puede ser vacío
+server	error_emptyname	El nombre no puede ser vacío
+server	error_integerid	*Id Tiene que ser un entero
+server	error_missinghttp	Tienes que proporcionar un http o un https *url
+server	error_missingparams	Parámetros desaparecidos
+
+

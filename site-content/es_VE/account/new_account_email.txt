@@ -1,0 +1,36 @@
+<?php
+// Copyright (c) Enalean, 2015. All Rights Reserved.
+//
+// Codendi
+// Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+// http://www.codendi.com
+//
+// 
+//
+$title = "Bienvenido a ".$GLOBALS['sys_name']."!";
+
+$section_one = "Usted ya es un usuario registrado, con el nombre de usuario: ";
+
+$section_two = "Como usuario registrado, usted puede participar completamente en las actividades del sitio Web ".$GLOBALS['sys_name'].". "
+               ."Puede usar los foros, suscribirse en las lista de correo, navegar por la lista de los proyectos o, inclusive, comenzar el suyo propio"
+               .".";
+
+$section_three = "** INFORMACION IMPORTANTE **\n\nMientras espera que su cuenta este disponible, puede tomar un tiempo mas para ".$GLOBALS['sys_name']
+                   ." crear su cuenta de console. Algunas caracteristicas como CVS y el acceso SVN dependen de ello. Su cuenta de consola sera activada en menos de dos"
+                   ." horas apartir de este momento. \n\n\nMientras tanto recomendamos que navegue por el sitio, lea "
+                   ."la documentación del sitio y finalice se configurar su perfil de usuario "
+                   ."(Defina sus preferencias, etc.)\n\n\nDisfrute el sitio, denos sus impresiones de manera tal que podamos mejorar el sitio "
+                   .$GLOBALS['sys_name']." y hablar sobre ".$GLOBALS['sys_name'].".";
+
+$section_after_login = " y la contaseña: ";
+
+$section_after_password = ". \nPor favor cambie la contraseña luego de su primera conexión al sitio.";
+
+$thanks = "¡Gracias!";
+
+$signature = "- El Equipo de ".$GLOBALS['sys_name'];
+
+$help = "Para mas información contacte: ".$GLOBALS['sys_email_admin'];
+
+$message = $title . "\n\n" .  $section_one . $login . $section_after_login . $password . $section_after_password."\n\n" . $section_two . "\n\n"
+            .$section_three. "\n\n".$thanks. "\n\n" .$signature. "\n\n" .$help;

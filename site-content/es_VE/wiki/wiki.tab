@@ -1,0 +1,160 @@
+#/**
+#  *
+#  * wiki class scripts message catalog (English)
+#  *
+#  * Codendi 
+#  * Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#  * http://www.codendi.com
+#  *
+#  *
+#  */
+#
+#-----------------------------------------------
+# Script: SF/common/wiki/views/WikiServiceViews.class.php
+#
+wiki_views_wikiserviceviews	wiki_title	Wiki de $1	
+wiki_views_wikiserviceviews	wiki_page_title	$1 en $2	
+wiki_views_wikiserviceviews	wiki_subtit_docu	<h3>$1Documentos del Wiki</h3>	
+wiki_views_wikiserviceviews	wiki_subtit_pages	<h3>$1Paginas del Wiki</h3>	
+wiki_views_wikiserviceviews	wiki_subtit_empty	<h3>$1Paginas del Wiki Vacias</h3>	
+wiki_views_wikiserviceviews	wiki_subtit_create	<h3>$1Crear nueva página de Wiki</h3>	
+wiki_views_wikiserviceviews	wikientries	<li>$1<p><em>Descripción:&nbsp;</em>$2</p></li>	
+wiki_views_wikiserviceviews	pagename	Nombre de la página:	
+wiki_views_wikiserviceviews	menuadmin	Administrador	
+wiki_views_wikiserviceviews	menupages	Páginas	
+wiki_views_wikiserviceviews	menudocuments	Documentos	
+wiki_views_wikiserviceviews	menuattch	Adjuntar un archivo	
+wiki_views_wikiserviceviews	attatch_page	Subir	
+wiki_views_wikiserviceviews	menuprefs	Preferencias	
+wiki_views_wikiserviceviews	preferences_page	PreferenciasUsuario	
+wiki_views_wikiserviceviews	lock_title_spec	Hay permisos específicos en esta página del Wiki	
+wiki_views_wikiserviceviews	lock_title_set	hay permisos establecidos en este Wiki	
+wiki_views_wikiserviceviews	lock_alt	Bloquear	
+wiki_views_wikiserviceviews	lighter_display	Visualización ligera - haga click en el logo de phpWiki para volver a la visualización normal	
+wiki_views_wikiserviceviews	install_intro	<h2>Creación de un Wiki</h2><p>Este proyecto no ha sido inicializado su Wiki todavia.</p><p>Para crear un wiki, selecione el idioma para el mismo, luego presione el botón "$1".</p><p><b>Nota:</b> <ul><li>El idioma del Wiki no puede ser modificado luego de su creación,</li><li>un Wiki creado con otro idioma diferente al Inglés puede contener algunas páginas en ese idioma.</li></ul></p>	
+wiki_views_wikiserviceviews	wiki_language	Idioma del Wiki:	
+#
+#-----------------------------------------------
+# Script: SF/common/wiki/views/WikiViews.class.php
+#
+wiki_views_wikiviews	title_error	Terminando con errores	
+wiki_views_wikiviews	not_activate	<H2><span class="feedback">El Servicio de Wiki Service no ha sido activado</span></H2><p>El Servicio Wiki para el proyecto $1 requiere una activación por medio del administrador de proyectos o el administrador del Wiki.</p>	
+wiki_views_wikiviews	set_perm_title	<h3>Establecer permisos de la página del Wiki</h3>	
+wiki_views_wikiviews	empty_page	<h2><span class="feedback">Esta página no existe</span></h2><p>Puede establecer los permisos solamente en las páginas existentes. Debe crear la página en el motor del Wiki  antes de establecer sus permisos.</p><p>Para crear una página, simplemente debe editarla.</p><p><strong>Nota:</strong> Una página que contenga solamente "Describa NombrePágina? aca" es una página vacia desde el punto de vista del motor del Wiki.</p>	
+wiki_views_wikiviews	not_empty_page	<p>Puede establecer permisos particulares para la Página Wiki <strong>$1</strong>. Estos <strong>permisos sólo aplican a esta página</strong>.</p><p>De manera predeterminada, las páginas del Wiki no tienen permisos específicos: el acceso a todas las páginas del Wiki son otorgadas a cualquier usuario registrado.</p><p><strong>Recuerde:</strong> El acceso a una página implica que <strong>cada miembro</strong> de <strong>cada</strong> uno de los <strong>grupos seleccionados</strong> pueden <strong>leer</strong> y <strong>escribir</strong> en la página correspondiente.</p><p>Seleccione un grupo de usuarios a quienes se le otorga acceso a este Wiki:<p>	
+#
+#-----------------------------------------------
+# Script: SF/common/wiki/lib/WikiAttachment.class.php
+#
+wiki_lib_attachment	err_alpha	El ERROR que carga $1: nombres de Archivo sólo pueden contener punto y caracteres alfanuméricos, *underscore o pizca.
+wiki_lib_attachment	err_insert	No puede insertar revisión de anexo nuevo.
+wiki_lib_attachment	err_create_upload_dir	Incapaz de crear el proyecto carga área
+wiki_lib_attachment	err_create_file_dir	Incapaz de crear área de revisión del archivo
+wiki_lib_attachment	err_multi_id	Hay identificador múltiple para un anexo.Complacer contactar un administrador
+#
+#-----------------------------------------------
+# Script: SF/common/wiki/lib/WikiAttachmentRevision.class.php
+#
+wiki_lib_attachment_rev	err_multi_id	Hay identificador múltiple para un anexo. Complacer <un *href="*mailto:$1?@Subject=*Wiki Error de Anexo (*attch:$2,*rev:$3)" el título="Envía un correo a $4 administradores">contactan</un> un $4 administrador.
+wiki_lib_attachment_rev	err_upl_mv	Carga de '$1' fallado.
+wiki_lib_attachment_rev	err_create	Un error ocurrió encima creación de revisión del anexo. Entrada de base de datos no creada.
+wiki_lib_attachment_rev	err_too_big	Triste pero este archivo es demasiado grande.
+#
+#-----------------------------------------------
+# Script: SF/common/wiki/lib/WikiEntry.class.php
+#
+wiki_lib_wikientry	insert_err	No puede insertar nuevo *wiki entrada: $1
+wiki_lib_wikientry	delete_err	No puede eliminar *wiki entrada: $1
+wiki_lib_wikientry	update_err	No puede actualizar *wiki entrada: $1
+wiki_lib_wikientry	no_update	*Wiki Entrada "$1" no actualizado
+#
+#-----------------------------------------------
+# Script: SF/common/wiki/lib/WikiPage.class.php
+#
+wiki_lib_wikipage	notunique_err	*Wiki La página no es única. Complacer contactar un administrador.
+#
+#-----------------------------------------------
+# Script: SF/common/wiki/lib/WikiPageWrapper.class.php
+#
+wiki_lib_wikipagewrap	new_page_text	$1 páginas de tienda crearon con interfaz principal:
+wiki_lib_wikipagewrap	page_added	Añadido $1
+wiki_lib_wikipagewrap	right_error	Esta operación requiere *admin derechos
+wiki_lib_wikipagewrap	dfltentryname	*Wiki Casa
+wiki_lib_wikipagewrap	dfltentrydesc	Inicial *Wiki Documento
+wiki_lib_wikipagewrap	dfltentrypage	*HomePage
+#
+#-----------------------------------------------
+# Script: SF/common/wiki/actions/WikiServiceAdminActions.class.php
+#
+wiki_actions_wikiserviceadmin	page_name_empty_err	Intentas crear un *Wiki el documento pero tú no seleccionaron cualquier página.  Tienes que crear un *Wiki Página antes de crear un *Wiki Documento.
+wiki_actions_wikiserviceadmin	update_perm_err	No podría actualizar permisos: <*p>$1</*p>
+wiki_actions_wikiserviceadmin	update_page_perm_err	No podría actualizar permisos en este *Wiki Página: <*p>$1</*p>
+wiki_actions_wikiserviceadmin	update_attachment_perm_err	No podría actualizar permisos en este *Wiki Anexo: <*p>$1</*p>
+wiki_actions_wikiserviceadmin	delete_attachment_success	*Wiki Anexo(*s) Eliminó
+wiki_actions_wikiserviceadmin	delete_attachment_failure	Un error *occured mientras eliminando *attachement(*s)
+#
+#-----------------------------------------------
+# Script: SF/common/wiki/WikiService.class.php
+#
+wiki_wikiservice	acces_denied_whole	No eres autorizado para acceder este *Wiki. Complacer contactar un <Un *HREF="$1">Administrador de Proyecto</Un>.
+wiki_wikiservice	acces_denied_page	No eres autorizado para acceder este *Wiki Página. Complacer contactar un <Un *HREF="$1">Administrador de Proyecto</Un>.
+#
+#-----------------------------------------------
+# Script: SF/common/wiki/views/WikiServiceAdminViews.class.php
+#
+wiki_views_wkserviews	title	*Wiki Administración para $1
+wiki_views_wkserviews	entry_em	<*em>Mostró en *wiki servicio *default página (p. ej. documentaciones de Desarrollo)</*em>
+wiki_views_wkserviews	entry_name	Nombre de entrada:
+wiki_views_wkserviews	wikipage	*WikiPage:
+wiki_views_wkserviews	givename	O dar un nombre de página:
+wiki_views_wkserviews	wikipage_em	<*em>Selecciona un <un *href="$1&vista=*wikiPages">Proyecta *Wiki Página</un> o introducir otro *WikiPage nombre (si la página no existe,  sea creado).</*em>
+wiki_views_wkserviews	description	Descripción:
+wiki_views_wkserviews	description_em	<*em>Descripción del *Wiki documento</*em>
+wiki_views_wkserviews	rank_screen	Rango encima pantalla:
+wiki_views_wkserviews	rank_screen_em	<*em>Los documentos están mostrados con esta referencia</*em>
+wiki_views_wkserviews	wikidocs_title	<*h2>*Wiki '$1' - Dirigir *Wiki Documentos</*h2>
+wiki_views_wkserviews	wikidocs_create	<*h3>$1Crea un nuevo *Wiki Documento</*h3>
+wiki_views_wkserviews	wikidocs_docs	<*h3>$1*Wiki Documentos</*h3>
+wiki_views_wkserviews	back_admin	Atrás a *admin tablero
+wiki_views_wkserviews	createwikidoc	<*p> Puedes añadir un enlace nuevo a un *Wiki Página con la forma siguiente.  Añada una entrada nueva en la lista de *Wiki los documentos mostraron en *Wiki página de servicio (<un *href="$1">Vista</un> enlace en la barra de herramienta).</*p>
+wiki_views_wkserviews	act_create	Crea
+wiki_views_wkserviews	act_update	Actualización
+wiki_views_wkserviews	browsedoc	<*p>Lista de todo *Wiki los documentos mostraron en el *wiki página de servicio.  Puedes:</*p><*ul><*li>edita cada *Wiki Documento con el enlace en el nombre.</*li><*li>Permisos de conjunto en un *Wiki Documento.</*li><*li>Elimina un *Wiki Documento (el correspondiente *Wiki la página no será eliminada)</*li></*ul>
+wiki_views_wkserviews	define_perms	Define Permisos
+wiki_views_wkserviews	edit_perms	Edita Permisos
+wiki_views_wkserviews	deletedoc	Elimina $1 documento
+wiki_views_wkserviews	updatedoc	<*h2>*Wiki '$1' - Actualizar *Wiki Documento</*h2>
+wiki_views_wkserviews	wkpage_title	<*h2>*Wiki '$1' - Dirigir *Wiki Páginas</*h2>
+wiki_views_wkserviews	wkpage_project	<*h3>$1páginas de Proyecto</*h3>
+wiki_views_wkserviews	wkpage_pj_all	<*p>El bramido de mesa lista todas las  páginas  escribiste.</*p>
+wiki_views_wkserviews	wkpage_empty	<*h3>$1páginas Vacías</*h3>
+wiki_views_wkserviews	wkpage_emp_all	<*p>El bramido de mesa lista todas las  páginas  creaste pero quieto vacío.</*p>
+wiki_views_wkserviews	wkpage_admin	<*h3>$1*Admin páginas</*h3>
+wiki_views_wkserviews	wkpage_adm_all	<*p>El bramido de mesa lista todas páginas de administración.  Puedes utilizar estas páginas para propósito de administración. <Fuerte>Complacer utilizarlo cuidadosamente</fuerte>. En caso de duda, copia de seguridad vuestro *wiki antes de eliminar/rebautizando/reemplazando una página.</*p>
+wiki_views_wkserviews	wkpage_intern	<*h3>$1páginas Internas</*h3>
+wiki_views_wkserviews	wkpage_int_all	<*p>Las páginas siguientes son para *wiki el motor <fuerte>el uso reservado interno</fuerte>. Complacer utilizarlo cuidadosamente.  Tienes que <fuerte>no utilizar o modificar estas páginas</fuertes> si no sabe bien *PhpWiki. En caso de duda, no toca estas páginas.</*p>
+wiki_views_wkserviews	wikiperm	<*h2>*Wiki '$1' - *Wiki Permisos</*h2><*p> puedes poner permisos concretos en $2. Estos permisos aplican a <fuertes>enteros *wiki el servicio</fuerte>.</*p><*p>Por *default, *Wiki tiene no permisos concretos: acceso (ambos <fuerte>leído</fuerte> y <fuerte>escribe</fuerte>) a todo *Wiki las páginas está concedida a cualquier usuario registrado.</*p><*p>Selecciona el usuario agrupa quiénes están concedidos acceso  a este *Wiki:<*p>
+wiki_views_wkserviews	attachment_name	Nombre
+wiki_views_wkserviews	attachment_revisions	Revisiones
+wiki_views_wkserviews	attachment_permissions	Permisos
+wiki_views_wkserviews	attachment_title	<*h2>*Wiki '$1' - *Wiki Anexos</*h2>
+wiki_views_wkserviews	perm_attachment_title	<*h2>*Wiki '$1' - *Wiki Permisos de Anexo</*h2>
+wiki_views_wkserviews	wiki_attachment_perm	<*p> Puedes poner permisos concretos en $1. Estos permisos aplican a <fuertes>todas las  revisiones de este anexo</fuerte>.</*p><*p>Por *default, *WikiAttachment tiene no permisos concretos: el acceso está concedido a cualquier usuario registrado.</*p> <*p>Cualquier lata de usuario concedida:<*ul><*li>Explora cada revisión de este *WikiAttachment.</*li><*li>Añade una revisión nueva de este *WikiAttachment.</*li></*ul></*p><*p>Selecciona el usuario agrupa quiénes están concedidos acceso  a este *WikiAttachment:<*p>
+wiki_views_wkserviews	browse_attachment_title	<*h2>*Wiki '$1' - *Wiki Anexos $2</*h2>
+wiki_views_wkserviews	attachment_revision	Revisión
+wiki_views_wkserviews	attachment_date	Fecha
+wiki_views_wkserviews	attachment_author	Autor
+wiki_views_wkserviews	attachment_size	Medida
+wiki_views_wkserviews	attachment_delete	Elimina
+wiki_views_wkserviews	doc_name	Nombre
+wiki_views_wkserviews	doc_page	Página
+wiki_views_wkserviews	doc_rank	Rango Encima Pantalla
+wiki_views_wkserviews	doc_delete	Elimina ?
+#
+#-----------------------------------------------
+# Script: SF/www/wiki/uploads
+#
+wiki_attachment_upload	err_not_exist	Este anexo no existe. Complacer Comprobar el *url.
+
+
+wiki_service	search_wiki_type	*Wiki Páginas

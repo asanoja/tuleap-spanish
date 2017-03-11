@@ -1,0 +1,80 @@
+#/**
+#  *
+#  * Include scripts message catalog (English)
+#  *
+#  * Codendi 
+#  * Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#  * http://www.codendi.com
+#  *
+#  *
+#  */
+#
+#-----------------------------------------------
+# Script: SF/www/stats/graph.php
+#
+stats_graph	stats	$1 Estadística de Sitio
+stats_graph	sitewide_stats	*Sitewide Estadística *Graphs
+stats_graph	overview	VISIÓN GENERAL *STATS
+stats_graph	project_stats	PROYECTO *STATS
+stats_graph	site_graphs	SITIO *GRAPHS
+#
+#-----------------------------------------------
+# Script: SF/www/stats/index.php
+stats_index	sitewide_agg_stats	*Sitewide *Agregate Estadística
+#
+#-----------------------------------------------
+# Script: SF/www/stats/projects.php
+#
+stats_projects	comparisons	Proyecto Comparaciones Estadísticas
+#
+#-----------------------------------------------
+# Script: SF/www/stats/projects.php
+#
+stats_site_stats_utils	all_proj	TODOS los  PROYECTOS
+stats_site_stats_utils	special_list	LISTA ESPECIAL
+stats_site_stats_utils	no_cat	( $1 regresó ningún nombre de categoría )
+stats_site_stats_utils	proj_type	Tipo de proyecto:
+stats_site_stats_utils	special_proj_list	Lista de Proyecto especial:
+stats_site_stats_utils	space_sep_gid	(Grupo separado espacial_*id es)
+stats_site_stats_utils	days_spanned	Los días Abarcaron:
+stats_site_stats_utils	all	Todo
+stats_site_stats_utils	view_by	Vista Por:
+stats_site_stats_utils	generate_report	Genera Informe
+stats_site_stats_utils	proj_stats_for	Estadística de proyecto para
+stats_site_stats_utils	all_time	Todos Cronometran
+stats_site_stats_utils	past_x_days	El pasado $1 días
+stats_site_stats_utils	sorted_by	Ordenado por $1
+stats_site_stats_utils	within_cat	Dentro del $1 categoría
+stats_site_stats_utils	for_group	Para los grupos $1
+stats_site_stats_utils	proj_name	Nombre de proyecto
+stats_site_stats_utils	ranking	*Ranking
+stats_site_stats_utils	page_views	Vistas de página
+stats_site_stats_utils	downl	Descargas
+stats_site_stats_utils	bugs	Bichos
+stats_site_stats_utils	support	Soporte
+stats_site_stats_utils	patches	Remiendos
+stats_site_stats_utils	tasks	Tareas
+stats_site_stats_utils	cvs	*CVS
+stats_site_stats_utils	svn	*SVN
+stats_site_stats_utils	rank	Rango
+stats_site_stats_utils	site	Sitio
+stats_site_stats_utils	subdomain	Subdominio
+stats_site_stats_utils	total	Total
+stats_site_stats_utils	opn	*Opn
+stats_site_stats_utils	cls	*Cls
+stats_site_stats_utils	co	*CO
+stats_site_stats_utils	comms	*Comm Es
+stats_site_stats_utils	adds	Añade
+stats_site_stats_utils	access_cnt	Acceso *cnt
+stats_site_stats_utils	totals	Totales:
+stats_site_stats_utils	no_valid_data	La consulta regresó no dato válido.
+stats_site_stats_utils	stats_for_past_x_days	Estadística para el pasado $1 días.
+stats_site_stats_utils	site_views	Vistas de sitio
+stats_site_stats_utils	subdomain_views	Vistas de subdominio
+stats_site_stats_utils	day_gmt	Día (*GMT)
+stats_site_stats_utils	proj_not_exist	El proyecto no existió en esta fecha.
+stats_site_stats_utils	curr_agg_stats	Actual *Agregate Estadística para Todo Tiempo
+stats_site_stats_utils	lifespan	*Lifespan
+stats_site_stats_utils	developers	Desarrolladores
+stats_site_stats_utils	projs	Proyectos
+stats_site_stats_utils	days	Días

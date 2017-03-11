@@ -1,0 +1,105 @@
+#
+# Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+# This file is licensed under the GNU General Public License version 2. See the file COPYING.
+#
+advanced_search	and_search	Con todas las  palabras
+advanced_search	all	Todo
+advanced_search	or_search	Con una palabra
+advanced_search	none	Ninguno
+advanced_search	search_button	Búsqueda
+advanced_search	search_in	Búsqueda en
+advanced_search	select	Selecciona
+advanced_search	headline	$1 Resultado de Búsqueda
+advanced_search	no_matches_found	Ningún partido encontró
+advanced_search	no_matches_found_no_under_section	Ningúna coincidencia encontrado - Ninguna sección disponible (verifique sus permisos)
+advanced_search	error_search_minlength	La búsqueda tiene que ser de al menos tres caracteres
+common	login	Registro En
+common	logout	Registro Fuera
+common	myaccount	Mi Cuenta
+common	newaccount	Cuenta nueva
+group	activity	Percentil de Actividad;
+group	activitystat	Actividad de proyecto de la vista <un href="/proyecto/stats/?Grupo_id=$1">estadísticas</un>.
+group	developer_info	Información del Desarrollador
+group	developers	Desarrolladores
+group	long_bugs	El defecto que Sigue
+group	long_scm	SCM Repositorio
+group	long_docman	DocManager: Documentación de proyecto
+group	long_forum	Foros públicos
+group	long_ftp	Anónimo FTP Espacio
+group	long_homepage	Página de Casa del proyecto
+group	long_mail	Mailing Listas
+group	long_news	Últimas noticias
+group	long_patch	Director de remiendo
+group	long_pm	Director de tarea
+group	long_support	Director de Soporte de la tecnología
+group	long_survey	Encuestas
+group	long_tracker	Rastreador
+group	nodescription	Este proyecto ha no todavía entregó una descripción.
+group	norelease	Este Proyecto No Ha Liberado Cualesquier Archivos
+group	project_admins	Administradores de Proyecto
+group	project_developers	Desarrolladores
+group	public_area	Áreas públicas
+group	registered	Registrado:&nbsp;
+group	short_admin	Admin
+group	short_bugs	Defectos
+group	short_scm	SCM
+group	short_docman	Documentos
+group	short_files	Archivos
+group	short_forum	Foros
+group	short_homepage	Página de casa
+group	short_mail	Listas
+group	short_main	Principal
+group	short_memberlist	Desarrolladores
+group	short_news	Noticias
+group	short_patch	Remiendos
+group	short_pm	Tareas
+group	short_summary	Resumen
+group	short_support	Soporte
+group	short_survey	Encuestas
+group	short_tracker	Rastreador
+menu	about_gforge	Sobre $1
+menu	account_maintenance	Mantenimiento de cuenta
+menu	admin	Admin
+menu	bookmark_page	Página de marcapáginas
+menu	change_my_theme	Cambio Mi Tema
+menu	code_snippet	Fragmentos de Código
+menu	code_snippet_library	Biblioteca de Fragmentos del código
+menu	compile_farm	Granja de Compilación
+menu	diary_notes	Diario y Notas
+menu	discussion_forums	Foros de discusión
+menu	documentation	Documentación del sitio
+menu	home	Página Principal
+menu	login	Ingresar
+menu	login_ssl	Ingresar Vía SSL
+menu	logout	Salir
+menu	my_account	Mi Cuenta
+menu	my_personal_page	Mi página Personal
+menu	mypage	Mi&nbsp;Página
+menu	new_project	Crear nuevo proyecto
+menu	new_releases	Nuevas publicaciones
+menu	new_user	Nuevo usuario Vía SSL
+menu	other_site_mirrors	Otros sitios espejo
+menu	project_admin	Admin de Proyecto
+menu	project_help_wanted	Aperturas&nbsp;de&nbsp;Proyecto
+menu	project_summary	Resumen de proyecto
+menu	projectree	Arbol&nbsp;de&nbsp;Proyectos
+menu	register_project	Crear proyecto
+menu	reporting	Informando
+menu	search	Búsqueda
+menu	site_status	Estado de sitio
+menu	software_map	Mapa de software
+menu	submit	Entrega
+menu	top_projects	Proyectos superiores
+searchbox	advanced_search	Búsqueda avanzada
+searchbox	docs	Los documentos de este proyecto
+searchbox	forum	Este foro
+searchbox	forums	Los foros de este proyecto
+searchbox	frs	Las liberaciones de este proyecto
+searchbox	full	Búsqueda el proyecto entero
+searchbox	news	Noticias del proyecto 
+searchbox	people	Personas
+searchbox	search	Búsqueda
+searchbox	softwaregroup	Grupo/de software
+searchbox	task	Tareas
+searchbox	tasks	Las tareas de este proyecto
+searchbox	trackers	Los rastreadores de este proyecto

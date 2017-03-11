@@ -1,0 +1,39 @@
+#/**
+#  *
+#  * help scripts message catalog (English)
+#  *
+#  * Codendi 
+#  * Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#  * http://www.codendi.com
+#  *
+#  *
+#  */
+#
+#-----------------------------------------------
+# Script: SF/www/help/browse_bug_query_field.php
+#
+help_browse_bug_query_field	no_field	No tal campo: $1
+help_browse_bug_query_field	bug_search_criteria	Búsqueda de bicho - Criterios de Selección
+help_browse_bug_query_field	field_name	Nombre de campo
+help_browse_bug_query_field	field_type	Tipo de campo
+help_browse_bug_query_field	description	Descripción
+#
+#-----------------------------------------------
+# Script: SF/www/help/browse_tracker_query_field.php
+#
+help_browse_tracker_query_field	at_not_created	*ArtifactType No podría ser creado
+help_browse_tracker_query_field	aff_not_created	*ArtifactFieldFactory No podría ser creado
+help_browse_tracker_query_field	af_not_created	*ArtifactField No podría ser creado
+help_browse_tracker_query_field	art_search_criteria	Búsqueda de artefacto -  Criterios de Selección
+#
+#-----------------------------------------------
+# Script: SF/www/help/index.php
+#
+help_index	welcome	Bienvenido a $1
+help_index	page_info	Página de información
+#
+#-----------------------------------------------
+# Script: SF/www/help/show_help.php
+#
+help_show_help	page_not_found	$1 Sistema de Ayuda - Error: la página no encontrada
+help_show_help	page_not_available	<*h4>Triste, la página de ayuda  has pedido (sección $1) no es disponible.<*br> \*nPlease Informa el <un *href="*mailto:$2">$3 Administrador de Sitio</un></*h4>

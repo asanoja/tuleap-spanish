@@ -1,0 +1,17 @@
+<?php
+//
+// Codendi
+// Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+// http://www.codendi.com
+//
+// 
+//
+
+
+$message = "Ahora es miembro del proyecto $group_name en el sitio Web de ".$GLOBALS['sys_name'].".\n"
+. "Puede ir a la pagina principal en: \n\n"
+. "<". $base_url ."/projects/$unix_group_name/>\n\n"
+. "¡Suerte!.\n\n"
+. " -- El equipo de ".$GLOBALS['sys_name']."\n";
+
+?>

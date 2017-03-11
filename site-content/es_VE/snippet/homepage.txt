@@ -1,0 +1,18 @@
+<!--
+//
+// Codendi
+// Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+// http://www.codendi.com
+//
+// 
+//
+-->
+	<FONT face="arial, helvetica">
+	<P>
+	El objetivo de este archivo es compartir fragmentos de codigo con el resto de los usuarios de <?php print $GLOBALS['sys_org_name']; ?>. Los fragmentos son pedazos de código como scripts, mcros o funciones que son independientes del proyecto donde fueron creadas.
+	<P>
+	Puede crear fragmentos de código, subir nuevas versiones facilmente.
+	<P>
+	Una vez publicados los fragmentos de códigos, puede agruparlos en un "Paquete" de fragmentos. 
+	Este paquete puede contener multiples versiones del mismo fragmento.
+	<P>

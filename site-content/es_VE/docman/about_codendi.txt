@@ -1,0 +1,30 @@
+<!--
+//
+// Codendi
+// Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+// http://www.codendi.com
+//
+// 
+//
+-->
+<?php
+if (isset($GLOBALS['sys_exchange_policy_url'])) {
+    $exchangePolicyUrl = $GLOBALS['sys_exchange_policy_url'];
+} else {
+    $exchangePolicyUrl = "/plugins/docman/?group_id=1";
+}
+?>
+
+<h2>Acerca del Sitio <?php print $GLOBALS['sys_name']; ?></h2>
+
+<P><?php print $GLOBALS['sys_name']; ?> es un servicio disponible de <B>
+<?php print $GLOBALS['sys_org_name']; ?> para el desarrollo de Software Público</B>. Su objetivo es promover el desarrollo de software colaborativo, asi como la reutilización de código en un ambiente controlado.<p>
+
+<p>En la <?php print $GLOBALS['sys_name']; ?> intentamos que la reutilización sea sencilla y provea un único lugar para ello, permitiendo la busqueda y descubrimiento de fragmentos de código. Éstos podran ser adaptados y mejorados, ampliando la base de conocimiento en cuanto a la <?php print $GLOBALS['sys_org_name']; ?></p>
+
+<p>El intercambio de código esta guiado por la política del <b><A href="<?php echo $exchangePolicyUrl ?>"><?php print
+$GLOBALS['sys_org_name']; ?></a></b>. <P>
+
+<p>¡Agradecemos su atención!</P>
+
+<p>El equipo de <?php print $GLOBALS['sys_name']; ?></p>

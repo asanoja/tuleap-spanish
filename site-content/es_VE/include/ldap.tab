@@ -1,0 +1,24 @@
+#/**
+#  *
+#  * LDAP class scripts message catalog (English)
+#  *
+#  * Codendi 
+#  * Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#  * http://www.codendi.com
+#  *
+#  *
+#  */
+#
+#-----------------------------------------------
+# Script: SF/common/include/LDAP.class.php
+#
+ldap_class	err_bind_nopasswd	No podría atar a $1: ninguna contraseña
+ldap_class	err_bind_invpasswd	No podría atar a $1: contraseña nula?
+ldap_class	err_nopasswd	Ninguna contraseña
+ldap_class	err_cant_connect	No podría conectar a *LDAP servidor
+ldap_class	err_auth_search	Búsqueda de autentificación falló
+ldap_class	err_nouser	El usuario no encontrado
+ldap_class	err_badpasswd	Contraseña nula
+ldap_class	err_cant_bind	No podría atar a *LDAP servidor
+ldap_class	err_search	*LDAP La búsqueda falló
+ldap_class	err_nores	Ningún resultado encontrado (ningún usuario de emparejar)

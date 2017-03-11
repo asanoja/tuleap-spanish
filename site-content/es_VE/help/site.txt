@@ -1,0 +1,18 @@
+
+<h2>Obtenga ayuda</h2>
+
+<h3>Acceso a la documentación de la Plataforma</a></h3>
+La plataforma se basa en Tuleap, si tiene algun problema o duda antes de escribirnos puede consultar la documentación en linea (en inglés):
+<ul>
+	<li><a href="/doc/en/index.html">Guia de Usuario (en inglés)</a></li>
+	<li><a href="/plugins/docman/?group_id=1">Guia de Usuario (en frances)</li></a>
+</ul>
+
+<h3>¿Tiene una pregunta?</h3>
+¿Problemas?, ¿encontró un defecto? Publique sus preguntas y obtenga respuesta en las <a href="/plugins/forumml/message.php?group_id=101&list=1">listas de correo</a>
+Para consultar las discusiones actuales y abrir una conversación, cree una  <a href="/account/register.php">cuenta de usuario </a> en la Plataforma.
+
+<h3>Contáctenos</h3>
+Para cualquier otro asunto no dude en, <a href="/contact.php">contactarnos</a>.
+
+

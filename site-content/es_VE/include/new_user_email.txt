@@ -1,0 +1,29 @@
+<?php
+// Copyright (c) Enalean, 2015. All Rights Reserved.
+//
+// Codendi
+// Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+// http://www.codendi.com
+//
+// 
+//
+$title = "Bienvenido a ".$GLOBALS['sys_name']."!";
+
+$section_one = "Gracias por registrase en el sitio Web de ".$GLOBALS['sys_name']." . \nSu nombre de usuario es: ";
+
+$section_two = "Para iniciar , necesitamos confirmar su dirección de correo electrónico, asi que por favor haga click en el siguiente enlace para finalizar la creación de su cuenta: ";
+
+$section_after_login = ".";
+
+$redirect_button = "Confirmar su dirección de correo electrónico";
+
+$thanks = "¡Gracias!";
+
+$signature = "- El Equipo de ".$GLOBALS['sys_name'];
+
+$help = "Para cualquier consulta contacte: ".$GLOBALS['sys_email_admin'];
+
+
+$message = $title. "\n\n" .$section_one . $login . $section_after_login. "\n\n"
+. "<". $base_url ."/account/login.php?confirm_hash=$confirm_hash>\n\n"
+.$thanks. "\n\n" .$signature. "\n\n" .$help;

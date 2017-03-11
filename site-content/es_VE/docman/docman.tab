@@ -1,0 +1,129 @@
+#/**
+#  *
+#  * Doc Manager scripts message catalog (English)
+#  *
+#  * Codendi 
+#  * Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#  * http://www.codendi.com
+#  *
+#  *
+#  */
+#
+#
+#-----------------------------------------------
+# Script: SF/www/docman/index.php
+#
+docman_index	title	Documentación para $1	
+docman_index	header	Proyecto de documentación	
+docman_index	nodoc	No hay documentación publicada aun	
+docman_index	description	Description	
+#
+#-----------------------------------------------
+# Script: SF/www/docman/display_doc.php
+#
+docman_display_doc	error_nodoc	Documento #$1 no encontrado: el documento no existe o fue eliminado.	
+docman_display_doc	error_wrongid	No hay documento que mostrar - numero de documento inválido.	
+docman_display_doc	warning_different_group	Este documento pertenece al proyecto "$1".	
+#
+#-----------------------------------------------
+# Script: SF/www/docman/doc_utils.php
+#
+docman_doc_utils	error_nogroup	No hay grupos de documentos.	
+docman_doc_utils	error_nodocyet	No hay documentos.	
+docman_doc_utils	group_id	ID de grupo	
+docman_doc_utils	group_name	Nombre de grupo	
+docman_doc_utils	delete_ask	¿Eliminar?	
+docman_doc_utils	delete_confirm	¿Eliminar este grupo de documentos?	
+docman_doc_utils	delete_doc_confirm	¿Desea borrar permanentemente este documento?	
+docman_doc_utils	doc_id	ID de documento	
+docman_doc_utils	doc_name	Titulo	
+docman_doc_utils	create_date	Fecha de creación	
+docman_doc_utils	error_proj	Solamente los proyectos pueden user el administrador de documentos	
+docman_doc_utils	error_off	Este proyecto tiene desactivado el administrador de documentos	
+docman_doc_utils	submit_doc	Publicar nueva documentación	
+docman_doc_utils	admin	Admin	
+docman_doc_utils	edit_groups	Editar grupos de documentos	
+docman_doc_utils	rank_in_group	Ranking en un grupo	
+docman_doc_utils	rank	Rankin en pantalla	
+docman_doc_utils	permissions	Permisos	
+docman_doc_utils	define_perms	[Definir permisos]	
+docman_doc_utils	edit_perms	[Editar permisos]	
+docman_doc_utils	doc_group	Grupo de Documentos	
+#
+#-----------------------------------------------
+# Script: SF/www/docman/download.php
+#
+docman_download	error_nofile	No hay nada aqui - El archivo tiene un tamaño vacio	
+docman_download	error_nodoc	No pude conseguir el archivo asociado con el ID de documento ID #$1	
+#
+#-----------------------------------------------
+# Script: SF/www/docman/new.php
+#
+docman_new	error_noproj	Ningún proyecto válido (grupo_*id) estuvo seleccionado
+docman_new	error_size	El documento tiene que ser no *null y menos de $1 *chars en longitud
+docman_new	title_new	El documento nuevo Entregó
+docman_new	error_dbinsert	Un error ocurrió
+docman_new	insert_ok	Vuestro documento ha sido añadido
+docman_new	title_add	Añade documento nuevo
+docman_new	header_add	Añade documento nuevo
+docman_new	not_logged	No eres *logged en, y no será crédito dado para este.
+docman_new	no_docgroup	Tienes que especificar grupos de documento antes de entregar un documento nuevo. Clic en <un *href="$1">*Admin</un></*b> y editar los grupos de documento de los proyectos.
+docman_new	doc_title	Título de documento
+docman_new	doc_desc	Descripción: <*br> (etiquetas de HTML vale)
+docman_new	doc_upload	Carga Archivo
+docman_new	max_size_msg	(El máximo carga medida de archivo es $1 *MByte)
+docman_new	doc_paste	O Documento de Pasta (en formato de HTML)
+docman_new	doc_group	Grupo que el documento pertenece en
+docman_new	mandatory	Los campos marcados con $1 es obligatorio.
+docman_new	error_dbupdate	ERROR - Error de SQL= $1
+#
+#-----------------------------------------------
+# Script: SF/www/docman/admin/index.php
+#
+docman_admin_index	error_perm	Necesitas permisos de Director del Documento para acceder esta página.
+docman_admin_index	title	Administración de Director del documento
+docman_admin_index	title_edit	Edita Documento
+docman_admin_index	doc_edit	O Editar Documento en sitio
+docman_admin_index	msg_group_del	Grupo de documento Eliminado (*doc_grupo : $1)
+docman_admin_index	msg_group_del_fail	Grupo de documento no fue eliminado. No puede eliminar grupos que todavía tener los documentos agruparon debajo les.
+docman_admin_index	title_group_edit	Grupo de documento que Edita
+docman_admin_index	header_group_edit	Editar un Grupo de Documento
+docman_admin_index	feedback_group_updated	Grupo de documento Actualizó
+docman_admin_index	error_nodocgroup	Ningún Grupo de Documento Válido Fue Seleccionado
+docman_admin_index	feedback_doc_uploaded	El documento Cargó
+docman_admin_index	feedback_doc_updated	El documento Actualizó
+docman_admin_index	error_nodoc	Incapaz de actualizar - el documento no existe, o no pertenece a este grupo de documento.
+docman_admin_index	feedback_group_added	Grupo de documento añadió
+docman_admin_index	title_group_mgt	Administración de Grupos del documento
+docman_admin_index	header_group_mgt	Administración de Grupos del documento
+docman_admin_index	create_doc_group	Crear un Grupo de Documento
+docman_admin_index	doc_group_list	Existiendo Grupos de Documento
+docman_admin_index	header_doc_mgt	Edita Documentos
+docman_admin_index	doc_deleted	El documento Eliminó
+docman_admin_index	error_deleting_doc	El error que Elimina Documento
+docman_admin_index	error_updating_perm	Error: no podría actualizar permisos
+docman_admin_index	perm_reset	Reinicialización de permisos a *default
+#
+#-----------------------------------------------
+# Script: SF/www/docs/site/index.php
+#
+docs_site_index	title	Documentación de sitio
+#
+#-----------------------------------------------
+# Script: SF/www/docs/site/about_codendi.php
+#
+docs_site_about	title	Acerca del sitio $1	
+#
+#-----------------------------------------------
+# Script: SF/www/docman/admin/editdocgrouppermissions.php
+#
+docman_admin_editdocgrouppermissions	title	Edita Permisos de Grupo del Documento
+docman_admin_editdocgrouppermissions	introduction	Puedes poner permisos concretos a un grupo de documento. Estos permisos aplican a todos los  documentos que pertenece a este grupo de documento. Pero  puedes también permisos diferentes puestos a documento concreto. Por *default, acceso para documentar los grupos está concedido a cualquier visitante.
+docman_admin_editdocgrouppermissions	instructions	Selecciona el usuario agrupa quiénes están concedidos acceso  a este grupo de documento:
+#
+#-----------------------------------------------
+# Script: SF/www/docman/admin/editdocpermissions.php
+#
+docman_admin_editdocpermissions	title	Edita Permisos de Documento
+docman_admin_editdocpermissions	doc_title	Edita Permisos de Documento
+docman_admin_editdocpermissions	instructions	Selecciona el usuario agrupa quiénes están concedidos acceso  a este documento:<*br><*b>Nota</*b>: Cuándo ningún permiso está definido para un documento, entonces  tiene los mismos permisos como el <un *href="$1">documento de padre agrupa</un>. <*br>Cuándo un permiso está definido para un documento, entonces él *overrides los permisos definieron para el grupo de documento.

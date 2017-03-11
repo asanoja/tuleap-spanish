@@ -1,0 +1,111 @@
+#
+# Copyright (c) Enalean, 2011 - 2015. All Rights Reserved.
+# Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#
+# This file is a part of Tuleap.
+#
+# Tuleap is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# Tuleap is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Tuleap; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+#
+
+system	locale	es_VE
+system	locale_label	Castellano
+system	strftimefmt	%Y %B %e  %H:%M
+system	datefmt	Y-m-d H:i
+system	datefmt_short	Y-m-d
+system	datefmt_day_and_month	d M
+system	decimal_separator	,
+system	thousand_separator	.
+conf	content_encoding	utf-8
+conf	default_font	verdana,arial,helvetica,sans-serif
+conf	language_code	es
+conf	language_id	es_VE
+global	perm_denied	Permiso negado
+global	error_perm_denied	Error - Permiso negado
+global	back_home	Volver a la página principal
+global	back	Volver
+global	btn_apply	Aplicar
+global	btn_delete	Borrar
+global	btn_cancel	Cancelar
+global	btn_update	Actualizar
+global	btn_submit	Enviar
+global	btn_search	Buscar
+global	btn_submit_and_continue	Enviar y continuar
+global	btn_submit_and_stay	Enviar y quedarse
+global	btn_browse	Explorar
+global	btn_create	Crear
+global	btn_preview	Previsualizar
+global	btn_close	Cerrar
+global	btn_reset	Reiniciar
+global	save_change	Guardar cambios
+global	reset	reiniciar
+global	delete	Borrar
+global	add	Agregar
+global	total	Total
+global	warning!	¡Advertencia!
+global	yes	Si
+global	no	No
+global	on	Encendido
+global	off	Apagado
+global	any	Cualquiera
+global	none	Ninguno
+global	none_dashed	-- Ninguno --
+global	please_choose_dashed	-- Por favor seleccione
+global	begin	Inicio
+global	end	Fin
+global	next	Próximo
+global	prev	Anterior
+global	printer_version	Versión imprimible
+global	error	Error
+global	help	Ayuda
+global	by	Por
+global	select	Seleccione
+global	unchanged	Sin cambios
+global	or	o
+global	and	y
+global	more	Mas
+global	activate	activar
+global	deactivate	desactivar
+global	Project	Proyecto
+global	System	Sistema
+global	Admin	Admin
+global	Administration	Administración
+global	Settings	Configuración
+global	Personal	Personal
+global	default	Predeterminado
+global	no_mail_for_account	No hay un correo electrónico para esta cuenta.
+global	mail_failed	El correo no pudo ser enviado. Por favor contacte al administrador. Su correo electrónico es: $1.
+global	open	Abierto
+global	closed	Cerrado
+global	status	Estado
+global	return_to	<p>La página solicitada se esta cargando. En caso contrario, intente <a href="$1">$1</a>.</p>
+global	at_the_beginning	Al comienzo
+global	at_the_end	Al final
+global	after	Luego de $1
+global	missing_parameters	Parametros faltantes
+global	error_upload	Error al subir el archivo. Por favor intente de nuevo.
+global	error_upload_nofile	Error al subir el archivo($1). No se subio el archivo.
+global	error_upload_partial	Error al subir el archivo($1). La subida se realizo parcialmente.
+global	error_upload_size	Error al subir el archivo($1). El tamaño del archivo excede el límite permitido.
+global	error_upload_unknown	Error al subir el archivo($1). Error desconocido.
+global	service_conf_not_inherited	La configuración de este servicio no será heredada en los subproyectos
+global	pick_date	Selecciona una fecha
+global	show_frame	Muestre solamente este marco
+global	null	NULL
+global	error_synchronizertoken	So solicitud aparentemente no es válida. Intentelo de nuevo.
+global	operation_not_allowed	Operación no permitida
+global	settings	Configuración
+global	usage	Uso
+global	powered_by	Soportado por <a href="http://tuleap.org/?utm_source=forge&utm_medium=forge&utm_campaign=forge" target="_blank">Tuleap&trade;</a>
+global	copyright	Desarrollado por <a href="http://www.enalean.com/?utm_source=forge&utm_medium=forge&utm_campaign=forge" target="_blank">Enalean</a>

@@ -1,0 +1,56 @@
+#/**
+#  *
+#  * export scripts message catalog (English)
+#  *
+#  * Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#  *
+#  *
+#  */
+#
+#-----------------------------------------------
+# Script: SF/www/export/index.php
+#
+export_index	exports_available	Las exportaciones Disponibles
+export_index	format_explain	$1 dato está exportado en una variedad de formatos estándares. Muchos de la exportación *URLs también puede aceptar la forma/consigue dato para personalizar  la producción. Todos los  datos generaron por estas páginas es reales-tiempo.
+export_index	news_data	Dato noticioso
+export_index	front_p_news	Proyecto de Página/del frente Noticioso
+export_index	new_releases	Liberaciones nuevas
+export_index	newest_projects	Proyectos más nuevos
+export_index	rss_format	Formato de RSS
+export_index	csv_format	*CSV Formato
+export_index	listings	Listados
+export_index	full_proj_listing	Listado de Proyecto lleno
+export_index	proj_info	Información de proyecto
+export_index	proj_forum	Foros de proyecto
+export_index	g_id_required	?Grupo_*id el argumento requerido en *URL
+#
+#-----------------------------------------------
+# Script: SF/www/export/nitf_sfforums.php
+#
+export_nitf_sfforums	g_id_err	ERROR: Este *URL se tiene que apellidar con un grupo válido_*id parámetro
+#
+#-----------------------------------------------
+# Script: SF/www/export/rss_sfnewreleases.php
+#
+export_rss_sfnewreleases	copyright	Copyright (*c) $1, $2 Equipo, 2001-$3. Todos los  Derechos Reservaron
+export_rss_sfnewreleases	new_releases	$1 Liberaciones Nuevas
+#
+#-----------------------------------------------
+# Script: SF/www/export/rss_sfnews.php
+#
+export_rss_sfnews	highlights	$1 Proyecto Puntos destacados Noticiosos
+export_rss_sfnews	news	$1 Noticioso
+#
+#-----------------------------------------------
+# Script: SF/www/export/rss_sfprojects.php
+#
+export_rss_sfprojects	new_proj	Proyectos nuevos
+export_rss_sfprojects	params	Proyecto ID, Nombre Corto, Nombre, Descripción, Lengua, *OS *Runtime Soporte,Estado de Desarrollo, Ubicación de Liberación, Información Adicional, Punto de contacto,*eTTM Inventario
+export_rss_sfprojects	prog_lang	Lenguaje de programación
+export_rss_sfprojects	os	Sistema operativo
+export_rss_sfprojects	devel_status	Estado de desarrollo
+#
+#-----------------------------------------------
+# Script: SF/www/export/rss_utils.php
+#
+export_rss_utils	no_desc_available	Ninguna descripción disponible.

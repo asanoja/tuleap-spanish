@@ -1,0 +1,70 @@
+#/**
+#  *
+#  * Tracker scripts message catalog (English)
+#  * Tuleap
+#  * Copyright (c) Enalean SAS, Tuleap Team, 2011-2012.All rights reserved
+#  * Codendi
+#  * Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#  *
+#  *
+#  *
+#  */
+#
+widget	close_title	Remover
+widget	maximize_title	Maximizar
+widget	minimize_title	Minimizar
+widget	rss_title	RSS
+widget	preferences_title	Preferencias
+
+
+widget_add	title	Agregar complementos
+widget_add	codendi_widgets	$1 Complemento(s)
+widget_add	external_widgets	Complementos externos
+widget_add	add	agregar
+widget_add	already_used	Ya esta en uso
+widget_add	link_add	Complementos personalizados
+
+
+widget_rss	default_url	http://search.twitter.com/search.atom?q=softwarepublico&show_user=1
+widget_imageviewer	default_url	https://consejopdvsaait.files.wordpress.com/2013/11/cnti-logo.png
+# By Colin Barker [CC-BY-SA-3.0 (www.creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons
+
+
+widget_categ_label	forums	Foros
+widget_categ_label	frs	Archivos
+widget_categ_label	general	General
+widget_categ_label	trackers	Monitores
+widget_categ_label	scm	Gestión de código fuente
+widget_categ_label	wiki	Wiki
+
+
+widget_layout	title	Personalizar Diseño
+
+
+widget_dashboard	updated	Su <Un href="$1">tablero</un> ha sido actualizado.
+
+
+widget_description_my_bookmarks	description	Lista sus favoritos (internos o externos).<br>En algunos casos PSP usa URL con suficiente información embebida para marcar elementos sofisticados como enlaces al mapa de Software, busquedas, etc.<br>los elementos en favoritos pueden ser modificados: titulo y URL.
+widget_description_my_artifacts	description	lista los artefactos que Han sido enviados o asignados Un ud, por proyecto.
+widget_description_my_latest_svn_commits	description	lista los Comete SVN que Ha realizado, por proyecto.
+widget_description_my_monitored_forums	description	lista los Foros que estan siendo monitoreados, por proyecto. <br>para cancelar los elementos monitoreados Haga Reloj en el icono de "papelera" un lado del elemento.
+widget_description_my_monitored_fp	description	lista los paquetes que estan siendo monitoreados actualmente, por proyecto.<br>para cancelar cualquier de los elementos monitoreados Haga Clic en el icono "papelera" junto un la etiqueta.
+widget_description_my_projects	description	Listas los proyectos  perteneces a. Seleccionando muy de estos proyectos te traes a la página de Resumen de Proyecto correspondiente.
+widget_description_rss	description	Te dejas para incluir público rss (o átomo) alimenta a vuestra página personal.
+widget_description_my_surveys	description	Listas las encuestas no has contestado.
+widget_description_my_system_event	description	Listas los acontecimientos de sistema.
+widget_description_my_tasks	description	Listas las tareas asignaron a ti.
+widget_description_twitter_follow	description	lista la información en el Twitter un quien ud. sigue.
+widget_description_project_latest_file_releases	description	lista los paquetes mas recientes disponibles para descarga junto con su revisión.<br>una el icono de ultimos Libera puede ver los ultimos cambios y comentarios de desarrolladores asociados un dicha revisión. <br>luego viene el icono del Monitor, al seleccionarlo se monitoreará el paquete. <br>cuando el equipo de desarrollo publique un nuevo Liberación, usted sera automaticamente notificado vía email. todos los archivos de Liberación monitoreados estan listados en su página Personal y pueden ser cancelados desde dicha pagina o desde la pagina principal del sistema de liberaciones.
+widget_description_project_classification	description	listas las categorias de su proyecto.
+widget_description_project_description	description	permite ver la descripción del proyecto.
+widget_description_project_latest_news	description	lista las ultimas 10 noticias publicadas por los miembros del proyecto.
+widget_description_project_members	description	lista los miembros del proyecto.
+widget_description_project_public_areas	description	lista todos los servicios para este proyecto junto con la información adjunta. Haga Clic en cualquiera de estos elementos para acceder al servicio. <br>el rol de esta Área es equivalente un la del la carta Principal de proyecto, con la diferencia que muestra información adicional acerca de cada uno de los servicios (p. ej. numero total de defectos abiertos, tareas, ...)
+widget_description_project_latest_cvs_commits	description	lista los ultimos Comete CVS en el proyecto.
+widget_description_project_latest_svn_commits	description	lista los ultimos Comete SVN en el proyecto
+widget_description_project_svn_stats	description	muestra las estadisticas SVN del proyecto por semana. el resultado semuestra en un diagrama de barras.
+widget_description_project_contacts	description	permite contactar Un los administradores del proyecto
+
+
+widget_project_contacts	title	contactos

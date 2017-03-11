@@ -1,0 +1,12 @@
+rule_file	error_upload	El archivo carga error.
+rule_file	error_upload_nofile	El archivo carga error($1). Ningún archivo estuvo cargado.
+rule_file	error_upload_partial	El archivo carga error($1). El archivo cargado era sólo parcialmente cargó.
+rule_file	error_upload_size	El archivo carga error($1). El archivo cargado supera la medida de archivo dejada máxima.
+rule_file	error_upload_unknown	El archivo carga error($1). Código de error desconocido.
+
+
+rule_user_name	error_exists	*Login El nombre ya existe.
+rule_user_name	error_event_reserved	$1 es ya reservado para otro rebautizar operación. Complacer Acontecimiento de Sistema del control Monitor.
+
+
+rule_group_name	error_exists	El nombre corto ya existe

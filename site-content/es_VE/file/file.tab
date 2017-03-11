@@ -1,0 +1,352 @@
+#/**
+#  *
+#  * file scripts message catalog (English)
+#  *
+#  * Codendi 
+#  * Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#  * http://www.codendi.com
+#  *
+#  *
+#  */
+#
+#-----------------------------------------------
+# Script: SF/www/file/admin/editpackagepermissions.php
+#
+file_admin_editpackagepermissions	p_not_exist	El paquete no existe
+file_admin_editpackagepermissions	edit_p_perm	Edita Permisos de Paquete
+file_admin_editpackagepermissions	p	Paquete
+file_admin_editpackagepermissions	perm_explain	Puedes poner permisos concretos a un paquete. Estos permisos aplican a todas las  liberaciones y archiva aquello pertenece a este paquete. Pero  puedes también permisos diferentes puestos a liberaciones concretas. \*n<*p>Por *default, los paquetes son accesibles a todo registró usuarios.
+file_admin_editpackagepermissions	select_u_group	Selecciona el usuario agrupa quiénes están concedidos acceso  a este paquete
+#
+#-----------------------------------------------
+# Script: SF/www/file/admin/editpackages.php
+#
+file_admin_editpackages	p_name_exists	Este nombre de paquete ya existe. Complacer escoger otro nombre.
+file_admin_editpackages	cannot_hide	Triste - te no puede esconder un paquete que todavía contiene liberaciones activas. El escondrijo sujetó liberaciones primero
+file_admin_editpackages	p_updated	Paquete actualizado "$1"
+file_admin_editpackages	perm_update_err	ERROR: no podría actualizar permisos
+file_admin_editpackages	perm_reset_err	Error: puede no permisos de reinicialización a *default
+file_admin_editpackages	perm_reset	Reinicialización de permisos a *default
+file_admin_editpackages	p_added	Paquete añadido
+file_admin_editpackages	release_edit_f_rel	La liberación/Edita Liberaciones de Archivo
+file_admin_editpackages	packages	Paquetes
+file_admin_editpackages	p_explain	Puedes utilizar paquetes para agrupar el archivo diferente libera junto. Un paquete es un conjunto compatible  de la fuente archiva que puede ser puesto junto y entregar una parte laborable de vuestro proyecto más grande.\*n
+file_admin_editpackages	no_p_defined	No Tienes Ningún Paquete Definió
+file_admin_editpackages	p_name	Nombre de paquete
+file_admin_editpackages	rank_on_screen	Rango Encima Pantalla
+file_admin_editpackages	update	Actualización
+file_admin_editpackages	releases	Liberaciones
+file_admin_editpackages	perms	Permisos
+file_admin_editpackages	license	Aprobación de licencia
+file_admin_editpackages	edit_releases	Edita Liberaciones
+file_admin_editpackages	add_releases	Añade Liberación
+file_admin_editpackages	edit	Edita
+file_admin_editpackages	define	Define
+file_admin_editpackages	create_new_p	Crear un Paquete Nuevo
+file_admin_editpackages	create_this_p	Crear Este Paquete
+file_admin_editpackages	status_active	Activo
+file_admin_editpackages	status_hidden	Escondido
+file_admin_editpackages	create_canceled	Creación de paquete canceló
+file_admin_editpackages	edit_package	Editar un Paquete
+file_admin_editpackages	update_canceled	Actualización de paquete canceló
+file_admin_editpackages	p_not_exists	El paquete no existe
+file_admin_editpackages	p_not_yours	No Vuestro Paquete O el paquete no Existe
+file_admin_editpackages	p_del	El paquete Eliminó
+file_admin_editpackages	p_not_empty	Triste - te no puede eliminar un paquete que todavía contiene liberaciones.
+file_admin_editpackages	warn	** AVISO!! ** Eliminar este paquete (ningún posible restaura operación)?
+
+
+#
+#-----------------------------------------------
+# Script: SF/www/file/admin/editreleasepermissions.php
+#
+file_admin_editreleasepermissions	rel_not_exist	La liberación no existe en este paquete.
+file_admin_editreleasepermissions	edit_rel_perm	Edita Permisos de Liberación
+file_admin_editreleasepermissions	release	Liberación
+file_admin_editreleasepermissions	from_p	De paquete
+file_admin_editreleasepermissions	perm_explain	&*nbsp;
+file_admin_editreleasepermissions	select_u_group	Selecciona el usuario agrupa quiénes están concedidos acceso  a esta liberación: \*n<*br><*b>Nota</*b>: cuándo ningún permiso está definido para una liberación, entonces  tiene los mismos permisos como el paquete de padre. \*n<*br>Cuándo un permiso está definido para una liberación, entonces él *overrides los permisos definieron para el <un *href="$1">paquete  pertenece a</un>.
+#
+#-----------------------------------------------
+# Script: SF/www/file/admin/editreleases.php
+#
+file_admin_editreleases	create_p_before_rel	Tiene que crear un paquete antes de que  creas una liberación.
+file_admin_editreleases	p_not_exists	El paquete no Existe O no Es El vuestro
+file_admin_editreleases	add_rel_fail	Añadiendo la liberación Falló
+file_admin_editreleases	rel_added	Liberación añadida
+file_admin_editreleases	rel_name_exists	Nombre de liberación Ya Existe
+file_admin_editreleases	rel_name_empty	Nombre de Liberación nula : los nombres vacíos no son dejados
+file_admin_editreleases	updating_rel	Actualizando Liberación
+file_admin_editreleases	data_uploaded	El dato Cargó
+file_admin_editreleases	length_err	ERROR - el dato cargado tiene que ser no *null y < $1 en longitud
+file_admin_editreleases	invalid_flag_err	Inválido de ERROR carga bandera
+file_admin_editreleases	create_p_before_rel_status	Tiene que crear un paquete antes de que  creas una liberación. También tienes que incluir un nombre de liberación y estado.
+file_admin_editreleases	p_not_yours	Probando cambiar un paquete que no es el vuestro
+file_admin_editreleases	cannot_del_rel	Triste - te no puede eliminar una liberación que todavía contiene archivos
+file_admin_editreleases	rel_updated	Liberación actualizada "$1"
+file_admin_editreleases	rel_update_failed	Actualizando la liberación Falló
+file_admin_editreleases	f_not_yours	No Vuestro Archivo $1 O el archivo no Existe
+file_admin_editreleases	rel_not_yours	No Vuestra Liberación O la liberación no Existe (para el archivo : $1)
+file_admin_editreleases	data_not_parsed	Entrada de Fecha de Archivo triste no podría ser *parsed.  Tenga que ser en *YYYY-MM-DD formato.
+file_admin_editreleases	data_not_parsed_file	Triste - Archivar $1 : entrada de Fecha no podría ser *parsed.  Tenga que ser en *YYYY-MM-DD formato.
+file_admin_editreleases	file_updated	El archivo Actualizó : $1
+file_admin_editreleases	add_files	Añadiendo Archivo(*s)
+file_admin_editreleases	offline_md5	El MD5 *checksum del archivo "$1" será computado por un proceso de fondo dentro de poco.  Serás notificado por email en caso de asunto.
+file_admin_editreleases	illegal_file_name	Ilegal *Filename
+file_admin_editreleases	p_rel_not_yours	Liberación/de paquete no Existe O no Es El vuestro
+file_admin_editreleases	not_add_file	No podría Añadir *Filename
+file_admin_editreleases	filename_invalid	Nombre de archivo nulo o el archivo no existe
+file_admin_editreleases	filename_exists	Nombre de archivo ya existe en esta liberación
+file_admin_editreleases	filename_to_be_restored	Un archivo con nombre similar está marcado para ser restaurado en pocos minutos
+file_admin_editreleases	md5_fail	MD5 *checksum la comparación fallada para archivar "$1", el MD5 valor computó encima el servidor es "$2"
+file_admin_editreleases	no_files_selected	Ningún Archivo Seleccionó
+file_admin_editreleases	file_deleted	El archivo Eliminó : $1
+file_admin_editreleases	file_rel_notice_subject	[$1] $2: liberación Nueva en paquete $3
+file_admin_editreleases	download_explain_modified_file	Una versión nueva de $2 (paquete $1) ha sido liberado.
+file_admin_editreleases	download_explain_modified_package	$1 proyecto liberado '$3' en paquete '$2'.\*nYou Puede descargar él en:\*n<$4>\*n
+file_admin_editreleases	download_explain	\*n--\*nYou Pedido para ser notificado cuándo las versiones nuevas de este paquete estuvieron liberadas.\*nIf No deseas para ser notificado en el futuro, clic este enlace:\*n<$1>
+file_admin_editreleases	file_rel_notice_notes	\*n\*nRelease Notas:\*n$1\*n
+file_admin_editreleases	file_rel_notice_changes	\*n\*nChange Registro:\*n$1\*n
+file_admin_editreleases	email_sent	El email enviado - $1 usuarios que siguen
+file_admin_editreleases	rel_id_not_found	Aquella liberación ID no fue encontrado en la base de datos
+file_admin_editreleases	release_new_file_version	Liberación Versión de Archivo Nuevo
+file_admin_editreleases	step_x	Paso $1
+file_admin_editreleases	edit_change_notes	Editar las notas de cambio para esta liberación de este paquete. Estas notas aplicarán a todos los  archivos sujetaron a esta liberación.
+file_admin_editreleases	edit_release	Liberación de actualización
+file_admin_editreleases	of_p	De Paquete
+file_admin_editreleases	release_date	Fecha de liberación
+file_admin_editreleases	of_P	De Paquete
+file_admin_editreleases	upload_or_paste	Tampoco puedes cargar las notas de liberación y registro de cambio individualmente, o pasta les en junto abajo.
+file_admin_editreleases	paste	Pasta Las Notas En
+file_admin_editreleases	upload_change	Carga Registro de Cambio
+file_admin_editreleases	upload_notes	Carga Notas de Liberación
+file_admin_editreleases	max_file_size	(El máximo carga medida de archivo es $1 *Mb)
+file_admin_editreleases	release_notes	Notas de liberación
+file_admin_editreleases	change_log	Registro de cambio
+file_admin_editreleases	preserve_preformatted	Conserva mi *pre-*formatted texto.
+file_admin_editreleases	submit_refresh	Entrega/*Refresh
+file_admin_editreleases	attach_files	Sujeta Archivos A Esta Liberación
+file_admin_editreleases	no_available_files	Ningún archivo disponible
+file_admin_editreleases	upload_files	Complacer cargar archivos cuando explicó encima, entonces pegado <*B>*Refresh Lista de Archivo</*B>.
+file_admin_editreleases	refresh_file_list	*Refresh Lista de archivo
+file_admin_editreleases	attach_marked_files	Sujeta Archivos Marcados
+file_admin_editreleases	edit_files	Edita Archivos en esta Liberación
+file_admin_editreleases	update_each	Tú <*B>mosto</*B> actualiza cada cual de estos archivos con la información correcta o ellos no aparecerán en vuestra página de resumen de la descarga.
+file_admin_editreleases	no_files_attached	Ningún Archivo sujetó a esta Liberación
+file_admin_editreleases	attach_files_in_step2	Puedes sujetar los archivos que utilizan Paso 2 encima
+file_admin_editreleases	filename	*Filename
+file_admin_editreleases	processor	Procesador
+file_admin_editreleases	file_type	Tipo de archivo
+file_admin_editreleases	update_refresh	Actualización/*Refresh
+file_admin_editreleases	delete_file	Elimina Archivo
+file_admin_editreleases	im_sure	Soy Seguro
+file_admin_editreleases	mail_file_rel_notice	Aviso de Liberación de Archivo de email: 
+file_admin_editreleases	send_notice	Envía Aviso
+file_admin_editreleases	users_monitor	$1 usuario(*s) está controlando vuestro paquete.  Tendrías que enviar un aviso de vuestra liberación de archivo.
+file_admin_editreleases	create_auto_news	Crea Automático Noticioso
+file_admin_editreleases	rel_news	Automáticamente puedes crear una pieza de noticioso de informar personas sobre la liberación nueva.
+file_admin_editreleases	create_news	Crea Noticioso
+file_admin_editreleases	define_new_release	Definir una Liberación Nueva de un Paquete
+file_admin_editreleases	contain_multiple_files	Una liberación de un paquete puede contener archivos múltiples. Nombres de liberación pueden ser cualesquier números de versión  (3.22.1, 3.23-beta1&*hellip;) o nombres.
+file_admin_editreleases	your_release	Liberaciones de paquete : $1
+file_admin_editreleases	no_releases_defined	No Tienes Ninguna Liberación $1 Definió
+file_admin_editreleases	release_name	Nombre de liberación
+file_admin_editreleases	delete	Elimina?
+file_admin_editreleases	edit_this_release	Editar Esta Liberación
+file_admin_editreleases	edit_this_p	Editar Este Paquete
+file_admin_editreleases	warn	** AVISO!! ** Eliminar esta liberación, todos sus archivos y registros de acceso correspondiente (ningún posibles restaura operación)?
+file_admin_editreleases	new_release_name	Nombre de Liberación nueva
+file_admin_editreleases	belongs_to_p	Pertenece a Paquete
+file_admin_editreleases	create_this_release	Crear Esta Liberación
+file_admin_editreleases	rel_del	La liberación Eliminó
+file_admin_editreleases	of_this_package	De Este Paquete
+file_admin_editreleases	subject	@Subject
+file_admin_editreleases	file_news_subject	Liberación nueva : $1
+file_admin_editreleases	details	Detalles
+file_admin_editreleases	file_news_details	Una liberación nueva $1 es ahora disponible en este *URL : $2
+file_admin_editreleases	submit_news	Entrega Noticioso
+file_admin_editreleases	relname	<Liberación-nombre>
+file_admin_editreleases	fieldset_properties	Propiedades
+file_admin_editreleases	fieldset_uploaded_files	Cargó Archivos
+file_admin_editreleases	fieldset_notes	Notas
+file_admin_editreleases	fieldset_permissions	Permisos
+file_admin_editreleases	fieldset_news	Noticioso
+file_admin_editreleases	fieldset_notification	Notificación
+file_admin_editreleases	browse	Explora...
+file_admin_editreleases	local_file	Archivo local
+file_admin_editreleases	scp_ftp_files	*scp/*ftp Archivos
+file_admin_editreleases	add_file	Añade archivo
+file_admin_editreleases	upload	Carga
+file_admin_editreleases	add_change_log	Añade registro de cambio
+file_admin_editreleases	view_change	[Cambio/de vista]
+file_admin_editreleases	default_permissions	Será creado con los mismos permisos que su paquete de padre.
+file_admin_editreleases	delete_col	Elimina
+file_admin_editreleases	release_perm	Los permisos de liberación son :
+file_admin_editreleases	upload_file_deleted	Recientemente eliminaste el archivo $1,  serás capaz de cargarlo otra vez en menos de dos horas.
+file_admin_editreleases	create_new_release	Crear una liberación nueva
+file_admin_editreleases	create_canceled	Creación de liberación canceló
+file_admin_editreleases	update_canceled	Actualización de liberación canceló
+file_admin_editreleases	upload_file_msg	(El máximo carga medida de archivo es $1 *Mb - <*u>Complacer comprimir vuestros archivos</*u>)
+file_admin_editreleases	md5sum	*md5 *Checksum
+file_admin_editreleases	user	Dueño
+file_admin_editreleases	fileforge_error	Un error *occured mientras archivo emotivo a destino (era el archivo $1 ya eliminó?)
+file_admin_editreleases	db_error	Un error *occured mientras añadiendo archivo a la base de datos
+file_admin_editreleases	comment	Comentario
+file_admin_editreleases	move_event	El archivo es en el *queue para ser movió. Complacer espera unos cuantos minutos para él para devenir disponible otra vez.
+#
+#-----------------------------------------------
+# Script: SF/www/file/admin/index.php
+#
+file_admin_index	file_manager_admin	Administración de Director del archivo
+file_admin_index	edit_release_files	Edita/Archivos de Liberación
+file_admin_index	manage_explain	Crea o modificar paquetes y liberaciones, estado de conjunto y permisos de acceso.
+file_admin_index	quick_add	Rápidamente Añadir Liberación de Archivo
+file_admin_index	quick_add_explain	Uno da un paso proceso donde te puede especificar toda la información necesaria al mismo tiempo. El *counterpart es que sólo puedes sujetar uno en fila india a una liberación dada y no muchos tan en el proceso de Liberación de Archivo lleno.
+#
+#-----------------------------------------------
+# Script: SF/www/file/admin/qrs.php
+#
+file_admin_qrs	define_rel_name	Tiene que definir un nombre de liberación.
+file_admin_qrs	choose_processor_type	Complacer escoger Tipo de Procesador
+file_admin_qrs	choose_file_type	Complacer escoger Tipo de Archivo
+file_admin_qrs	added_success	$1 añadió exitosamente
+file_admin_qrs	no_email_sent	Ningún email envió: la liberación está escondida
+file_admin_qrs	email_sent	El email envió a $1 usuarios que controlan este paquete
+file_admin_qrs	no_p_available	Ningún Paquete Disponible
+file_admin_qrs	create_new_p	Crear un paquete nuevo
+file_admin_qrs	file_name	Nombre de archivo
+file_admin_qrs	select_file	Seleccionar un archivo
+file_admin_qrs	upload_file	O, cargar un archivo nuevo
+file_admin_qrs	processor_type	Tipo de procesador
+file_admin_qrs	release_file	Archivo de liberación
+file_admin_qrs	adding_file	Añadiendo Archivo
+#
+#-----------------------------------------------
+# Script: src/www/file/admin/manageprocessors.php
+#
+file_admin_manageprocessors	manage_proclist	Dirige Procesadores
+file_admin_manageprocessors	edit_proc	Clic en el Nombre de Procesador para editar un procesador
+file_admin_manageprocessors	add_proc	Añadir un procesador nuevo
+file_admin_manageprocessors	update_proc	Actualización un procesador
+file_admin_manageprocessors	rank_error	Error. Rango de procesador tendría que ser un entero .
+file_admin_manageprocessors	proc_fill	Error. Procesador $1 no tendría que ser vacío.
+file_admin_manageprocessors	invalid_procid	Error. Procesador nulo ID.
+file_admin_manageprocessors	predef_procid	Aviso. *Pre-Definió los procesadores no pueden ser editados.
+#
+#-----------------------------------------------
+# Script: SF/www/file/confirm_download.php
+#
+file_confirm_download	download_agreement	Acuerdo de descarga
+file_confirm_download	download_explain	<*h2>*** Acuerdo de Descarga ***</*h2></centro> \*n</*div> \*n<*p> estás a punto de software de descarga de este sitio. Software *re-uso y compartiendo <*b>dentro de</*b> $1 es @subject al <un *href="$3" espacio="_de objetivo"><*b>intercambio de Código Política Corporativa</*b></un>.</*p> \*n\*n<*p>Por descargar este software implícitamente reconoces que  tienes <un *href="$3" espacio="_de objetivo"><*b>leyó la Política</*b></un> y estar de acuerdo con los plazos y condiciones. \*n\*n<*p>Para proceder con la descarga de archivo, clic encima '<*b> ESTOY DE ACUERDO</*b>'. Si no quieres descargar el clic de archivo encima '<*b> DECLINO</*b>' y <un *href="*mailto:$2"><*b>nos contacto</*b></un> si  necesitas aclaración o quiere explicar por qué  declinaste el acuerdo.
+file_confirm_download	agree	ESTOY DE ACUERDO
+file_confirm_download	decline	DECLINO
+file_confirm_download	back	Atrás a página anterior
+#
+#-----------------------------------------------
+# Script: SF/www/file/download.php
+#
+file_download	incorrect_release_id	*Incorrect Liberación de archivo ID o Grupo ID
+file_download	report_error	Complacer informar el error al $1 Administrador que utiliza el <*i>Nos Contacto</*i> enlace en general carta
+file_download	access_denied	El acceso Negó
+file_download	access_not_authorized	No eres autorizado para acceder este archivo. Complacer contactar un <Un *HREF="$1">Administrador de Proyecto</Un>.
+file_download	file_not_available	Error interno: Archiva no disponible. Complacer contactar el administrador de sistema
+#
+#-----------------------------------------------
+# Script: SF/www/file/filemodule_monitor.php
+#
+file_filemodule_monitor	monitor_a_package	Monitor Un Paquete
+file_filemodule_monitor	monitor_package	Monitor un Paquete
+file_filemodule_monitor	insert_err	El error que inserta a *filemodule_monitor
+file_filemodule_monitor	p_monitored	El paquete ahora está siendo controló
+file_filemodule_monitor	now_emails	Ahora serás *emailed cuándo los archivos nuevos están liberados.
+file_filemodule_monitor	turn_monitor_off	Para apagar control, sencillamente clic el <*B>la parón que Controla</*B> icono.
+file_filemodule_monitor	monitor_turned_off	El control ha sido apagado
+file_filemodule_monitor	no_emails	No recibirás más emails de este paquete.
+file_filemodule_monitor	choose_p	Error - Escoger un paquete Primero
+file_filemodule_monitor	no_permission	No tienes bastantes permisos para actuar esta acción
+file_filemodule_monitor	monitoring_people_title	Las personas que controlan el paquete
+file_filemodule_monitor	users_monitor	$1 usuario(*s) está controlando anónimamente.
+file_filemodule_monitor	no_list	Ningún usuario públicamente controlando este paquete
+file_filemodule_monitor	user	Usuario
+file_filemodule_monitor	add_users	Añade usuarios a la lista de control
+file_filemodule_monitor	my_monitoring	Mi control de paquete
+file_filemodule_monitor	anonymous	Monitor anónimamente
+file_filemodule_monitor	public	*admin Sabrá que  estás controlando este paquete
+file_filemodule_monitor	no_delete	Nada para eliminar
+file_filemodule_monitor	not_monitoring	Usuario "$1" no controlaba este paquete
+file_filemodule_monitor	delete_error	No podría eliminar controlando para usuario "$1"
+file_filemodule_monitor	deleted	Controlando eliminado para usuario "$1"
+file_filemodule_monitor	no_user	No podría encontrar usuario "$1"
+file_filemodule_monitor	user_no_permission	Usuario "$1" no tiene permiso para leer el paquete
+file_filemodule_monitor	already_monitoring	Usuario "$1" ya controlaba este paquete
+file_filemodule_monitor	monitoring_added	El paquete ahora está siendo controlado por "$1"
+file_filemodule_monitor	mail_subject	[$1] paquete de Control "$2"
+file_filemodule_monitor	add_monitor_mail	Estuviste añadido para controlar el paquete
+file_filemodule_monitor	delete_monitor_mail	Estuviste sacado de controlar el paquete
+#
+#-----------------------------------------------
+# Script: SF/www/file/file_utils.php
+#
+file_file_utils	admin	*Admin
+file_file_utils	must_choose_one	Escoge...
+file_file_utils	g_id_err	Error - identificador de Proyecto (grupo_*id) requirió
+file_file_utils	manage_proc	Procesadores
+file_file_utils	proc_id	Procesador ID
+file_file_utils	proc_name	Nombre
+file_file_utils	proc_rank	Rango
+file_file_utils	del	Elimina?
+file_file_utils	add_proc	Añade
+file_file_utils	update_proc	Actualización
+file_file_utils	required_fields	Los campos requirieron
+file_file_utils	add_proc_success	El procesador Añadió.
+file_file_utils	add_proc_fail	Entrega Fallado.
+file_file_utils	update_proc_success	El procesador Actualizó.
+file_file_utils	update_proc_fail	La actualización Falló.
+file_file_utils	delete_proc_success	El procesador Eliminó.
+file_file_utils	delete_proc_fail	Elimina Fallado.
+file_file_utils	del_proc	Eliminar este procesador ?
+#
+#-----------------------------------------------
+# Script: SF/www/file/showfiles.php
+#
+file_showfiles	file_p_for	Paquetes de archivo para proyecta '$1'
+file_showfiles	no_file_p	#Ninguno Paquetes de Archivo
+file_showfiles	no_p_available	Hay #ninguno paquetes de archivo disponibles
+file_showfiles	p_releases	Liberaciones de paquete
+file_showfiles	select_release	Seleccionar el icono de texto (próximo de liberar nombre) para ver Notas de Liberación y Registro de Cambio.&*nbsp;Selecciona Archivo para pedir descarga de archivo.
+file_showfiles	release_notes	Liberación &*amp; Notas
+file_showfiles	size	Medida (*Kb)
+file_showfiles	d_l	D/L
+file_showfiles	arch	Arco.
+file_showfiles	type	Tipo
+file_showfiles	date	Fecha
+file_showfiles	no_releases	Ninguna Liberación
+file_showfiles	proj_total	Totales de proyecto
+file_showfiles	no_files	Ningún Archivo
+file_showfiles	read_notes	Notas de liberación leída y *changelog
+file_showfiles	start_monitoring	Monitor este paquete
+file_showfiles	stop_monitoring	La parón que controla este paquete
+file_showfiles	stat_total_nb_releases	Liberaciones
+file_showfiles	stat_total_nb_files	Archivos
+file_showfiles	stat_total_size	*Kb
+file_showfiles	stat_total_nb_downloads	Descargas
+file_showfiles	hidden_package	Este paquete está escondido.
+file_showfiles	hidden_release	Esta liberación está escondida.
+file_showfiles	md5sum	Archivo *md5suma
+file_showfiles	user	Dueño
+file_showfiles	release	Liberación
+file_showfiles	package	Paquete
+file_showfiles	warn_chars	El $1 '$2' contiene caracteres que puede ser incompatible con *webdav uso
+#
+#-----------------------------------------------
+# Script: SF/www/file/shownotes.php
+#
+file_shownotes	not_found_err	Error - No Encontrado
+file_shownotes	release_not_found	Aquella Liberación No Fue Encontrada
+file_shownotes	release_notes	Notas de Liberación del archivo y *Changelog
+file_shownotes	release_name	Nombre de liberación
+file_shownotes	changes	Cambios
+file_shownotes	notes	Notas
+
+
+file_ref_tooltip	package_release	Liberación/de paquete

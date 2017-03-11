@@ -1,0 +1,30 @@
+var codendi = codendi || { };
+codendi.locales = codendi.locales || { };
+
+codendi.locale = 'es';
+codendi.locales['cross_ref_fact_include'] = {
+    legend: 'Lista de elementos referenciados por o referenciando a este elemento.',
+    legend_referenced_by: 'Lista de elementos referenciando a éste.',
+    show_references_to:	'Mostrar elementos referenciados por éste',
+    hide_references_to:	'Esconder elementos referenciados por este sitio'
+};
+
+codendi.locales['files'] = {
+    error_max_file_size: 'Ha excedido el tamaño maximo del archivo'
+};
+
+codendi.locales['svn_accessfile_history'] = {
+    empty: 'Esta versión esta vacia'
+};
+
+codendi.locales['search'] = {
+    error: 'Ocurrio un error'
+};
+
+codendi.locales['account'] = {
+    theme_variant_preview : 'Esto es una vista previa. Debe guardar sus preferencias para aplicar las modificaciones'
+};
+
+codendi.locales['register'] = {
+    did_you_mean: '¿Quizo decir <a class="suggested-email">#{full}</a>?'
+};

@@ -1,0 +1,48 @@
+#/**
+#  *
+#  * Include scripts message catalog (English)
+#  *
+#  * Codendi 
+#  * Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#  * http://www.codendi.com
+#  *
+#  *
+#  */
+#
+#-----------------------------------------------
+# Script: SF/www/top/index.php
+#
+top_index	top_list	Listados de Proyecto superior
+top_index	top_proj	Superior $1 Proyectos
+top_index	rank	Seguimos mucha estadística de uso del proyecto en $1, y exhibición aquí el superior *ranked proyectos en varias categorías.
+top_index	act_week	La mayoría de Activo Esta Semana
+top_index	act_all_time	La mayoría de Activo Todos Cronometran
+top_index	download	Descargas superiores
+top_index	downl_week	Descargas superiores (Pasado 7 Días)
+top_index	pageviews	Proyecto superior *Pageviews (Medido por número de acceder al logotipo)
+top_index	forum	Cuentas de Correo de Foro superiores
+#
+#-----------------------------------------------
+# Script: SF/www/top/mostactive.php
+#
+top_mostactive	update_daily	(Actualizado Diario)
+top_mostactive	view_other_top_cat	[Vista Otras Categorías Superiores]
+top_mostactive	rank	Rango
+top_mostactive	name	Nombre de proyecto
+top_mostactive	percentile	*Percentile
+top_mostactive	more	Más
+#
+#-----------------------------------------------
+# Script: SF/www/top/toplist.php
+#
+top_toplist	downl_week	Descargas superiores antiguamente 7 Días
+top_toplist	downl	Descargas
+top_toplist	top_pageviews	Página de Proyecto Semanal superior vistas en *.$1 (de impresiones de $2 logotipo)
+top_toplist	pageviews	*Pageviews
+top_toplist	forum_counts	Cuentas de Correo de Foro superiores
+top_toplist	posts	Correos
+top_toplist	last_rank	Último Rango
+top_toplist	change	Cambio
+top_toplist	same	Mismo
+top_toplist	up	Arriba de $1
+top_toplist	down	Abajo $1

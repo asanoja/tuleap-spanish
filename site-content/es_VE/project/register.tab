@@ -1,0 +1,236 @@
+#/**
+#  *
+#  * Include scripts message catalog (English)
+#  *
+#  * Codendi 
+#  * Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#  * http://www.codendi.com
+#  *
+#  *
+#  */
+#
+#-----------------------------------------------
+# Script: src/common/project//category.php
+#
+register_category	upd_query_fail	Esto es un estado nulo . Consulta de actualización falló. <B>COMPLACER</B> informe a $1
+register_category	var_missing	Esto es un estado nulo . Algunas variables de forma faltaron. Si  eres seguro  introdujiste todo, <B>COMPLACER</B> informe a $1 e incluir *info en vuestro navegador y configuración de plataforma
+register_category	project_category	Categoría de proyecto
+register_category	select_3_classifs	Puede seleccionar hasta tres clasificaciones para este proyecto. Esto ayudará usuarios y desarrolladores potenciales para encontrar su proyecto y participar. Esta información es opcional.</P>COMENTARIOS IMPORTANTES: <ul></li>los proyectos deben que ser ubicados en las categorias mas significativas para ayudar a los otros</li></li>Categorización simultánea en una categoría concreta Y una categoría de padre resultarán en único la categorización más concreta el ser aceptó.</li></li><em><B>Tema único</B></em>: Si vuestro proyecto no parece para caber a cualquier de las categorías o sub-categorías, sencillamente seleccionar "Otro/No Listó Temas". Proyectos tan nuevos están entregados, el Equipo $1  refine el Tema *Trove por definir 2.º y posiblemente 3.as subcategorías de nivel.   Damos la bienvenida a cualesquier sugerencias en este.  Puedes cambiar el *trove categorías para este proyecto en cualquier tiempo.</li></*ul>
+#
+#-----------------------------------------------
+# Script: src/common/project//confirmation.php
+#
+register_confirmation	registration_complete	La inscripción Completa
+register_confirmation	upd_fail	ACTUALIZANDO A ACTIVO FALLÓ. COMPLACER informe a $1 $2
+register_confirmation	ins_file_fail	INSERTANDO *FILEMODULE FALLÓ. COMPLACER informe a *admin@$1 $2
+register_confirmation	set_owner_fail	PONIÉNDOTE TAN el DUEÑO FALLÓ. COMPLACER informe a $1 $2
+register_confirmation	open_discussion	Discusión abierta
+register_confirmation	general_discussion	Discusión general
+register_confirmation	get_help	Consigue Ayuda
+register_confirmation	developers	Desarrolladores
+register_confirmation	proj_dev_discussion	Discusión de Desarrollador del proyecto
+register_confirmation	cant_create_service	ERROR - no Puede crear servicio
+register_confirmation	cant_create_docgroup	ERROR - no Puede crear *default Grupo de Documento
+register_confirmation	cant_copy_cvs_infos	ERROR - no Puede copiar *default *CVS información
+register_confirmation	cant_copy_svn_infos	ERROR - no Puede copiar *default *SVN información
+register_confirmation	cant_copy_truncated_emails	ERROR - no Puede copiar truncó opción de emails de proyecto de padre
+register_confirmation	registration_deleted	La inscripción Eliminó
+register_confirmation	project_deleted	Inscripción de proyecto eliminó
+register_confirmation	try_again	Complacer probar otra vez en el futuro.
+register_confirmation	ins_desc_fail	INSERTANDO CAMPO de DESCRIPCIÓN FALLÓ. COMPLACER informe a *admin@$1 $2
+register_confirmation	cant_copy_msg_to_requester	ERROR - no Puede copiar *default mensaje a *requester para acceder vuestro proyecto.
+register_confirmation	registration_approved	Vuestro proyecto ha sido automáticamente aprobado,  puedes empezar utilizar lo ahora!
+#
+#-----------------------------------------------
+# Script: src/common/project//form.php
+#
+register_form	new_project_registration	Inscripción de Proyecto nuevo
+register_form	register_form	Forma de Inscripción de Proyecto nueva
+register_form	fill_form	Sencillamente llenar fuera de esta forma para pedir una cuenta en $1. Campos con un asterisco (*) está requerido.
+register_form	first_name	Primer Nombre
+register_form	last_name	Último Nombre
+register_form	email	Email
+register_form	project_name	Nombre de proyecto
+register_form	proj_description	Descripción breve<*br>de Proyecto:
+register_form	desired_subdomain	Subdominio deseado:<*br>(p. ej.
+register_form	passwd	Contraseña deseada:<*br>(introduce dos veces)
+register_form	comments	Cuestiones/de comentarios:
+register_form	clear_form	Forma clara
+register_form	cancel	Cancela Inscripción
+register_form	cancelled	Inscripción de proyecto canceló
+register_form	next	Paso próximo >>
+register_form	must_agree	Tienes que apalabrar el $1 Plazos *os Acuerdo de Servicio.
+#
+#-----------------------------------------------
+# Script: src/common/project//index.php
+#
+register_index	project_registration	Inscripción de proyecto
+#
+#-----------------------------------------------
+# Script: src/common/project//license.php
+#
+register_license	invalid_g_name	Nombre de Grupo nulo
+register_license	invalid_short_name	Nombre Corto nulo
+register_license	invalid_full_name	Nombre Lleno nulo
+register_license	nospace_in_short_name	no puede haber cualesquier espacios ni cualquier _ (*underscore) en el Nombre Corto
+register_license	g_name_taken	Nombre de grupo Tomado
+register_license	g_name_exist	Aquel nombre de grupo ya existe.
+register_license	license	Licencia
+# 
+#-----------------------------------------------
+# Script: src/common/project//projectname.php
+#
+register_projectname	ins_query_fail	INSERT QUERY FAILED. Please notify $1	
+register_projectname	info_missed	Información faltante. Por favor llene con cuidado toda la información requerida.	
+register_projectname	tos_not_approved	Usted debe aprobar los terminos de uso del servicio.	
+#
+#-----------------------------------------------
+# Script: src/common/project//tos.php
+#
+register_tos	tos	Términos de uso del servicio	
+register_tos	tos_agreement	Paso 2: Términos de uso del servicio	
+register_tos	tos_agree	Al hacer click, usted acepta los terminos y condiciones de uso del servicio. <P><H3 align=center><A href="$1">[ACEPTO]</A>&nbsp;&nbsp;<A href="/">[NO ACEPTO]</A></H3>	
+#
+#-----------------------------------------------
+# Script: src/common/project//why.php
+#
+register_why	why_register	¿Por que registrarse?	
+#
+#-----------------------------------------------
+# Script: src/common/project//template.php
+#
+register_template	choose	Choose Seleccione una plantilla	
+register_template	choose_admin	O seleccione un proyecto en el cual es gestor	
+register_template	next_step	Paso 4: Información Basica del Proyecto	
+
+
+register_title	intro	Registro de Proyecto	
+register_title	registration	Servicios y requisitos de $1	
+register_title	tos	$1 Terminos y condiciones de uso	
+register_title	template	Plantilla de proyecto	
+register_title	basic	Descripción de proyecto	
+register_title	name	Nombre del proyecto	
+register_title	license	Politicas de software	
+register_title	category	Categorización del Proyecto	
+register_title	confirm	Final Confirmación	
+register_title	services	Servicios del Proyecto	
+register_title	settings	Parametros del Proyecto	
+
+
+register_services	desc	Por favor seleccione sus servicios	
+register_services	server	Servidor	
+
+
+register_confirmation	built_from_template	Plantilla	
+register_confirmation	form_short_description	Descripción corta del proyecto	
+register_confirmation	form_purpose	Descripción completa del proyecto	
+register_confirmation	form_required_sw	Software Requerido	
+register_confirmation	form_patents	Propiedad Intelectual	
+register_confirmation	form_comments	Otros Comentarios	
+register_confirmation	form_full_name	Nombre completo	
+register_confirmation	form_unix_name	Nombre corto	
+register_confirmation	trove	Categorias	
+#
+#-----------------------------------------------
+# Script: src/common/project/RegisterProjectDescription.php
+#
+register_desc	short_description	Descripción corta del proyecto	
+register_desc	short_description_desc	¿Cual es el propósito del proyecto (3-4 lineas). Se permiten etiquetas HTML.	
+
+
+register_project_one_step	title	Creación de un nuevo proyecto	
+register_project_one_step	page_description_beg	Crear un nuevo proyecto en	
+register_project_one_step	page_description_end	muy simple.	
+register_project_one_step	custom_description_missing	El campo '$1' es requerido	
+register_project_one_step	mandatory_trovecat_missing	La categoría '$1' es requerido	
+register_project_one_step	warning	Advertencia	
+register_project_one_step	warning_message	Antes de poder trabajar con su proyecto, un administrador del sistema debe aprobarlo.	
+register_project_one_step	description_container_title	Describa su proyecto	
+register_project_one_step	description_container_full_name	Nombre completo	
+register_project_one_step	description_container_full_name_help	entre 3 y 40 caracteres	
+register_project_one_step	description_container_short_name	Nombre corto	
+register_project_one_step	description_container_short_name_help	entre 3 y 30 caracteres, solo letras, números y guiones (-). Debe iniciar con una letra. NO SE PERMITEN ESPACIOS.	
+register_project_one_step	description_container_short_name_label	El nombre corto es un nombre pnemotecnico que se usa en las URL (del proyecto y del código fuente) y para otras referencias.	
+
+
+register_project_one_step	description_container_short_description	Descripción corta	
+register_project_one_step	description_container_short_description_help	¿Cual es el proposito de su proyecto?	
+register_project_one_step	description_container_project_description	Descripción del proyecto	
+register_project_one_step	description_container_project_privacy	Politicas de privacidad del proyecto	
+register_project_one_step	description_container_project_private_label	Privado (acceso limitado solamente a miembros del proyecto)	
+register_project_one_step	description_container_project_public_label	Público	
+register_project_one_step	submit_button	Crear el proyecto	
+register_project_one_step	agree_TOS_label	Acepto el	
+register_project_one_step	TOS_label	acuerdo	
+register_project_one_step	about_to_create	Esta a punto de solicitar la creación de un proyecto.	
+register_project_one_step	about_to_create_optional	Recibirá una notificación cuando el administrador haya validado su proyecto. Luego, podrá acceder a su espacio de trabajo. ¡Suerte!	
+register_project_one_step	choose_template_title	Seleccione una plantilla apropiada para su proyecto	
+register_project_one_step	choose_template_description_part_one	Una plantilla de proyecto es un espacio de trabajo predeterminado: herramientas activas (monitores, sistemas de control de versiones, herramientas de comunicación...), herramientas personalizadas y configuración (flujo de trabajo, organización de la documentación...), grupos de usuario, permisologia, etc.	
+register_project_one_step	choose_template_description_part_two	La plantilla del proyecto seleccionara algunos servicios. Puede siempre modificar su espacio de trabajo luego de aprobado el proyecto.	
+register_project_one_step	choose_default_templates	Plantillas predeterminadas	
+register_project_one_step	choose_admin_projects	Proyectos en los cuales es gestor	
+register_project_one_step	services_used	Servicios usados:	
+register_project_one_step	complete_title	Registro completo	
+register_project_one_step	complete_wait	Su proyecto ha sido enviado a los administradors. En un lapso de 24 horas, recibirá una decisión y más instrucciones.	
+register_project_one_step	complete_thanks	Gracias por usar $1	
+register_project_one_step	complete_mail_subject	Nuevo proyecto creado: $1	
+register_project_one_step	complete_mail_body_auto	Un nuevo proyecto ha sido creado en $1\n\nNombre del proyecto: $2\n\nComo es el administrador del sitio fue automaticamente aprobado.\n¿Quisiera acceder a los detalles del proyecto?, puede hacer click en el siguiente URL para acceder al panel de gestión :\n$3\n	
+register_project_one_step	complete_mail_body_approve	Un nuevo proyecto ha sido creadoen $1\n\nNombre del proyecto: $2\n\nPor favot haga click en el siguiente URL para aprobar el registro: $3	
+register_project_one_step	trove_cat_legend	Categoria del Repositorio	
+#
+#-----------------------------------------------
+# Script: src/common/project/OneStepRegistration/OneStepRegistrationPresenter.class.php
+#
+register_confirmation_project_one_step	title	Su proyecto ha sido creado	
+register_confirmation_project_one_step	section_one	Ya puede empezar a usarlo.	
+register_confirmation_project_one_step	section_two	Recibira un correo electrónico con más información.	
+register_confirmation_project_one_step	thanks	Gracias por usar $1	
+register_confirmation_project_one_step	redirect_content	Ir a la página principal del proyecto	
+#
+#-----------------------------------------------
+# Script: src/common/project/OneStepRegistration/OneStepRegistrationApprovalPresenter.php
+#
+register_confirmation_approval_project_one_step	title	Su proyecto ha sido creado	
+register_confirmation_approval_project_one_step	section_one	Su proyecto ha sido enviado al administrador para su validación.	
+register_confirmation_approval_project_one_step	section_two	Recibirá una notificación y mas instrucciones.	
+register_confirmation_approval_project_one_step	thanks	Gracias por usar $1	
+register_confirmation_approval_project_one_step	redirect_content	Volver a su página principal	
+#
+# Script: src/common/mail/MailProjectOneStepRegisterPresenter.php
+#
+mail_register_project_one_step	title	El proyecto $1 fue aprobado	
+mail_register_project_one_step	section_one	Por favor sirvase de revisar la <a href="$1">documentación del sistema</a> acerca de la herramienta y los servicios ofrecidos por el proyecto $2 a los administradores del sistema (incluida una guia detallada).	
+mail_register_project_one_step	section_two	Lo invitamos a visitar la <a href="$1">Página Resumen</a> de su proyecto, cree una descripción corta para su proyecto y asignele una categoria en la Mapa de Software, si no ha sido ya realizado.	
+mail_register_project_one_step	section_three	Como gestor del proyecto, puede <a href="$1">administrar plenamente ambiente de proyecto</a>. Puede crear tareas, monitores de defectos, listas de correo, foros, repositorios git, etc.	
+mail_register_project_one_step	section_four	Observación: si ya tiene un repositorio CVS o Subversion y desea mudarlo en el proyecto $1 contacte al equipo del mismo proyecto ($1).	
+mail_register_project_one_step	full_name	Nombre completo	
+mail_register_project_one_step	short_name	Nombre corto	
+mail_register_project_one_step	summary_page	Página resumen	
+#
+#-----------------------------------------------
+# Script: src/common/mail/MailProjectNotificationPresenter.php
+#
+mail_register_project_one_step_notification	title	Proyecto registrado	
+mail_register_project_one_step_notification	section_one	Un nuevo proyecto ha sido registrado en $1.	
+mail_register_project_one_step_notification	section_two	Nombre del proyecto: $1.	
+mail_register_project_one_step_notification	section_three	Según la configuración del sitio Web, el proyecto ha sido aprobado automaticamente.	
+mail_register_project_one_step_notification	redirect_button	Ir al panel de administración	
+#
+#-----------------------------------------------
+# Script: src/common/mail/MailProjectNotificationMustBeApprovedPresenter.php
+#
+mail_register_project_one_step_notification_approved	title	Proyecto registrado	
+mail_register_project_one_step_notification_approved	section_one	Un nuevo proyecto ha sido registrado en $1.	
+mail_register_project_one_step_notification_approved	section_two	Nombre de proyecto: $1.	
+mail_register_project_one_step_notification_approved	section_three	Por favor haga click sobre el boton de para aprobar el registro del siguiente proyecto:	
+mail_register_project_one_step_notification_approved	redirect_button	Apruebe el proyecto	
+#
+#-----------------------------------------------
+# Script:
+#   src/common/mail/MailProjectNotificationMustBeApprovedPresenter.php
+#   src/common/mail/MailProjectNotificationPresenter.php
+#   src/common/mail/MailProjectOneStepRegisterPresenter.php
+#
+mail_outline	help	Cualquier duda contacte a: $1	
+mail_outline	thanks	¡Gracias!	
+mail_outline	signature	-- El Equipo de $1	

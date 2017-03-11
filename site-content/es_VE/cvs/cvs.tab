@@ -1,0 +1,127 @@
+#/**
+#  *
+#  * CVS scripts message catalog (English)
+#  *
+#  * Codendi 
+#  * Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#  * http://www.codendi.com
+#  *
+#  *
+#  */
+#
+#
+#-----------------------------------------------
+# Script: SF/www/cvs/index.php
+#
+cvs_index	config_updated	La configuración actualizó
+cvs_index	full_success	Exitosamente
+cvs_index	partial_success	En parte<*br>la dirección de correo electrónico Aparece Nula, notificación de email es fuera.
+#
+#-----------------------------------------------
+# Script: SF/www/cvs/admin_commit.php
+#
+cvs_admin_commit	title	*CVS Administración
+cvs_admin_commit	private_hdr	*CVS Permisos
+cvs_admin_commit	private_lbl	Repositorio privado
+cvs_admin_commit	private_private_msg	Los proyectos privados no pueden hacer su público de repositorio.
+cvs_admin_commit	tracking_hdr	*CVS Siguiendo
+cvs_admin_commit	tracking_msg	Cuándo *CVS siguiendo es encima, el comete (cambio de archivo, adición y extracción) está registrado en el $1 base de datos de modo que  pueden ser explorados y buscó. Más comete no es *logged en la base de datos; sólo el *CVS la historia es disponible
+cvs_admin_commit	tracking_lbl	*CVS Siguiendo
+cvs_admin_commit	watches_hdr	*CVS Modo de reloj
+cvs_admin_commit	watches_msg	*CVS Crea trabajar las copias de proyecto archiva leídas-únicos, para recordar desarrolladores para correr el *cvs edita orden antes de laborable encima les.
+cvs_admin_commit	watches_lbl	*CVS Modo de reloj
+cvs_admin_commit	notif_hdr	Notificación de email encima comete
+cvs_admin_commit	notif_msg	Cada cual comete el acontecimiento también puede ser notificado vía email a concreto *recipients o *mailing listas (la coma separada). Un encabezamiento @subject concreto para el mensaje de email también puede ser especificado.
+cvs_admin_commit	mail_to	Correo A
+cvs_admin_commit	subject	Encabezamiento @Subject
+cvs_admin_commit	preamble_hdr	*CVS Preámbulo
+cvs_admin_commit	preamble_msg	Mensaje introductorio para reemplazar el *default uno en el <un *href="$1">*CVS página bienvenida</un>. (Etiquetas de HTML dejadas)
+#
+#-----------------------------------------------
+# Script: SF/www/cvs/cvs_intro.php
+#
+# Rk: for the introduction text see the intro.txt file
+#
+cvs_intro	title	*CVS Información
+cvs_intro	repo_history	Historia de repositorio
+cvs_intro	no_history	Este proyecto tiene no *CVS historia.
+cvs_intro	nb_commits	El desarrollador Comete (Dura 7 Total/de días)
+cvs_intro	browse_title	Explorar el *CVS Árbol
+cvs_intro	browse_msg	Explorando el *CVS el árbol te das una vista grande al estado actual del código de este proyecto. También puedes ver las historias completas de cualquier archivo en el repositorio.
+#
+#-----------------------------------------------
+# Script: SF/www/cvs/browse_commit.php
+#
+cvs_browse_commit	title	*CVS Comete Explorar
+cvs_browse_commit	browse_by	Explora comete por
+cvs_browse_commit	id	ID
+cvs_browse_commit	branch	Rama
+cvs_browse_commit	who	Entregado por
+cvs_browse_commit	keyword	Palabras clave en mensajes de registro
+cvs_browse_commit	date	Comete fecha
+cvs_browse_commit	pick_date	Clic Aquí para Coger una fecha
+cvs_browse_commit	nb_at_once	Comete inmediatamente
+cvs_browse_commit	no_commit	Ningún Cometer partidos vuestros criterios
+cvs_browse_commit	log_message	Mensaje de registro
+#
+#-----------------------------------------------
+# Script: SF/www/cvs/detail_commit.php
+#
+cvs_detail_commit	title	*CVS Comete #$1 - Detalles
+cvs_detail_commit	error_notfound	Comete #$1 no encontrado en este proyecto
+#
+#-----------------------------------------------
+# Script: SF/www/cvs/commit_utils.php
+#
+cvs_commit_utils	error_project	Los proyectos únicos Pueden Utilizar El *CVS Servicio web
+cvs_commit_utils	error_off	Este Proyecto Ha Girado *CVS Fuera
+cvs_commit_utils	menu_info	*CVS *Info
+cvs_commit_utils	menu_browse	Explora *CVS Árbol
+cvs_commit_utils	menu_my	Mi *CVS Comete
+cvs_commit_utils	menu_query	*CVS Consulta
+cvs_commit_utils	menu_admin	*CVS *Admin
+cvs_commit_utils	error_nogid	ERROR - ningún grupo_*id
+cvs_commit_utils	sorted_by	Ordenado por
+cvs_commit_utils	matching	Emparejando comete
+cvs_commit_utils	sort_msg	Clic una columna que se dirige a resultados de clase (arriba o abajo), o <Un *HREF="$1"><*b>clase de Reinicialización</*b></un>.  Puedes también <un *href="$2"><*b>$3 *multicolumn clase</*b></un>.
+cvs_commit_utils	activate	Activa
+cvs_commit_utils	deactivate	*deactivate
+cvs_commit_utils	description	Descripción
+cvs_commit_utils	id	ID
+cvs_commit_utils	who	Entregado por
+cvs_commit_utils	date	Fecha
+cvs_commit_utils	no_date	Ninguna fecha en este registro
+cvs_commit_utils	on_log	En este registro
+cvs_commit_utils	commit	Comete #
+cvs_commit_utils	checkin	*Checkin -
+cvs_commit_utils	impacted_file	Lista de impactó archivos
+cvs_commit_utils	file	Archivo
+cvs_commit_utils	rev	Revisión
+cvs_commit_utils	branch	Rama
+cvs_commit_utils	type	Tipo
+cvs_commit_utils	add	Añade
+cvs_commit_utils	change	Cambio
+cvs_commit_utils	remove	Elimina
+cvs_commit_utils	added_line	Añadió Líneas
+cvs_commit_utils	removed_line	Sacó Líneas
+#
+#-----------------------------------------------
+# Script: SF/www/cvs/viewvc.php
+#
+cvs_viewvc	title	Explora *CVS Árbol
+cvs_viewvc	error_noaccess	El acceso Negó
+cvs_viewvc	error_noaccess_msg	No eres autorizado para acceder este archivo. Complacer contactar un <Un *HREF="$1">Administrador de Proyecto</Un>.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

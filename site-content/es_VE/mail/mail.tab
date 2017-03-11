@@ -1,0 +1,92 @@
+#/**
+#  *
+#  * Include scripts message catalog (English)
+#  *
+#  * Codendi 
+#  * Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#  * http://www.codendi.com
+#  *
+#  *
+#  */
+#
+#-----------------------------------------------
+# Script: SF/www/mail/admin/index.php
+#
+mail_admin_index	provide_correct_list_name	El mosto Proporciona la lista Nombra Aquello Es 4 o Más Caracteres Mucho tiempo
+mail_admin_index	list_name_unauthorized_char	Nombre de lista Contiene Caracteres Malos. Autorizó los caracteres son : letras, números, -, _, .
+mail_admin_index	list_exists_err	ERROR - Listar Ya Existe
+mail_admin_index	add_list_err	El error que Añade Lista
+mail_admin_index	list_added	La lista Añadió
+mail_admin_index	invalid_userid	Nulo *userid
+mail_admin_index	does_not_compute	La dirección de correo electrónico no encontrada.
+mail_admin_index	list_create_explain	Un *mailing la lista será creada en $1 en unos cuantos minutos\*nand  eres el administrador de lista .\*n\*nYour *mailing Lista *info es en:\*n$3 \*n\*nList la administración puede ser encontrada en: \*n$4\*n\*nYour contraseña de lista es: $5\*nYou está animado para cambiar esta contraseña tan pronto como sea posible.\*n\*nThank Tú para utilizar $1.\*n\*n -- El $1 Equipo\*n
+mail_admin_index	new_mail_list	Nuevo *Mailing Lista
+mail_admin_index	mail_sent_to	El email enviado con detalles a: $1
+mail_admin_index	invalid_list_name	Nombre de Lista nula
+mail_admin_index	upate_status_err	El error que Actualiza Estado
+mail_admin_index	status_update_success	El estado Actualizó Exitosamente
+mail_admin_index	add_a_mail_list	Añadir un *Mailing Lista
+mail_admin_index	existing_mail_list	Existiendo *Mailing Listas
+mail_admin_index	mail_list_name	*Mailing Nombre de lista
+mail_admin_index	is_public	Es Público?
+mail_admin_index	public_explain	(Derecho de suscripción de medio público está concedido a cualquier usuario, y los archivos son públicos)
+mail_admin_index	desc	Descripción
+mail_admin_index	add_this_list	Añadir Esta Lista
+mail_admin_index	update_mail_list	Actualización *Mailing Listas
+mail_admin_index	no_list_found	Ninguna Lista Encontró
+mail_admin_index	none_found_for_project	Ninguno encontrado para este proyecto
+mail_admin_index	admin_lists_here	Puedes administrar listas de ahí. Complacer nota que las listas privadas todavía pueden ser vistas por miembros de vuestro proyecto, pero no es listado en $1
+mail_admin_index	list	Lista
+mail_admin_index	update	Actualización
+mail_admin_index	list_admin	Lista *Admin
+mail_admin_index	public	Público
+mail_admin_index	private	Privado
+mail_admin_index	delete	Eliminado
+mail_admin_index	admin_in_gnu	Administrar esta lista en *GNU Cartero
+mail_admin_index	mail_list_admin	*Mailing Administración de lista
+mail_admin_index	add_mail_list	Añade *Mailing Lista
+mail_admin_index	create_new_mail_lists	Crea nuevo *mailing listas
+mail_admin_index	admin_update_lists	Administra/Listas de Actualización
+mail_admin_index	manage_mail	Dirige existir *mailing (descripción de cambio, intimidad...)
+#
+#-----------------------------------------------
+# Script: SF/www/mail/index.php
+#
+mail_index	mail_list_for	*Mailing Listas para $1
+mail_index	no_list_found_for	Ninguna Lista encontrada para $1
+mail_index	proj_admin_use_admin_link	Administradores de proyecto utilizan el *admin enlace para pedir *mailing listas.
+mail_index	mail_list_via_gnu	*Mailing Lista proporcionado vía un <Un *href="http://www.list.org">*GNU Cartero</Un>. Gracias al Cartero y <Un *href="http://www.python.org">Pitón</Unas> tripulaciones para software excelente.
+mail_index	choose_and_browse	Escoger una lista para explorar, búsqueda, y mensajes de correo.
+mail_index	archive	Archivos
+mail_index	public	Público
+mail_index	private	Privado
+mail_index	unsubscribe	(*Un)Suscribe/Preferencias
+mail_index	ml_admin	ML Administración
+mail_index	choose_group_first	Escoger un Grupo Primero
+mail_index	group_err	Error - escoger un grupo primero
+#
+#-----------------------------------------------
+# Script: SF/www/mail/mail_nav.php
+#	
+mail_nav	home_page	Página de casa
+mail_nav	mail_list	*Mailing Listas
+mail_nav	admin	Administración
+#
+#-----------------------------------------------
+# Script: SF/www/mail/mail_utils.php
+#
+mail_utils	mail_turned_off	Este Proyecto Ha Apagado *Mailing Listas
+mail_utils	admin	*Admin
+mail_utils	add_list	Añade Lista
+mail_utils	update_list	Lista de actualización
+#------------------------------------------------
+# SystemEvent
+#
+mail_system_event	md5_compute_error	Usuario de servicio de Archivos querido,\*n\*n Un error ocurre mientras intentando computar *md5suma en vuestro archivo cargado $1.\*nPlease Intenta cargarlo otra vez.
+mail_system_event	md5_compare_error	Usuario de servicio de Archivos querido, \*n\*nThe introdujo referencia *md5suma para el archivo $1 difiere del computado uno cuál *equals = $2.\*n Nota que un mensaje de error será mostrado cada vez  muestras el contenido de liberación en la interfaz de web. \*nIf  Consideras que el carga ha sido bien hecho,  puedes modificar el valor en el *md5campo de suma por poner el valor correcto.
+#
+#
+#
+mail_html_template	display_not_correct	Es este email no mostrando correctamente?
+mail_html_template	update_prefs	Preferencias de email de la actualización
+mail_html_template	can_update_prefs	Actualización vuestras preferencias de email

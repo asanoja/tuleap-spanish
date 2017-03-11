@@ -1,0 +1,60 @@
+#/**
+#  *
+#  * Top level scripts message catalog (English)
+#  *
+#  * Codendi 
+#  * Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#  * http://www.codendi.com
+#  *
+#  *
+#  */
+#
+#-----------------------------------------------
+# Script: SF/www/contact.php
+#
+contact	title	*Contáctenos
+#
+#-----------------------------------------------
+# Script: SF/www/404.php
+#
+404	title	*La *pagina *solicitada No *fue *encontrada(Error 404)
+404	no_archive	Ningun mensaje archivado			
+404	no_page	PAGINA NO ENCONTRADA	
+#
+#-----------------------------------------------
+# Script: SF/www/index.php
+#
+homepage	title	Bienvenido	
+homepage	news_title	Ultimas noticias	
+homepage	news_title2	Ultimas noticias - Formato RSS	
+homepage	discover_tuleap_awesomeness	Descubre *Tuleap puro <fuerte>*awesomeness</fuerte>
+homepage	latest_news	Ultimas noticias	
+homepage	nb_project_label	Proyecto	
+homepage	nb_user_label	Usuario	
+homepage	nb_projects_label	Proyectos	
+homepage	nb_users_label	Usuarios	
+homepage	sign_in_title	Ingresar	
+homepage	username_placeholder	Nombre de usuario	
+homepage	password_placeholder	Contraseña	
+homepage	sign_in_submit	Ingresar	
+homepage	forgot_password	 ¡Ah caramba!, Olvide mi contraseña	
+homepage	sign_in_or	o	
+homepage	not_a_member	¿No es miembro?	
+homepage	register	Regístrese	
+homepage	welcome_back	Bienvenido	
+#
+#-----------------------------------------------
+# Script: SF/www/sendmessage.php
+#
+sendmessage	title	Enviar un mensaje a $1	
+sendmessage	message	Llenela cuidadosamente o el receptor no podra responderle.<P><span class="highlight"><B>SI ESCRIBE SOLICITANDO AYUDA:</B> ¿Ya revisó la documentación del sitio? ¿Incluyo su  <B>nombre de usuario</B>? Si escribe acerca de un proyecto, incluya su <B>id de proyecto</B> (<B>group_id</B>) y <B>Nombre de proyecto</B>.</span>	
+sendmessage	err_nouser	Ese usuario no existe.	
+sendmessage	err_host	Puede solamente enviar a direcciones @$1.	
+sendmessage	err_noparam	Algunas variables no fueron provistas (ID de usuario o correo electrónico)	
+sendmessage	title_sent	Mensaje enviado a $1	
+sendmessage	email	Su correo electrónico	
+sendmessage	name	Su nombre	
+sendmessage	subject	Asunto	
+sendmessage	message_body	Mensaje	
+sendmessage	send_btn	Enviar Mensaje	
+sendmessage	invalid_msg	Su mensaje no es válido, usted puede enviar un mensaje predeterminado o vacio.	

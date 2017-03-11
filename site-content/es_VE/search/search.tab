@@ -1,0 +1,46 @@
+#/**
+#  *
+#  * Include scripts message catalog (English)
+#  *
+#  * Codendi 
+#  * Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#  * http://www.codendi.com
+#  *
+#  *
+#  */
+#
+#-----------------------------------------------
+# Script: SF/www/search/index.php
+#
+search_index	search	Búsqueda
+search_index	search_tab	Búsqueda clásica
+search_index	site_wide_search	Sitio-búsqueda ancha
+search_index	project_wide_search	Búsqueda en $1
+search_index	no_searchable_services	Ningún *searchable servicios en este proyecto
+search_index	at_least_3_ch	La búsqueda tiene que ser al menos tres caracteres
+search_index	no_match_found	Ningún partido encontrado para <abarcar>$1</abarca>
+search_index	no_more_results	No más los partidos encontraron
+search_index	more_results	Más resultados
+search_index	search_res	Resultados de búsqueda para $1 ($2 resultados)
+search_index	project_name	Nombre de proyecto
+search_index	description	Descripción
+search_index	user_n	Nombre de usuario
+search_index	real_n	Nombre real
+search_index	thread	Hilo
+search_index	author	Autor
+search_index	date	Fecha
+search_index	bug_summary	Resumen de bicho
+search_index	submitted_by	Entregado Por
+search_index	sr_summary	*SR Resumen
+search_index	task_summary	Resumen de tarea
+search_index	created_by	Creado Por
+search_index	start_date	Fecha de inicio
+search_index	end_date	Fecha de fin
+search_index	snippet_name	Nombre de #fragmento
+search_index	artifact_summary	Resumen de artefacto
+search_index	invalid_search	ERROR - Búsqueda Nula
+search_index	prev_res	Resultados anteriores
+search_index	next_res	Resultados próximos
+search_index	soft	Proyectos
+search_index	people	Personas
+search_index	snippets	#Fragmento

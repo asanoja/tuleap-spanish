@@ -1,0 +1,216 @@
+#/**
+#  *
+#  * Include scripts message catalog (English)
+#  *
+#  * Codendi
+#  * Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#  * http://www.codendi.com
+#  *
+#  *
+#  */
+#
+#-----------------------------------------------
+# Script: SF/www/svn/admin/access_control.php
+#
+svn_admin_access_control	upd_success	Control de acceso actualizó exitosamente
+svn_admin_access_control	upd_fail	Actualización de Control del acceso falló
+svn_admin_access_control	access_ctrl	*Subversion Administración - Control de Acceso
+svn_admin_access_control	def_policy	El *default la política es para dejar leído-escribir acceso a todos miembros de proyecto en el repositorio entero y leído-acceso único a todo otro $1 usuarios.  Puedes poner a punto o incluso redefinir los permisos de acceso abajo para convenir vuestras necesidades.
+svn_admin_access_control	access_ctrl_file	Archivo de Control del acceso
+svn_admin_access_control	not_created	Vuestro *subversion el repositorio no ha sido creado todavía. Permisos de acceso pueden no todavía ser definidos
+svn_admin_access_control	no_ugroup	Grupo de usuario "$1" es vacío o no existe
+svn_admin_access_control	invalid_line	Línea nula "$1"
+svn_admin_access_control	button_new_version	Salva versión nueva
+svn_admin_access_control	button_other_version	Uso esto versión seleccionada
+svn_admin_access_control	other_versions	Salvó versiones:
+svn_admin_access_control	last_version	Estás utilizando la última versión (# $1)
+svn_admin_access_control	previous_version	Estás utilizando una versión anterior (# $1)
+svn_admin_access_control	saved_on	Salvado encima
+svn_admin_access_control	select_version	Seleccionar una versión
+svn_admin_access_control	permissions_warning	Está recomendado a siempre definir permisos en un *Tuleap grupo de usuario. Aplica permisos a un grupo manualmente definido o a un usuario concreto podría causar asuntos de seguridad.
+#
+#-----------------------------------------------
+# Script: SF/www/svn/admin/general_settings.php
+#
+svn_admin_general_settings	upd_success	Los encuadres generales actualizaron exitosamente
+svn_admin_general_settings	upd_fail	Actualización de Encuadres generales falló
+svn_admin_general_settings	gen_settings	*Subversion Administración - Encuadres Generales
+svn_admin_general_settings	tracking	*Subversion Siguiendo
+svn_admin_general_settings	tracking_comment	Cuándo *Subversion siguiendo es encima, el comete (cambio de archivo, adición y extracción) está registrado en el $1 base de datos de modo que  pueden ser explorados y buscó. Más comete no es *logged en la base de datos
+svn_admin_general_settings	mandatory_ref	Referencia obligatoria en cometer mensaje
+svn_admin_general_settings	mandatory_ref_comment	Cuándo Referencia Obligatoria en cometer el mensaje es encima, el mensaje comete tiene que contener al menos una referencia (a cualquier otro elemento), o el comete será rechazado.
+svn_admin_general_settings	preamble	<*h3>*Subversion Preámbulo</*h3><*P>mensaje Introductorio para reemplazar el *default uno en el <un *href="$1">*Subversion página bienvenida</un>. (Etiquetas de HTML dejadas)
+svn_admin_general_settings	svn_can_change_log	Modificar el cometer mensajes
+svn_admin_general_settings	svn_can_change_log_comment	Cuándo "Modificar el cometer los mensajes" es encima, el cometer el mensaje puede ser modificado (*svn *propset --*revprop -*r X *svn:registro)
+
+
+svn_admin_immutable_tags	title	*SVN Etiquetas inmutables
+svn_admin_immutable_tags	configuration	Configuración de etiquetas inmutables
+svn_admin_immutable_tags	configuration_description	Especifica carpetas donde las etiquetas inmutables serán localizadas.  Puedes especificar un *whitelist de carpetas donde te será capaz de hacer modificaciones.
+svn_admin_immutable_tags	layout_example	Diseño de ejemplo
+svn_admin_immutable_tags	impacted_svn	Ejemplo de impactado *svn operaciones en <abarcar etiqueta="de clase" *id="etiqueta-nombre-el ejemplo"></abarca>
+svn_admin_immutable_tags	impacted_svn_empty_state	Ejemplo de impactado *svn operaciones
+svn_admin_immutable_tags	whitelist	Global *whitelist
+svn_admin_immutable_tags	path	Caminos de etiquetas inmutables
+svn_admin_immutable_tags	tree	Estructura de árbol del repositorio
+svn_admin_immutable_tags	preview	Preestreno de vuestra configuración
+svn_admin_immutable_tags	preview_description	Aquí es un preestreno de qué vuestra configuración hace. El clic encima destacó carpetas para conseguir más información.
+svn_admin_immutable_tags	save	Salva configuración
+svn_admin_immutable_tags	my-tag	Mi-etiqueta
+svn_admin_immutable_tags	some/path	Algún/camino
+svn_admin_immutable_tags	svn_status_style	*SVN Estilo de estado
+svn_admin_immutable_tags	loading	Cargando...
+svn_admin_immutable_tags	select_tag	Complacer seleccionar etiqueta en el izquierdo
+svn_admin_immutable_tags	tree_empty_state	Vuestro *SVN el repositorio no es impactado por etiquetas inmutables porque la configuración es vacía o no empareja el diseño de repositorio actual
+svn_admin_immutable_tags	sooo_fat	Vuestro repositorio contiene demasiadas carpetas (más de $1), para razones de rendimiento, no podemos mostrar el preestreno de vuestra configuración.
+
+
+svn_tokens	default_comment	*Token Generó en $1
+svn_tokens	default_last_used_on	Nunca
+svn_tokens	default_last_used_by	-
+
+
+#
+#-----------------------------------------------
+# Script: SF/www/svn/admin/index.php
+#
+svn_admin_index	admin	*Subversion Administración
+svn_admin_index	gen_sett	Encuadres generales
+svn_admin_index	welcome	Definir el mensaje bienvenido, la base de datos que localiza...
+svn_admin_index	access	Control de acceso
+svn_admin_index	access_comment	Define permisos de acceso del usuario en el *subversion repositorio.
+svn_admin_index	email_sett	Encuadres de Notificación del email
+svn_admin_index	email_comment	Definir quién va a recibir notificación de email de los cambios cometidos al *subversion repositorio.
+svn_admin_index	immutable_tags	Etiquetas inmutables
+svn_admin_index	immutable_tags_description	Definir qué carpeta está considerada como una etiqueta inmutable.
+#
+#-----------------------------------------------
+# Script: SF/www/svn/admin/notification.php
+#
+svn_admin_notification	upd_email_success	Notificación de email actualizó exitosamente
+svn_admin_notification	upd_email_fail	"Correo a" contiene una dirección de correo electrónico nula.
+svn_admin_notification	upd_email_bad_adr	Direcciones de correo electrónico nulas "$1"
+svn_admin_notification	upd_header_success	El encabezamiento actualizó exitosamente
+svn_admin_notification	upd_header_fail	Actualización de encabezamiento falló.
+svn_admin_notification	email	*Subversion Administración - Notificación de Email
+svn_admin_notification	mail_comment	<*H3>notificación de Email encima Comete</*H3><*p><yo>Cada cual comete el acontecimiento también puede ser notificado vía email a concreto *recipients o *mailing listas (la coma separada). Un encabezamiento @subject concreto para el mensaje de email también puede ser especificado.</Yo></*p>
+svn_admin_notification	star_operator	Complacer nota que te puede utilizar el operador de estrella: /carpeta/para/notificar y /la carpeta/*/notifican será notificado la misma manera.
+svn_admin_notification	svn_tracking_comment	Para ser capaz de utilizar *subversion notificación, *subversion siguiendo tiene que ser activado.
+svn_admin_notification	mail_to	Correo a
+svn_admin_notification	notification_path	Camino
+svn_admin_notification	header	Encabezamiento @Subject
+svn_admin_notification	mailing_list_header	*SVN Lista de notificación
+svn_admin_notification	path_header	*SVN Controló camino
+svn_admin_notification	path_delete_ask	Elimina?
+svn_admin_notification	existent_notifications	Notificaciones disponibles
+svn_admin_notification	delete_path_success	Notificación de email sacada para $1
+svn_admin_notification	delete_path_fail	Notificación de email no sacada
+svn_admin_notification	retrieve_paths_fail	Ningún camino seleccionó
+#
+#-----------------------------------------------
+# Script: SF/www/svn/browse_revision.php
+#
+svn_browse_revision	browsing	*Subversion Las revisiones que Exploran
+svn_browse_revision	view_commit	El visionado comete
+svn_browse_revision	browse_commit	Explora comete por:
+svn_browse_revision	rev	Revisión
+svn_browse_revision	commiter	*Commiter
+svn_browse_revision	path	Camino
+svn_browse_revision	log_message	Mensaje de registro
+svn_browse_revision	search	Búsqueda de palabra clave en mensaje de registro
+svn_browse_revision	commit_at_once	Comete inmediatamente.
+svn_browse_revision	no_match	Ningún Comete Partido Vuestros Criterios
+svn_browse_revision	specific_perms	<*p> Hay permisos concretos puestos en el *subversion repositorio, tan *SVN la consulta es actualmente inutilizada.<*br/>Complacer contactar un administrador de proyecto para información adicional.</*p>
+#
+#-----------------------------------------------
+# Script: SF/www/svn/detail_revision.php
+#
+svn_detail_revision	svn_rev	*SVN Revisión $1 - Detalles
+svn_detail_revision	id_not_found	Interno Comete ID #$1 no encontrado en este proyecto
+#
+#-----------------------------------------------
+# Script: SF/www/svn/svn_intro.php
+#
+svn_intro	info	*Subversion Información
+svn_intro	history	Historia de repositorio
+svn_intro	browse_tree	Explorar el *Subversion Árbol
+svn_intro	browse_comment	Explorando el *Subversion el árbol te das una vista grande al estado actual del código de este proyecto. También puedes ver las historias completas de cualquier archivo en el repositorio.
+#
+#-----------------------------------------------
+# Script: SF/www/svn/svn_utils.php
+#
+svn_utils	proj_err	Los proyectos únicos Pueden Utilizar El *Subversion Director
+svn_utils	svn_off	Este Proyecto Ha Girado *Subversion Fuera
+svn_utils	svn_info	*Subversion *Info
+svn_utils	browse_tree	Explora *SVN Árbol
+svn_utils	my_ci	Mi *SVN Comete
+svn_utils	svn_query	*SVN Consulta
+svn_utils	svn_admin	*SVN *Admin
+svn_utils	browse_off	Este Proyecto Ha Apagado El *Subversion Navegador
+svn_utils	admin	*Admin
+svn_utils	notif	Notificación de email
+svn_utils	g_id_err	ERROR - ningún grupo_*id
+svn_utils	sorted_by	Ordenado por
+svn_utils	match_ci	$1 emparejando comete
+svn_utils	sort	Clic una columna que se dirige a resultados de clase (arriba o abajo), o <Un *HREF="$1"><*b>clase de Reinicialización</*b></un>.
+svn_utils	acti	Activa
+svn_utils	deacti	*Deactivate
+svn_utils	multi_sort	Puedes también <un *href="$1"><*b> $2 *multicolumn clase</*b></un>
+svn_utils	items	Elementos $1 - $2
+svn_utils	desc	Descripción
+svn_utils	date	Fecha
+svn_utils	file	Archivo
+svn_utils	type	Tipo
+svn_utils	add	Añade
+svn_utils	change	Cambio
+svn_utils	del	Elimina
+svn_utils	impacted_files	Lista de impactó archivos
+svn_utils	no_hist	Este proyecto tiene no *Subversion historia.
+svn_utils	ci_week	El desarrollador Comete (Dura 7 Total/de días)
+svn_utils	file_err	Error: no Puede abrir archivo $1
+svn_utils	write_err	Error: no Puede escribir para archivar $1
+#
+#-----------------------------------------------
+# Script: SF/www/svn/svn_utils.php
+#
+svn_viewvc	access_denied	El acceso Negó
+svn_viewvc	acc_den_comment	No eres autorizado para acceder este archivo. Complacer contactar un <Un *HREF="$1">Administrador de Proyecto</Un>.
+svn_viewvc	bad_roottype	Nulo *roottype
+
+
+
+
+svn_widget	svnstats	*Svn Estadística
+
+
+svn_tokens	allowed_project_back_link_title	Atrás a la administración global
+svn_tokens	allowed_project_title	*Tokens Para *SVN
+svn_tokens	allowed_project_information	Esta sección deja para definir qué proyectos serán capaces de utilizar el *tokens para *SVN autentificación.
+svn_tokens	allowed_project_list	Lista de los proyectos que utilizan *SVN *tokens:
+svn_tokens	allowed_project_list_allow_placeholder	Nombre de proyecto
+svn_tokens	allowed_project_list_allow_project	Autoriza
+svn_tokens	allowed_project_list_filter_placeholder	Filtro encima proyecto ID o nombre
+svn_tokens	allowed_project_list_id	ID
+svn_tokens	allowed_project_list_name	*Nom
+svn_tokens	allowed_project_list_empty	Actualmente, no hay ningún proyecto que deja *SVN *tokens.
+svn_tokens	allowed_project_allow_project	Entregó los proyectos dejarán *SVN *tokens (Acontecimientos de Sistema del control).
+svn_tokens	allowed_project_revoke_project	Entregó los proyectos no dejarán *anymore *SVN *tokens (Acontecimientos de Sistema del control).
+svn_tokens	allowed_project_update_project_list_error	Algo fue mal durante la autorización.
+svn_tokens	allowed_project_revoke_title	Aviso
+svn_tokens	allowed_project_revoke_description	Estás a punto de revoca *SVN *tokens autorización a un o varios proyectos. Eres seguro  quieres hacer este?
+svn_tokens	allowed_project_revoke_yes	Sí, revoca autorización
+svn_tokens	allowed_project_revoke_no	Núm
+svn_tokens	allowed_project_revoke_projects	*Les *projets *soumis *n'*auront Plus *l'*autorisation *d'*utiliser *les *jetons *de *connexion *SVN
+svn_tokens	allowed_project_list_revoke_projects	Revoca autorización a seleccionado
+
+
+svn_intro	title	*Subversion Acceso
+svn_intro	default_username	*username
+svn_intro	username_helper	En la orden abajo sustituye *username con el valor apropiado.
+svn_intro	username_helper_lowercase	Nota: Complacer escribir vuestro *username en minúsculas.
+svn_intro	command_intro	Abajo es una orden típica  utilizarías a *checkout el código de fuente de este proyecto.
+svn_intro	password	Introducir vuestra contraseña de sitio cuándo incitada.
+svn_intro	ldap_password	Introducir vuestro *LDAP la contraseña cuándo incitada.
+svn_intro	token	También puedes utilizar uno de vuestro *SVN *tokens.
+svn_intro	more_info	Más encima cómo para utilizar *Subversion
+svn_intro	warning_ldap	<AVISO>fuerte:</fuerte> Esto *subversion el repositorio confía en *LDAP autentificación.  Necesitas un <fuerte>válido *LDAP *login</fuerte> de utilizarlo.

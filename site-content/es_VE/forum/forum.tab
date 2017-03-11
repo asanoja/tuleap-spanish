@@ -1,0 +1,171 @@
+#/**
+#  *
+#  * forum scripts message catalog (English)
+#  *
+#  * Codendi 
+#  * Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#  * http://www.codendi.com
+#  *
+#  *
+#  */
+#
+#-----------------------------------------------
+# Script: SF/www/forum/admin/index.php
+#
+forum_admin_index	msgs_del	$1 mensaje(*s) eliminó
+forum_admin_index	msg_not_in_group	El mensaje no es en vuestro grupo
+forum_admin_index	msg_not_found	El mensaje no encontrado
+forum_admin_index	upd_err	El error que Actualiza Foro *Info
+forum_admin_index	upd_success	Foro *Info Actualizó Exitosamente
+forum_admin_index	del_a_msg	Eliminar un mensaje
+forum_admin_index	delete_warn	AVISO!  Estás a punto de permanentemente eliminar un mensaje y todo de su *followups!!
+forum_admin_index	enter_msg_id	Introducir el Mensaje ID
+forum_admin_index	add_a_forum	Añadir un Foro
+forum_admin_index	existing_forums	Existiendo Foros
+forum_admin_index	forum_name	Nombre de foro
+forum_admin_index	description	Descripción
+forum_admin_index	is_public	Es Público?
+forum_admin_index	monitor	Quiere controlar este foro?
+forum_admin_index	monitor_recommendation	Cuando el creador de Foro  es <*u>fuertemente recomendar</*u> que  controlas este foro para ser instantáneamente notificado vía email de cualquier mensaje nuevo *posted al Foro.
+forum_admin_index	once_added_no_delete	Una vez  añades un foro, no pueda ser modificado o eliminó!
+forum_admin_index	add_this_forum	Añadir Este Foro
+forum_admin_index	change_status	Estado de Foro del cambio
+forum_admin_index	forum_not_found	Ningún Foro Encontró
+forum_admin_index	none_found_for_group	Ningún foro para este proyecto
+forum_admin_index	update_f_status	Estado de Foro de la actualización
+forum_admin_index	private_explain	Puedes hacer los foros privados de ahí. Complacer nota que los foros privados todavía pueden ser vistos por miembros de vuestro proyecto, no el público general.
+forum_admin_index	forum	Foro
+forum_admin_index	update	Actualización
+forum_admin_index	deleted	Eliminado
+forum_admin_index	forum_admin	Administración de foro
+forum_admin_index	add_forum	Añade Foro
+forum_admin_index	del_msg	Elimina Mensaje
+forum_admin_index	update_forum_status	Foro de actualización *Info/Estado
+forum_admin_index	params_missing	Nombre de foro desaparecido o descripción, complacer pulsar el "botón" Posterior y completar esta información
+#
+#-----------------------------------------------
+# Script: SF/www/forum/expand.php
+#
+forum_expand	expand_threads	Expande/Hilos de Derrumbamiento
+forum_expand	prefs	La preferencia Puso
+forum_expand	now_expand	Los hilos ahora serán expandidos
+forum_expand	now_collaps	Los hilos ahora serán colapsados
+#
+#-----------------------------------------------
+# Script: SF/www/forum/forum.php
+#
+forum_forum	by	Por
+forum_forum	reply	Respuesta
+forum_forum	forum_restricted	El foro está restringido
+forum_forum	no_msg	Ningún Mensaje en $1
+forum_forum	nested	*Nested
+forum_forum	flat	Plano
+forum_forum	threaded	Roscado
+forum_forum	no_comments	Ningún Comentario
+forum_forum	show	Espectáculo $1
+forum_forum	change_view	Vista de cambio
+forum_forum	thread	Hilo
+forum_forum	author	Autor
+forum_forum	date	Fecha
+forum_forum	prev_msg	Mensajes anteriores
+forum_forum	next_msg	Mensajes próximos
+forum_forum	start_new_thread	Inicio un Hilo Nuevo
+forum_forum	choose_forum_first	Error - escoger un foro primero
+#
+#-----------------------------------------------
+# Script: SF/www/forum/forum_utils.php
+#
+forum_forum_utils	news	Noticioso
+forum_forum_utils	news_not_found	Error - esto el elemento noticioso no fue encontrado
+forum_forum_utils	posted_by	*Posted Por
+forum_forum_utils	summary	Resumen
+forum_forum_utils	proj_latest_news	Últimas noticias de proyecto
+forum_forum_utils	discuss_forum	Foros de discusión
+forum_forum_utils	stop_monitor	Foro de Control de la parón
+forum_forum_utils	monitor	Monitor Foro
+forum_forum_utils	monitor_thread	Tablero de Control del hilo
+forum_forum_utils	save_place	Salva Sitio
+forum_forum_utils	start_thread	Inicio Hilo Nuevo
+forum_forum_utils	admin	*Admin
+forum_forum_utils	forum_monitored	El foro ya controló
+forum_forum_utils	insert_err	El error que inserta a control_de foro
+forum_forum_utils	add_err	El error que Añade Foro '$1'.
+forum_forum_utils	forum_added	Foro '$1' Añadido.
+forum_forum_utils	welcome_to	Bienvenido a $1
+forum_forum_utils	not_found	No Encontrado
+forum_forum_utils	broken_thread	Hilo roto
+forum_forum_utils	post_without_id	Probando a correo sin un foro ID
+forum_forum_utils	include_body_and_subject	Tiene que incluir un cuerpo de mensaje y @subject
+forum_forum_utils	do_not_double_post	Apareces para ser doble-*posting este mensaje, desde entonces  tiene el mismo @subject y *followup información como correo previo.
+forum_forum_utils	msg_not_exist	Probando a *followup a un mensaje que no existe.
+forum_forum_utils	no_folowup_id	Ningún *followup ID presente cuándo probando a correo a un hilo de existir.
+forum_forum_utils	insert_fail	INSERTA FALLADO
+forum_forum_utils	post_failed	*Posting Falló
+forum_forum_utils	msg_posted	Mensaje *Posted
+forum_forum_utils	could_post_if_logged	Podrías correo si  eras *logged en
+forum_forum_utils	msg	Mensaje
+forum_forum_utils	subj	@Subject
+forum_forum_utils	html_displays_as_text	Etiquetas de HTML mostrarán en vuestro correo cuando texto
+forum_forum_utils	post_comment	Comentario de correo
+forum_forum_utils	log_to_post	<Un *HREF="$1"><*u>Registro en primer</*u></Un><abarcar punto destacado="de clase"> a mensajes de correo</abarca>
+forum_forum_utils	read_and_respond	Leído y responder a este mensaje en
+forum_forum_utils	stop_monitor_explain	Estás recibiendo este email porque  elegiste para controlar este foro o este hilo. \*nTo Para controlar este foro, *login y visita:\*n $1 .\*nTo Hilo de cambio que controla encuadres, visita:\*n $2.
+forum_forum_utils	mail_sent	El email envió
+forum_forum_utils	mail_not_sent	El email no enviado
+forum_forum_utils	people_monitoring	Las personas que controlan
+forum_forum_utils	no_one_monitoring	Nadie controlando
+forum_forum_utils	monitor_this_thread	<Fuerte>Controla este hilo</fuerte>
+#
+#-----------------------------------------------
+# Script: SF/www/forum/index.php
+#
+forum_index	forums_for	Foros para '$1'
+forum_index	no_forums	Ningún foro encontrado para '$1'
+forum_index	choose_forum	Escoger un foro y tú pueden explorar, búsqueda, y mensajes de correo.
+#
+#-----------------------------------------------
+# Script: SF/www/forum/message.php
+#
+forum_message	by	Por
+forum_message	date	Fecha
+forum_message	subject	@Subject
+forum_message	thread_view	Vista de hilo
+forum_message	post_followup	Correo un *followup a este mensaje
+forum_message	choose_msg_first	Tiene que escoger un mensaje primero
+#
+#-----------------------------------------------
+# Script: SF/www/forum/monitor.php
+#
+forum_monitor	monitor	Monitor un foro
+forum_monitor	monitor_off	El control ha sido apagado
+forum_monitor	no_mails_anymore	No recibirás más emails de este foro.
+forum_monitor	now_monitoring	El foro ahora está siendo controló
+forum_monitor	get_followups	Ahora serás *emailed *followups a este foro entero.
+forum_monitor	to_turn_monitor_off	Para apagar control, sencillamente clic el <*B>Foro de Control de la Parón</*B>.
+forum_monitor	choose_forum_first	Escoger un foro Primero
+#
+#-----------------------------------------------
+# Script: SF/www/forum/save.php
+#
+forum_save	save_place	Salvar vuestro sitio
+forum_save	save_your_place	Salvar Vuestro Sitio
+forum_save	insert_err	El error que inserta a foro_sitio_salvado
+forum_save	msg_highlighted	Los mensajes nuevos serán destacados cuándo  regresas.
+forum_save	update_err	El error que actualiza tiempo en foro_sitio_salvado
+forum_save	place_saved	Vuestro sitio estuvo salvado
+#
+#-----------------------------------------------
+# Script: SF/www/forum/thread.php
+#
+forum_thread	post_to_thread	Correo a este hilo
+forum_thread	choose_thread	Escoge Hilo
+forum_thread	choose_thread_first	Triste, Escoger Un Hilo Primero
+forum_thread	view_thread	Hilo de vista
+#
+#-----------------------------------------------
+# Script: src/www/forum/monitor_thread.php
+#
+forum_monitor_thread	tmonitor	Monitor?
+forum_monitor_thread	notice	Estás controlando el foro entero. Si  quieres controlar hilos concretos únicos, Foro de Control de la Parón.
+forum_monitor_thread	monitor_success	Control de hilo actualizó.
+forum_monitor_thread	monitor_fail	Actualización de control del hilo falló.

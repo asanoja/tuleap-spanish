@@ -1,0 +1,152 @@
+#/**
+#  *
+#  * Personal Home Page message catalog (English)
+#  *
+#  * Codendi 
+#  * Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#  * http://www.codendi.com
+#  *
+#  *
+#  */
+#
+#
+#-----------------------------------------------
+# Script: SF/www/my/index.php
+#
+my_index	my_dashboard	Mi Tablero	
+my_index	account_maintenance	Mi Cuenta	
+my_index	title	Pagina Personal de $1	
+my_index	err_badbrowser	Advertencia: su navegador (Netscape 4.x) no es soportado. Algunas funcionalidades no se mostrarán.	
+my_index	message	Su página personal contiene la lista de defectos [<b>A</b>]signadas a usted o  [<b>R</b>]egistradas por usted, tareas asignadas con porcentajes de avance, foros monitoreados y paquetes mas una lista de grupos a los cules usted es miembro.<P>	
+my_index	err_artf	Fallo la creación de ArtifactTypeFactory	
+my_index	my_bugs	Mis defectos	
+my_index	my_srs	Mis incidencias de soporte	
+my_index	my_forums	Foros monitoreados	
+my_index	my_forums_msg	<b>Usted no esta monitoreando ningun foro</b><P>Si asi lo hiciera, se le enviaran nuevas publicaciones como un correo electronico.<P>Puede monitorear foros haciendo click en el menu apropiado en el mismo foro<BR>&nbsp;	
+my_index	stop_forum	Desea ya no monitorear este foro?	
+my_index	my_files	Paquetes de archivos monitoreados	
+my_index	my_files_msg	<b>Usted no esta monitoreando ningun archivo</b><P>Si asi lo hiciera, se le enviaran noticias sobre los nuevos lanzamientos via email, junto con un enlace para descargarlo del servidor.<P>Usted puede monitorear archivos visitando la pagina regumen del proyecto y hacer click en el icono apropiado en dicha sección.<BR>&nbsp;	
+my_index	stop_file	¿Desea ya no monitorear este paquete?	
+my_index	stop_monitor	DETENER MONITOREO	
+my_index	my_tasks	Mis Tareas	
+my_index	my_arts	Mis Artefactos	
+my_index	display_arts	Mostrar artefactos:	
+my_index	my_survey	Encuesta rápida	
+my_index	survey_done	Usted ha realizado su encuenta de desarrollo	
+my_index	my_bookmarks	Mis favoritos	
+my_index	no_bookmark	Usted no tiene ningun favorito almacenado	
+my_index	edit_link	Editar	
+my_index	del_bookmark	¿Quiere borrar este favorito?	
+my_index	add_bookmark	Agregar a favoritos	
+my_index	my_projects	Mis Proyectos	
+my_index	not_member	Usted no es miembro de ningun proyecto	
+my_index	admin_link	Admin	
+my_index	quit_proj	¿Salir de este proyecto?	
+my_index	priv_proj	<em>Proyecto privado</em>	
+my_index	my_projects_legend	Leyenda:	
+#my_index	a	A	
+#my_index	s	R	
+#my_index	as	AR	
+my_index	no_info	No mostrar los artefactos	
+my_index	a_info	asignadas a mi [A]	
+my_index	s_info	registradas por mi [R]	
+my_index	as_info	asignadas o registradas por mi [AR]	
+my_index	my_admin	Usuarios, proyectos o noticias pendientes	
+my_index	my_admin_non_super	Proyectos pendientes	
+my_index	no_survey	No hay encuestas disponibles	
+my_index	no_bug	No hay defectos aun	
+my_index	no_task	No hay tareas aun	
+my_index	no_support	No hay incidencias aun	
+my_index	my_latest_svn_commit	Mis ultimos commits SVN	
+my_index	my_latest_svn_commit_desc	Lista de commits SVN hechos por mi, por proyecto.	
+my_index	my_latest_svn_commit_on	en	
+my_index	my_latest_svn_commit_by	por	
+my_index	my_latest_svn_commit_nb_prefs	Maximo numero de commits SVN a mostrar por proyecto	
+my_index	send_mail	Contact a los miembros del proyecto $1	
+my_index	mail_sent	Enviar correo a los miembros del proyecto $1	
+my_index	mail_not_sent	El correo no fue enviado a los miembros del proyecto $1	
+my_index	subject_label	Asunto	
+my_index	body_label	Cuerpo del mensaje	
+my_index	massmail_not_sent_max_users	Excedio el maximo numero de personas ($1) para enviar el mensaje. Este correo no fue enviado.	
+my_index	massmail_form_title	Enviar un correo a todos los miembros del proyecto	
+
+
+#
+#-----------------------------------------------
+# Script: SF/www/my/my_utils.php
+#
+my_utils	collapse	Colapsar	
+my_utils	expand	Expandir	
+my_utils	new_items	nuevo $1 	
+#
+#-----------------------------------------------
+# Script: SF/www/my/bookmark_add.php
+#
+bookmark_add	title	Agregar nuevo favorito	
+bookmark_add	message	Agregado favorito para <b>'$1'</b> con titulo <b>'$2'</b>.	
+bookmark_add	visit	Visitar favorito	
+bookmark_add	edit	Editar favorito	
+bookmark_add	bkm_url	Almacenar dirección	
+bookmark_add	bkm_title	Almacenar titulo	
+bookmark_add	favorite	Mi sitio favorito	
+bookmark_add	invalid_uri	El URL es inválido.	
+#
+#-----------------------------------------------
+# Script: SF/www/my/bookmark_delete.php
+#
+bookmark_delete	title	Borrar favorito	
+bookmark_delete	deleted	¡Favorito borrado!	
+#
+#-----------------------------------------------
+# Script: SF/www/my/bookmark_edit.php
+#
+bookmark_edit	title	Editar favorito	
+#
+#-----------------------------------------------
+# Script: SF/www/my/rmproject.php
+#
+bookmark_rmproject	err_notmember	Usted no es miembro de ese proyecto .	
+bookmark_rmproject	err_removing	Usted no puede quitar el grupo de administradores. Quitar privilegios de administración a esta persona antes de intentar quitarlos del proyecto. 	
+bookmark_rmproject	mail_subject	$1: usuarior $2 eliminado del proyecto '$3'	
+bookmark_rmproject	mail_body	Este mensaje esta siendo enviado al(los) administrador(es) del proyecto ID '$1' que el usuario ID $2 ha seleccionado para \neliminarse del proyecto.\n\nHaga click en este enlace para ver la lista de los miembros actuales del proyecto:\n$3\n\n	
+#
+#-----------------------------------------------
+# Script: SF/www/my/redirect.php
+#
+my_redirect	page_title	Redireccionar a	
+my_redirect	return_to	<p>La pagina solicitada esta cargando. Si no lo hace, intente <a href="$1">$1</a>.</p>	
+my_redirect	default_txt	Esta en una pagina de redirección. Puede conseguir enlaces útiles en su <a href="/my">página personal</a>.	
+#
+#-----------------------------------------------
+# Script: SF/www/my/stop_monitor.php
+#
+my_monitored_forum	stop_monitoring	El monitor ha sido apagado. Ya no recibira mas notificaciones de este foro.	
+my_monitored_forum	title	Detener monitor de un foro.	
+
+
+my_tour	welcome_title	¡Bienvenido a la Plataforma de Software Público!	
+my_tour	welcome	Encantado $1! Esta es su primera vez usando la plataforma, le mostraremos como proceder.	
+
+
+my_tour	my_personal_page_title	Mi página personal	
+my_tour	my_personal_page	Esta es su página personal. Aqui tendra su tablero con sus datos.	
+
+
+my_tour	projects_title	Proyectos	
+my_tour	projects	En esta pestaña puede crear su primer proyecto. Tambien acceder a otros proyectos.	
+
+
+my_tour	help_title	Ayuda	
+my_tour	help	Conseguirá ayudas como contactos y documentación.	
+
+
+my_tour	search_title	Búsqueda global	
+my_tour	search	Esta es la busqueda global de la Plataforma de Software Público. Puede hacer busquedas cruzadas en proyectos y servicios.	
+
+
+my_tour	user_menu_title	Menu de usuario	
+my_tour	user_menu	Encontrara aqui la información sobre su cuenta, cambiar su avatar, el tema, claves SSH, etc.	
+
+
+my_tour	end_tour_title	Ahora puede comenzar a usar la Plataforma de Software Público	
+my_tour	end_tour	Fin del tour. Disfrute la Plataforma.	

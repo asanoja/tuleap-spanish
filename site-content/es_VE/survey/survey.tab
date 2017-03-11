@@ -1,0 +1,235 @@
+#/**
+#  *
+#  * Include scripts message catalog (English)
+#  *
+#  * Codendi 
+#  * Copyright (c) Xerox Corporation, Codendi Team, 2001-2009. All rights reserved
+#  * http://www.codendi.com
+#  *
+#  *
+#  */
+#
+#-----------------------------------------------
+# Script: SF/common/survey/Survey.class.php
+#
+survey_common_survey	radio_buttons_1_5	Botones radiofónicos 1-5
+survey_common_survey	text_area	Área de texto
+survey_common_survey	radio_buttons_yes_no	Botones radiofónicos Sí/Núm
+survey_common_survey	comment_only	Comentario Sólo
+survey_common_survey	text_field	Campo de texto
+survey_common_survey	radio_buttons	Botones Radiofónicos hechos de encargo
+survey_common_survey	select_box	Selecciona Caja
+survey_common_survey	none	Ninguno
+survey_common_survey	dev_survey_title_key	Encuesta de desarrollador
+#
+#-----------------------------------------------
+# Script: SF/www/survey/admin/add_question.php
+#
+survey_admin_add_question	add_q	Añadir Una Cuestión
+survey_admin_add_question	perm_denied	El permiso Negó
+survey_admin_add_question	add_this_q	Añadir Esta Cuestión
+survey_admin_add_question	show_q	El espectáculo que Existe Cuestiones
+survey_admin_add_question	q_type	Tipo de cuestión:
+survey_admin_add_question	q_allowed	Cuestión (etiquetas de HTML dejadas):
+#
+#-----------------------------------------------
+# Script: SF/www/survey/admin/add_survey.php
+#
+survey_admin_add_survey	add_s	Añadir Una Encuesta
+survey_admin_add_survey	s_name	Nombre de Encuesta:
+survey_admin_add_survey	comment	Números de cuestión de la lista, en orden deseado, separado por comas. <*B>Refiere a vuestra lista de cuestiones</*B> tan  puedes ver la cuestión *id es.<*BR> Ex: 1,3,5,20,12,7
+survey_admin_add_survey	add_this_s	Añadir Esta Encuesta
+survey_admin_add_survey	existing_s	Existiendo Encuestas
+survey_admin_add_survey	active	Es Activo?
+survey_admin_add_survey	anonymous_answers	Respuestas anónimas vale?
+#
+#-----------------------------------------------
+# Script: SF/www/survey/admin/browse_question.php
+#
+survey_admin_browse_question	edit_q	Edita Cuestiones
+survey_admin_browse_question	edit_q_msg	Clic en el 'Cuestión ID' para editar una cuestión
+#
+#-----------------------------------------------
+# Script: SF/www/survey/admin/browse_survey.php
+#
+survey_admin_browse_survey	edit_s	Edita Encuestas
+survey_admin_browse_survey	edit_s_msg	Clic en el  es*urvey ID' para editar una encuesta
+#
+#-----------------------------------------------
+# Script: SF/www/survey/admin/index.php
+#
+survey_admin_index	admin	Administración de encuesta
+survey_admin_index	add_s	Añade Encuestas
+survey_admin_index	add_comment	Crear una encuesta nueva. Antes de crear una encuesta  está recomendado para crear el asociado cuestiona primero.
+survey_admin_index	edit_existing	Edita Existir Encuestas
+survey_admin_index	mod_s	Puedes modificar el título de encuesta, la cuestión asociada, lo hace activo o *inactive, etc.
+survey_admin_index	add_q	Añade Cuestiones
+survey_admin_index	create_q	Crear una cuestión nueva.
+survey_admin_index	mod_q	Puedes cambiar el título de cuestión y tipo.
+survey_admin_index	edit_existing_q	Edita Existir Cuestiones
+survey_admin_index	show_res	Resultados de Encuesta del espectáculo
+survey_admin_index	res	Resultados de encuesta están mostrados por cuestión en una manera agregada.
+survey_admin_index	quick	Instrucciones rápidas
+survey_admin_index	quick_instr	Es sencillo de crear una encuesta.<*OL><LI>Crea cuestiones primero.<LI>Crea una encuesta, listando las cuestiones en orden.<LI>Enlace a la encuesta que utiliza este formato: <*P><*B>$1</*B>, donde XX es el número de encuesta.</*OL>
+#
+#-----------------------------------------------
+# Script: SF/www/survey/admin/show_questions.php
+#
+survey_admin_show_questions	s_quest	Cuestiones de encuesta
+survey_admin_show_questions	exist_q	Existiendo Cuestiones
+survey_admin_show_questions	exist_q_comm	Puedes utilizar cualquiera de estas cuestiones en vuestras encuestas.
+survey_admin_show_questions	q_id	NOTA: uso esta cuestión_*id es cuándo  creas una encuesta nueva.
+#
+#-----------------------------------------------
+# Script: SF/www/survey/admin/show_results_aggregate.php
+#
+survey_admin_show_r_aggregate	agg_res	Resultados de Conjunto de la encuesta
+survey_admin_show_r_aggregate	resp	Respuestas
+survey_admin_show_r_aggregate	avg	Mediano:
+survey_admin_show_r_aggregate	type	Tipo:
+survey_admin_show_r_aggregate	cmmts	Comentarios
+survey_admin_show_r_aggregate	view_cmmts	Comentarios de vista
+survey_admin_show_r_aggregate	blank	Espacio
+survey_admin_show_r_aggregate	no_active_question	Ninguna cuestión activa definió
+#
+#-----------------------------------------------
+# Script: SF/www/survey/admin/show_results_comments.php
+#
+survey_admin_show_r_comments	s_res	Resultados de encuesta
+survey_admin_show_r_comments	q_no	Cuestión #$1: $2
+#
+#-----------------------------------------------
+# Script: SF/www/survey/admin/show_results_individual.php
+#
+survey_admin_show_r_individual	res	Resultados
+#
+#-----------------------------------------------
+# Script: SF/www/survey/admin/show_results.php
+#
+survey_admin_show_r	click_s_id	Clic en una Encuesta ID para Ver Respuestas de Conjunto
+#
+#-----------------------------------------------
+# Script: SF/www/survey/admin/update_question.php
+#
+survey_admin_update_question	edit_a_q	Editar Una Cuestión
+survey_admin_update_question	warn	<Abarca AVISO="de punto destacado">de la clase!  Es una idea mala de cambiar  una cuestión después de las respuestas a él han sido entregadas. Esto puede dirigir a *misleading  o *inconsistent resultados.</Abarca>
+survey_admin_update_question	q	Cuestión:
+survey_admin_update_question	subm_changes	Entrega Cambios
+survey_admin_update_question	edit_r	Edita Botones Radiofónicos
+survey_admin_update_question	existing_r	Existiendo Elecciones de Botón Radiofónico
+survey_admin_update_question	edit_r_msg	Clic en el 'Botón ID' para editar un botón radiofónico
+survey_admin_update_question	existing_sb	Existiendo Selecciona Elecciones de Caja
+survey_admin_update_question	edit_sb_msg	Clic en el 'Elemento ID' para editar un seleccionar-elección de cajas
+#
+#-----------------------------------------------
+# Script: SF/www/survey/admin/update_radio.php
+#
+survey_admin_update_radio	update_r	Actualización Una Elección de Botón Radiofónica
+survey_admin_update_radio	update_sb	Actualización Un Seleccionar Elección de Caja
+survey_admin_update_radio	fill_r_text	Complacer, llenar el campo de Texto.
+survey_admin_update_radio	fill_r_rank	Complacer, llenar el campo de Rango.
+#
+#-----------------------------------------------
+# Script: SF/www/survey/admin/update_survey.php
+#
+survey_admin_update_survey	warn	AVISO!  Es una idea mala de editar  una encuesta después de respuestas ha sido *posted.Esto puede dirigir a *misleading o *inconsistent resultados.
+survey_admin_update_survey	q	Cuestiones:
+survey_admin_update_survey	anon_allow	Respuesta anónima vale?
+survey_admin_update_survey	edit_a_s	Editar una encuesta
+#
+#-----------------------------------------------
+# Script: SF/www/survey/index.php
+#
+survey_index	s	Encuesta
+survey_index	g_id_err	Para alguna razón, el Grupo ID o Encuesta ID no lo hizo a esta página
+survey_index	s_id	Encuesta ID
+survey_index	s_tit	Título de encuesta
+survey_index	no_act_s	Este Grupo Tiene No Encuestas Activas
+survey_index	s_for	Encuestas para $1
+#
+#-----------------------------------------------
+# Script: SF/www/survey/privacy.php
+#
+survey_privacy	txt	<*H1>Intimidad de Encuesta</*H1> La información recogida en estas encuestas nunca serán vendidas a terceros partidos o utilizados para solicitarte para adquirir cualesquier bienes o servicios.<*P> Esta información está siendo reunida para construir un perfil de los proyectos y los desarrolladores que son *surveyed.<*P>El ID es de quienes encuestas de respuesta están suprimidas y no *viewable por administradores de proyecto o el públicos o terceros partidos.<*P> La información reunió está utilizado sólo en forma de conjunto, no a solo fuera de desarrolladores o usuarios concretos.<*P>Si cualesquier cambios están hechos a esta política,  afecte dato futuro único que está recogido y el usuario naturalmente tendrá la capacidad a 'optar-fuera'.<*P><*B>El $1 Equipo</*B><*P>
+#
+#-----------------------------------------------
+# Script: SF/www/survey/rating_resp.php
+#
+survey_rating_resp	log_in	Tienes que ser *logged en para votar
+survey_rating_resp	ins_err	Error en insertar
+survey_rating_resp	vote_reg	El voto registró
+survey_rating_resp	revote	Clic para regresar a página anterior</*B></Un><*P>Si  votas otra vez, vuestro voto viejo será borrado
+survey_rating_resp	missing_param	ERROR!!! DESAPARECIDO *PARAMS
+survey_rating_resp	voting	Votando
+#
+#-----------------------------------------------
+# Script: SF/www/survey/survey_data.php
+#
+survey_s_data	create_succ	Encuesta #$1 exitosamente creó
+survey_s_data	create_fail	Creación de encuesta Falló $1
+survey_s_data	create_duplicate	Creación de encuesta Fallada - cuestión Duplicada en $1
+survey_s_data	create_unknown_question	Creación de encuesta Fallada - cuestión Desconocida en $1
+survey_s_data	del_err	El error que elimina encuesta #$1: $2
+survey_s_data	del_succ	La encuesta exitosamente eliminó
+survey_s_data	upd_fail	La ACTUALIZACIÓN FALLADA - $1
+survey_s_data	upd_succ	La ACTUALIZACIÓN EXITOSA
+survey_s_data	upd_duplicate	Actualización de encuesta Fallada - cuestión Duplicada en $1
+survey_s_data	upd_unknown_question	Actualización de encuesta Fallada - cuestión Desconocida en $1
+survey_s_data	q_create_succ	Cuestión #$1 exitosamente creó
+survey_s_data	q_create_fail	Creación de cuestión Falló $1
+survey_s_data	q_del_fail	El error que elimina cuestión #$1: $2
+survey_s_data	q_del_succ	Cuestión #$1 exitosamente eliminó
+survey_s_data	q_del_used	Cuestión ningún #$1 no puede ser eliminado,  es *aldready utilizado en una encuesta.
+survey_s_data	r_create_succ	Elección #$1 exitosamente creó
+survey_s_data	r_create_fail	Creación de elección falló $1
+survey_s_data	r_del_fail	El error que elimina elección #$1: $2
+survey_s_data	r_del_succ	Elección #$1 exitosamente eliminó
+survey_s_data	r_create_duplicate	La creación fallada - elección Duplicada.
+survey_s_data	r_update_duplicate	La actualización fallada - elección Duplicada.
+survey_s_data	r_rank_int	Entrega fallado. Tipo de rango tendría que ser entero .
+#
+#-----------------------------------------------
+# Script: SF/www/survey/survey.php
+#
+survey_s	s	Encuesta
+survey_s	log_in	<*h3><abarca punto destacado="de clase">NO Eres *logged en.</Abarca></*H3><*P>Desafortunadamente,  tienes que ser *logged en para participar en encuestas.<*BR><*P> Complacer <*b><Un *HREF="$1">registro en </Un> </*b> primero.</FUENTE></*B>
+#
+#-----------------------------------------------
+# Script: SF/www/survey/survey_resp.php
+#
+survey_s_resp	s_compl	La encuesta Completa
+survey_s_resp	thanks	Gracias Para tomar tiempo para completar esta encuesta.<*P>Consideraciones,<*P><*B>El Equipo de Proyecto</*B>
+#
+#-----------------------------------------------
+# Script: SF/www/survey/survey_utils.php
+
+
+survey_s_utils	s_off	Este Grupo Tiene Apagó Encuestas
+survey_s_utils	admin	*Admin
+survey_s_utils	show_r	Resultados de espectáculo
+survey_s_utils	privacy	Intimidad de encuesta
+survey_s_utils	not_found	La encuesta No Encontrada
+survey_s_utils	title	Título
+survey_s_utils	active	Activo
+survey_s_utils	anon	Anónimo
+survey_s_utils	del	Elimina?
+survey_s_utils	del_s	Eliminar esta encuesta?\*n\*n** Importante **\*nIf  eliminas una encuesta, todo asoció las respuestas serán perdidas.
+survey_s_utils	found	$1 Encontró
+survey_s_utils	q_id	Cuestión ID
+survey_s_utils	del_txt	ELIMINA
+survey_s_utils	resp	Respuesta
+survey_s_utils	occ	Número de *occurences
+survey_s_utils	blank	- RESPUESTAS de ESPACIO -
+survey_s_utils	total_no	Número total de respuestas: $1
+survey_s_utils	create	Crea
+survey_s_utils	update	Actualización
+survey_s_utils	text_r	Texto
+survey_s_utils	add_button	Crear una Elección de Botón Radiofónica Nueva
+survey_s_utils	add_sb_item	Crear un Nuevo Selecciona Elección de Caja
+survey_s_utils	button_id	Botón ID
+survey_s_utils	item_id	Elemento ID
+survey_s_utils	rank	Rango
+survey_s_utils	warning_loose_data	** AVISO!! ** Si  eliminas esta cuestión,  perderás TODO el asoció elecciones.Continúa?
+survey_s_utils	warning_loose_answers	** AVISO!! **  Realmente quieres eliminar esta cuestión?
+survey_s_utils	warn_loose_button	** AVISO!! ** Si  actualizas este tipo de cuestión,  pierdes todas las  elecciones asociaron a esta cuestión. Continúa?
+survey_s_utils	required_fields	Los campos requirieron
